@@ -1,0 +1,115 @@
+
+
+
+.modal {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;  
+  transition: opacity 0.3s;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.modal{
+-ms-overflow-style: none;  /* IE и Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+
+.modal-wrapper {
+ position: fixed; 
+ height: 94%;
+ width: 100%;
+ display: flex;
+ justify-content: flex-end;
+ align-items: flex-end;
+ bottom: 66px; 
+ right: 8px;
+ z-index: 988; 
+}
+
+.nnn{
+  position:relative;
+  height: 94%;  
+  height: 83%;
+  max-height:415px;
+  /* display: flex;
+  align-items: end; */
+  margin-bottom: 0px; 
+  margin-top: 0px;  
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  overflow:scroll;
+  transform: translateY(0px); 
+  z-index: 13333;
+  /* background-color: white;} */
+}
+
+  .nnn::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nnn{
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+
+.modal-content {
+
+height: auto;
+}
+
+ .modal-close-button {
+  border: 0px;
+  position: fixed;
+  bottom: 49px;
+  right: 23px;
+  width: 35px;
+  height: 27px;
+  /* padding: 10px; */
+  background-color: rgb(52, 29, 29, 0); 
+  z-index: 12222;
+  display: none;
+
+}
+
+/* open */
+
+.modal--entering,
+.modal--entered {
+  opacity: 1;
+}
+
+.modal--entering .modal-content,
+.modal--entered .modal-content {
+  transform: translateY(0px); 
+  
+}
+
+/* close */
+
+.modal--exiting,
+.modal--exited {
+  opacity: 1;
+}
+
+.modal--exiting .modal-content,
+.modal--exited .modal-content {
+
+  /* transform: translateY(-350px); */
+   /* transform: translateX(0px);
+  
+  transform: translateY(0px);  */
+}

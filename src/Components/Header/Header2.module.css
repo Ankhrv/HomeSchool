@@ -1,0 +1,549 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Gilroy-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Gilroy;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Gilroy-Medium.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Gilroy-Bold;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Medium.otf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Inter-Medium;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Helvetica.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Helvetica;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Gilroy-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Inter-Regular;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Regular.otf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Inter-Light;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Regular.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Inter-Light1;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Medium.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Inter-Light3;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Light.otf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Inter-Light4;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+.phone{
+    display: flex; 
+}
+
+.phone1{
+    display: flex;  
+}
+
+/* главный 3 для мобильного меню */
+
+.aA{
+    background-color: white;
+    display: none;
+}
+
+ /* telegram */
+ .t{
+    width: 16px;
+    height: 15px;
+    margin-right: 6px;
+    margin-top: 3px;
+}
+
+ /* door */
+ .t2{
+    width: 30px;
+    height: 25px;
+}
+
+ /* tel */
+ .p{
+    width: 14px;
+    height: 13px;
+    margin-right: 3px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+    /* Главный1 */
+    .A1{
+        background-color: rgb(247, 255, 253);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+    }
+
+    /* Главный2 */
+    .A{
+        margin: 0% 19%;
+        background-color: rgb(247, 255, 253);
+    }
+
+    /* Главный3 */
+    .a{
+        width: 100%;
+        height: 76px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(247, 255, 253);
+    }
+
+    /*  главный для ссылок  */
+    .c1{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: black;
+    }
+
+    /*    элементы ссылок  */
+    .c{
+    font-weight: 500;
+    margin: 0px 20px;
+    cursor: pointer;
+    /* background-color: blue; */
+    }
+
+     /*    элементы ссылок  */
+     .c:hover{
+        transition: 0.5s;
+        color: rgb(13, 130, 66);
+        }
+
+      /*    элементы ссылок  */
+      .cС{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 20px;
+        margin-left: 0px;
+        font-weight: 500;
+        color: black;
+        cursor: pointer;
+        /* background-color: blue; */
+        }
+
+         /*    элементы ссылок  */
+      .cС:hover{
+        transition: 0.5s;
+        color: rgb(13, 130, 66);
+        }
+
+
+          /*    элементы ссылок  */
+    .Сc{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 20px;
+        margin-right: 0;
+        font-weight: 500;
+        color: black;
+        cursor: pointer;
+
+        }
+
+        
+          /*    элементы ссылок  */
+    .Сc:hover{
+        transition: 0.5s;
+        color: rgb(13, 130, 66);
+        
+
+        }
+
+
+
+    /* лого элемент слева */
+    .log{
+        width: 55px;
+        height: 50px;
+        background:url(./100.jpg);
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    /* лого элемент слева текст */
+    .log2{
+       font-family: Gilroy;
+       font-weight: 800;
+       font-size: 29px;
+       font-size: 1.1em;
+       padding-left: 10px;
+       cursor: pointer;
+    }
+
+    /* элементы ссылок справа  */
+    .c3{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px 0px;
+        }
+
+
+        /* див для лого и текста слева  */
+        .c4{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+            }
+
+             /* войти  */
+        .c5{
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 120px;
+            height: 44px;
+            background-color: rgb(13, 130, 66);
+            color: white ;
+            border-radius: 5px;
+            font-size: 14px;
+            font-family: Helvetica;
+            } 
+
+            /* войти  */
+       .c5:hover{
+        transition: 0.5s;
+           background-color: rgb(11, 112, 57);
+       
+           }
+
+            /* див для телефона и контактов  */
+            .i1{
+                padding-top: 2px;
+                display: flex;
+                /* background-color: blueviolet; */
+                flex-direction: column;
+                margin-right: 35px;
+                }
+
+                  /* див для телефона и контактов  */
+            .iw{
+                font-size: 14px;
+                margin-bottom: 3px;
+                margin-left: 4px;
+                font-weight: 700;
+                font-family: Helvetica;
+                color: rgb(39, 39, 39);
+                cursor: pointer;
+                 }
+
+                         /* див для телефона и контактов  */
+            .iw:hover{
+                color: rgb(13, 130, 66);
+                transition: 0.5s;
+                 }
+
+
+                   /* див для контактов  */
+                 .i123{
+                    margin-top: 2px;
+                    margin-bottom: 0x;
+                    font-size: 14px;
+                    font-family: Inter-Light;  
+                    color: rgb(39, 39, 39);
+                    cursor: pointer;
+                 }
+
+                     /* див для контактов  */
+                     .i123:hover{
+                        color: rgb(13, 130, 66);
+                        transition: 0.5s;
+                     }
+
+
+                @media screen and (max-width: 1780px) {
+
+                    /* Главный2 */
+   .A{
+       margin: 0% 9%;
+   }
+               }
+
+                @media screen and (max-width: 1600px) {
+
+                     /* Главный2 */
+    .A{
+        margin: 0% 10%;
+    }
+                }
+
+
+                @media screen and (max-width: 1500px) {
+
+
+
+
+               }
+
+                @media screen and (max-width: 1350px) {
+                    /*  лого элемент слева и элементы ссылок  */
+.c{
+    margin: 0px 17px;
+    }
+
+     /*    элементы ссылок  */
+     .cС{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 17px;
+        margin-left: 0px;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+
+          /*    элементы ссылок  */
+    .Сc{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 17px;
+        margin-right: 0;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+                }
+
+@media screen and (max-width: 1280px) {
+
+    /* Главный1 */
+.A1{
+    /* background-color: aquamarine; */
+}
+
+/* Главный2 */
+.A{
+    margin: 0% 1.6%;
+}
+
+/* Главный3 */
+.a{
+    width: 100%;
+    height: 76px;
+    align-items: center;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+}
+
+@media screen and (max-width: 1110px) {
+.i1{
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .c{
+        margin: 0px 10px;
+        }
+
+         /*    элементы ссылок  */
+      .cС{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 10px;
+        margin-left: 0px;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+
+          /*    элементы ссылок  */
+    .Сc{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 10px;
+        margin-right: 0;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+    }
+
+    @media screen and (max-width: 860px) {
+
+        .log2{
+            font-weight: 500;
+        }
+
+    .c{
+        margin: 0px 10px;
+        font-family: Inter-Light1;
+        }
+
+         /* Главный3 */
+    .a{
+        width: 100%;
+        height: 76px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(54, 77, 71);
+        display: none;
+    }
+
+           /* Главный3 mobile*/
+           .aA{
+            width: 100%;
+            height: 76px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            background-color: rgb(247, 255, 253);
+        }
+
+        .log{
+            width: 40px;
+            height: 34px;
+            background:url(./100.jpg);
+            background-size: cover;
+        }
+
+        .i1{
+            display: flex;
+            margin-right: 0px;
+        }
+
+            .c5{
+                display: none;
+                 }
+    }
+
+     @media screen and (max-width: 570px) {
+
+        .iw{
+            font-size: 14px;
+             }
+
+        /* Главный3 */
+    .aA{
+        height: 68px;
+    }
+     }
+
+    @media screen and (max-width: 500px) {
+
+                  /* див для телефона и контактов  */
+                  .iw{
+                    margin-bottom: 5px;
+                    }
+/* telegram */
+ .t{
+    width: 16px;
+    height: 15px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+                       /* див для контактов  */
+                     .i123{
+                        margin-top: -1px; 
+                        font-family: Inter-Light;
+                        font-size: 14px;
+                     }
+
+                      /*    элементы ссылок  */
+    .c{
+        margin: 0px 0px;
+        font-weight: 500;
+        /* backgro5und-color: blue; */
+        }
+
+        /* лого элемент слева */
+        .log{
+            width: 55px;
+            height: 50px;
+            background:url(./100.jpg);
+            background-size: cover;
+        }
+
+        /* лого элемент слева текст */
+        .log2{
+           font-family: Gilroy;
+           font-weight: 600;
+           font-size: 29px;
+           font-size: 0.8em;
+            padding-left: 0px;
+        }
+
+        .log{
+            width: 29px;
+            height: 22px;
+            background:url(./100.jpg);
+            background-size: cover;
+            padding-bottom: 6px;
+        }
+
+        /* див для лого и текста слева  */
+        .c4{
+            flex-direction: column;
+        }
+
+    }
+
+    @media screen and (max-width: 400px) {
+         /* лого элемент слева текст */
+        .log2{
+           font-family: Gilroy;
+           font-weight: 600;
+           font-size: 29px;
+           font-size: 0.7em;
+           padding-left: 0px;
+        }
+    }
+

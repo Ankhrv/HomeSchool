@@ -1,0 +1,17 @@
+.ball{
+
+ display: flex;
+justify-content:center ;
+  position: fixed;
+
+  bottom: 20px;
+  width: 47px;
+   z-index: 11110;
+ 
+}
+
+.ball1{
+  display: flex;
+  justify-content: center;
+  margin-left: 14px;
+}

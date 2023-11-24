@@ -1,0 +1,173 @@
+
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Helvetica.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Helvetica;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+
+
+/* шар меню главный*/
+.modalbutton2{
+
+    margin: 5px 15px 5px 15px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   
+    background-color: aquamarine;
+    background-color: rgb(247, 255, 253);
+    /* z-index: 100; */
+    padding-bottom: 2px;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    color: rgb(27, 27, 27);
+
+}
+
+/* шар меню text*/
+.tex{
+
+
+}
+
+/* door меню */
+.t1{
+    width: 23px;
+    margin-top: 3px;
+  
+}
+
+/* door меню главный*/
+.modalbutton1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px 5px 15px;
+   align-items: center;
+    background-color: aquamarine;
+    background-color: rgb(247, 255, 253);
+
+    /* z-index: 100; */
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    color: rgb(27, 27, 27);
+    
+
+}
+
+/* шар меню */
+.t2{
+    
+
+   position: fixed;
+
+    width: 48px;
+    bottom:20px;
+     z-index: 11120;
+     display: none;
+ 
+}
+
+.t222{
+    
+
+   
+    display: flex;
+   align-items: flex-end;
+    justify-content: center;
+ 
+}
+
+/*  меню главный*/
+
+.modalbutton{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px 5px 5px;
+    color: rgb(39, 39, 39);
+    color: rgb(27, 27, 27);
+   align-items: center;
+    background-color: aquamarine;
+    background-color: rgb(247, 255, 253);
+    /* z-index: 100; */
+    padding-bottom: 2px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* menu2 меню */
+.t3{
+    /* margin-bottom: -10px; */
+    width: 25px;
+}
+
+.smenuaa{
+    position: fixed;
+    background-color: rgb(145, 145, 54);
+ 
+    display: flex;
+  align-items: flex-end;
+  z-index: 1100;
+}
+/* общее меню */
+.aA{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    background-color: red;
+     background-color: rgb(247, 255, 253);
+    z-index: 105;
+    justify-content: space-between;
+}
+/* главный меню */
+.a{
+ display: flex;
+ justify-content: space-between;
+        background-color: #333;
+        background-color: rgb(247, 255, 253);
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 53px;
+        /* z-index: 5;
+        z-index: 100; */
+
+
+
+        /* z-index: 1000; */
+        /* padding: 20px 0px; */
+
+    }
+/* главный модальное окно меню */
+    .b{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        padding: 0px 0px 0px 0px;
+        margin: 10px;
+    }
+
+    /* ссылки модальное окно меню*/
+    .b1, .b17, .b18{
+    padding: 0px 0px;
+    font-size: 16px;
+    padding: 15px 100px;
+    padding-left: 14px;
+    font-family: Helvetica;
+    color: rgb(27, 27, 27);
+    font-weight: 400;
+    }
+    .b17{padding-bottom:  13px;
+    }
+
+    .b18{padding-top:  15px;
+    }
+    
