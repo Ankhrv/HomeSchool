@@ -3,7 +3,7 @@
  display: flex;
 justify-content:center ;
   position: fixed;
-
+cursor: pointer;
   bottom: 20px;
   width: 47px;
    z-index: 11110;
