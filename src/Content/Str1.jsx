@@ -27,7 +27,7 @@ const Str1 = () => {
                 <div className={a.divleft22}><img src={logo} alt='logo'className={a.t}></img> <div className={a.divleft3}>Низкие цены за высокие результаты. От 590 рублей за урок</div></div>
             </div>
             <div className={a.divleft113}>
-            <div className={a.divleft22}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft4}>Готовим сотни учеников на максимальные баллы по ЕГЭ и ОГЭ</div></div>
+            <div className={a.divleft22}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft4}>Подготовка учеников на максимальные баллы по ОГЭ</div></div>
             <div className={a.divleft22}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft5}>Интерактивные занятия на уникальной платформе</div></div>
             </div> 
             </div>
