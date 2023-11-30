@@ -81,7 +81,7 @@
 /* главный 3 для мобильного меню */
 
 .aA{
-    background-color: white;
+    background-color: rgb(244, 254, 255);
     display: none;
 }
 
@@ -110,7 +110,7 @@
 
     /* Главный1 */
     .A1{
-        background-color: rgb(244, 253, 251);
+        background-color: rgb(244, 254, 255);
         box-shadow: 0px 0px 15px 0px rgba(57, 99, 136, 0.2);
         position: fixed; /* Set the navbar to fixed position */
         top: 0; /* Position the navbar at the top of the page */
@@ -120,7 +120,7 @@
     /* Главный2 */
     .A{
         margin: 0% 19%;
-        background-color: rgb(244, 253, 251);
+        background-color: rgb(244, 254, 255);
     }
 
     /* Главный3 */
@@ -130,7 +130,8 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        background-color: rgb(244, 253, 251);
+        background-color: rgb(244, 254, 255);
+      
     }
 
     /*  главный для ссылок  */
@@ -375,6 +376,8 @@
     align-items: center;
     display: flex;
     /* background-color: aquamarine; */
+ 
+ z-index: 2000;
 }
 }
 
@@ -444,7 +447,7 @@
             display: flex;
             justify-content: space-between;
             background-color: white;
-            background-color: rgb(247, 255, 253);
+            background-color: rgb(244, 254, 255);
         }
 
         .log{
