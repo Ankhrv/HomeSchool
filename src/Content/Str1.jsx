@@ -59,7 +59,7 @@ const Str1 = () => {
             </div>
 
             <div className={a.divrighttt}>
-            <div className={a.divright}>.</div>
+            <div className={a.divright}><div className={a.g}></div><div className={a.g1}><div className={a.g2}></div><div className={a.g3}></div></div></div>
             <div className={a.divrightt}>Как в реальной жизни. Только лучше!</div>
             </div></div>
            
