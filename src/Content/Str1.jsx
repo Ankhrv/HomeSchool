@@ -32,7 +32,7 @@ const Str1 = () => {
                 <div className={a.divleft22}><img src={logo} alt='logo'className={a.t}></img> <div className={a.divleft3}>Пошаговая подготовка учеников, максимальные знания для ГИА</div></div>
             </div>
             <div className={a.divleft113}>
-            <div className={`${a.divleft22} ${a.fff}`}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft4}>Хорошие цены за высокие результаты. От 390 рублей за урок</div></div>
+            <div className={`${a.divleft22} ${a.fff}`}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft4}>Хорошие цены за высокие результаты. От 290 рублей за урок</div></div>
             <div className={`${a.divleft22} ${a.fff}`}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft5}>Интерактивные занятия на уникальной платформе</div></div>
             </div> 
             </div>
