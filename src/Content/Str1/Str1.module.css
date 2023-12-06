@@ -145,6 +145,7 @@ font-family: Helvetica;
 .divleft{width: 50%;
     margin-right: 25px;
     color: rgb(29, 29, 29);
+    color: #222;
 
 
 }
@@ -168,6 +169,7 @@ font-family: Helvetica;
 
 .divleft11{
     color: rgb(29, 29, 29);
+    color: #222;
     background-color: rgb(90, 229, 92);
     line-height: 48px;
     font-family: Gilroy-Bold;
