@@ -41,7 +41,7 @@
     white-space: nowrap;
     margin-bottom: 0px;
     padding: 60px 19%;
-    padding-bottom: 0;
+    
 
    
     
@@ -58,6 +58,7 @@
     margin: 0px 1%; 
     border-radius: 10px;
     max-width: 100%;
+    padding-bottom: 6px;
    
 /* 
     border: 3px solid rgba(125, 172, 213, 0.1); */
@@ -74,6 +75,7 @@
     margin-left: 0px;
     border-radius: 10px;
     max-width: 100%;
+    padding-bottom: 6px;
    /* border: 3px solid rgba(125, 172, 213, 0.1); */
 }
 
@@ -88,6 +90,7 @@
     border-radius: 10px;
     /* border: 3px solid rgba(125, 172, 213, 0.1); */
     max-width: 100%;
+    padding-bottom: 6px;
 }
 
 .scrollmenu .aa:hover {
@@ -168,6 +171,7 @@ background-size: cover;
   align-items: flex-start;
   color: #2d2d2d;
   padding: 15px;
+
   font-family: Helvetica;
   line-height: 150%;
 }
@@ -269,7 +273,7 @@ background-size: cover;
         line-height: 80%;
         padding: 0px 5px;
         margin-top: 5px;
-        padding-bottom: 12px;
+        padding-bottom: 10px;
         margin-right: 12px;
         background-color: rgb(90, 229, 92);
         }
@@ -360,6 +364,27 @@ width: 100%;
 }
 }
 
+@media screen and (max-width: 1096px) {
+.scrollmenu .aa {
+ 
+    padding-bottom: 6px;
+   
+/* 
+    border: 3px solid rgba(125, 172, 213, 0.1); */
+}
+
+
+.scrollmenu .aa2 {
+   
+    padding-bottom: 6px;
+   /* border: 3px solid rgba(125, 172, 213, 0.1); */
+}
+
+.scrollmenu .aa3 {
+ 
+    padding-bottom: 6px;
+}
+}
 
 @media screen and (max-width: 1150px) {
 .scrollmenu {
@@ -419,9 +444,9 @@ width: 100%;
         display: inline-block;
         margin-bottom: 30px;
         background-color: rgb(255, 255, 255);
-        width: 280px;
-         min-width: 280px;
-        height: 230px;
+        width: 290px;
+         min-width: 290px;
+        height: 200px;
         margin: 0px 1%; 
         border-radius: 10px;
         max-width: 100%;
@@ -434,9 +459,9 @@ width: 100%;
     .scrollmenu .aa2 {
         display: inline-block;
         background-color: rgb(255, 255, 255);
-        width: 280px;
-        min-width: 280px;
-        height: 230px;
+        width: 290px;
+        min-width: 290px;
+        height: 200px;
         margin: 0px 1%; 
         margin-left: 0px;
         border-radius: 10px;
@@ -447,9 +472,9 @@ width: 100%;
     .scrollmenu .aa3 {
         display: inline-block;
         background-color: rgb(255, 255, 255);
-        width: 280px;
-        min-width: 280px;
-        height: 230px;
+        width: 290px;
+        min-width: 290px;
+        height: 200px;
         margin: 0px 1%; 
         margin-right: 0;
         border-radius: 10px;
@@ -497,7 +522,7 @@ width: 100%;
        padding: 0px 4px;
        margin-top: 2px;
        padding-top:4px;
-       padding-bottom: 10px;
+       padding-bottom: 8px;
        margin-right: 5px;
        background-color: rgb(90, 229, 92);
        }
@@ -508,4 +533,49 @@ width: 100%;
        margin-right: 4px;
 
        }
+
+       .b2 {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+    background: url(./100.png);
+    background-size: cover;
+    }
+    
+    .b20 {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+    background: url(./200.png);
+    background-size: cover;
+    }
+    
+    .b21 {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+    background: url(./300.png);
+    background-size: cover;
+    }
+    
+    .b211 {
+        
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+    background: url(./400.png);
+    background-size: cover;
+    }
+
+    .b3 {
+        padding-top: 5px;
+    }
 }
