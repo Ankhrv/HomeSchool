@@ -1,9 +1,6 @@
 import React from 'react';
 import a from './Footer.module.css';
-import logo from './vk1.png';
-import logo2 from './tg1.png';
-import logo3 from './wu1.png';
-import logo4 from './wb1.png';
+import { Helmet } from 'react-helmet';
 import logo5 from './0100.png';
 import 'primeicons/primeicons.css';
 // import logo2 from '../Header/telegram.png';
@@ -13,7 +10,11 @@ import 'primeicons/primeicons.css';
 const Footer = () => {
     return (
 <div className={a.A1}>
-
+<Helmet>
+        <title>Домашняя школа</title>
+        <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
+       
+      </Helmet>
 <div className={a.A}>
         <div className={a.a}>
 

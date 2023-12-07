@@ -9,14 +9,18 @@ import door from '../Header/door.png';
 // import tel4 from '../Header/logo.messangers/34.png';
 // import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
-import { FaPhoneVolume } from "react-icons/fa6";
+// import { FaPhoneVolume } from "react-icons/fa6";
 
 
 
 const Header = () => {
     return (
 <div className={a.A1}>
-
+<Helmet>
+        <title>Домашняя школа</title>
+        <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
+       
+      </Helmet>
 <div className={a.A}>
         <div className={a.a}>
  <div className={a.c4}>

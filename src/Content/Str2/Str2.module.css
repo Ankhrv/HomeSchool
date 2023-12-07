@@ -28,6 +28,7 @@
     width: 100%;
     background: url(../Str1/dom22222.jpg);
     background-size:cover;
+    
 
 }
 
@@ -36,10 +37,12 @@
      display: flex;
      justify-content: space-around;  
     /* background-color: #e8c8c8; */
-    overflow: auto;
+    overflow:auto;
     white-space: nowrap;
     margin-bottom: 0px;
     padding: 60px 19%;
+    padding-bottom: 0;
+
    
     
     
@@ -56,8 +59,8 @@
     border-radius: 10px;
     max-width: 100%;
    
-
-    border: 3px solid rgba(125, 172, 213, 0.1);
+/* 
+    border: 3px solid rgba(125, 172, 213, 0.1); */
 }
 
 
@@ -68,10 +71,10 @@
     min-width: 250px;
     height: 290px;
     margin: 0px 1%; 
-    margin-left: 0;
+    margin-left: 0px;
     border-radius: 10px;
     max-width: 100%;
-   border: 3px solid rgba(125, 172, 213, 0.1);
+   /* border: 3px solid rgba(125, 172, 213, 0.1); */
 }
 
 .scrollmenu .aa3 {
@@ -83,7 +86,7 @@
     margin: 0px 1%; 
     margin-right: 0;
     border-radius: 10px;
-    border: 3px solid rgba(125, 172, 213, 0.1);
+    /* border: 3px solid rgba(125, 172, 213, 0.1); */
     max-width: 100%;
 }
 
@@ -171,12 +174,14 @@ background-size: cover;
 
 
 .strr1{
-width: 100%;
-/* height: 80px; */
+
+height: auto; 
 display: flex;
-  /* background-color: aquamarine;   */
+   /* background-color: aquamarine;     */
 justify-content: flex-end;
  align-items: flex-end;
+ /* padding-right: 5px;
+ margin-bottom: 5px; */
 /* margin-top: -10px; */
 
 }
@@ -192,17 +197,6 @@ background-size: cover;
 
 }
 
-.str2{
-    
-}
-
-.str3{
-    
-}
-
-.str4{
-    
-}
  /* Нижний заголовок текст2 */
 .downtext11{
          margin-top: -5px;
@@ -219,7 +213,7 @@ background-size: cover;
 /* Главный1 */
 .A1{
     background-color: rgb(242, 255, 253);
-
+    padding-bottom: 60px;
     width: 100%; /* Full width */
 }
 
@@ -242,7 +236,7 @@ background-size: cover;
      font-size: 14px; */
   padding-top: 90px;
   /* width:100%; */
-  padding-bottom: 70px;
+  padding-bottom: 0px;
   color: #222;
   /* color: rgb(29, 29, 29); */
   /* background-color: rgb(247, 255, 253); */
@@ -304,6 +298,8 @@ background-size: cover;
 @media screen and (max-width: 1780px) {
     .scrollmenu {
         padding: 60px 7%;  
+        padding-bottom: 0;
+
     }
     /* Главный2 */
 .A{
@@ -315,7 +311,8 @@ margin: 0% 9%;
 
     .scrollmenu {
     
-       padding: 60px 10%;
+       padding: 60px 9.5%;
+       padding-bottom: 0;
       
        
    }
@@ -324,13 +321,23 @@ margin: 0% 9%;
 margin: 0% 10%;
 }
 }
+@media screen and (max-width: 1595px) {
 
+    .scrollmenu {
+    
+       padding: 60px 10%;
+       padding-bottom: 0;
+      
+       
+   }}
 
 @media screen and (max-width: 1280px) {
     .scrollmenu {
     
         padding: 60px 1.6%;
-        padding-top: 4px;
+        /* padding-top: 4px; */
+        padding-bottom: 10px;
+        overflow-y:hidden;
        
         
     }
@@ -372,3 +379,133 @@ width: 100%;
     display: none;
 
 }}
+
+@media screen and (max-width: 572px) {
+
+    .scrollmenu {
+        justify-content: flex-start;  
+           padding: 40px 1.6%;
+           padding-bottom: 0;
+          
+           
+       }
+
+    .strr1{
+
+        height: auto; 
+        display: flex;
+           /* background-color: aquamarine;      */
+        justify-content: flex-end;
+         align-items: flex-end;
+         padding-right: 5px;
+         /* margin-bottom: 5px;  */
+        margin-top: -50px; 
+        
+        }
+        .str1{
+        
+            width: 45px;
+            height: 45px;
+            font-size: 20px;
+            font-weight: 600;
+            /* margin-left: 15px; */
+        background: url(./str.png);
+        background-size: cover;
+        
+        }
+
+        
+    .scrollmenu .aa {
+        display: inline-block;
+        margin-bottom: 30px;
+        background-color: rgb(255, 255, 255);
+        width: 280px;
+         min-width: 280px;
+        height: 230px;
+        margin: 0px 1%; 
+        border-radius: 10px;
+        max-width: 100%;
+       
+    /* 
+        border: 3px solid rgba(125, 172, 213, 0.1); */
+    }
+    
+    
+    .scrollmenu .aa2 {
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        width: 280px;
+        min-width: 280px;
+        height: 230px;
+        margin: 0px 1%; 
+        margin-left: 0px;
+        border-radius: 10px;
+        max-width: 100%;
+       /* border: 3px solid rgba(125, 172, 213, 0.1); */
+    }
+    
+    .scrollmenu .aa3 {
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        width: 280px;
+        min-width: 280px;
+        height: 230px;
+        margin: 0px 1%; 
+        margin-right: 0;
+        border-radius: 10px;
+        /* border: 3px solid rgba(125, 172, 213, 0.1); */
+        max-width: 100%;
+    }
+
+    
+ /* Нижний заголовок текст2 */
+ .downtext11{
+    margin-top: -6px;
+ 
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222;
+  
+}
+
+/* Главный текст*/
+.Textt{
+    width:100%;
+
+}
+/* Главный текст*/
+.Text{
+   width: 100%;
+   font-weight: 1000;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   /* width:100%;  */
+   margin-right: 5px;
+   /* justify-content: flex-start; */
+   font-family: Gilroy-Medium;
+   /* background-color: blue; */
+   /* line-height: 100%; */
+   font-size: 24px;
+   padding-bottom: 10px;
+   }
+
+   /* Главный текст green*/
+   .Text1{
+       line-height: 45%;
+       padding: 0px 4px;
+       margin-top: 2px;
+       padding-top:4px;
+       padding-bottom: 10px;
+       margin-right: 5px;
+       background-color: rgb(90, 229, 92);
+       }
+
+       /* Главный текст */
+   .Text2{
+       padding-bottom: 6px;
+       margin-right: 4px;
+
+       }
+}

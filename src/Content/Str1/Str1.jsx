@@ -1,9 +1,7 @@
 import React from 'react';
 import a from './Str1.module.css';
 import logo from './y.png';
-import logo100 from './1.png';
-import logo101 from './3.png';
-import logo102 from './2.png';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -11,7 +9,11 @@ import logo102 from './2.png';
 const Str1 = () => {
     return (
 <div className={a.A1}>
-
+<Helmet>
+        <title>Домашняя школа</title>
+        <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
+       
+      </Helmet>
 <div className={a.A}>
         <div className={a.a}>
        <div className={a.fon}>

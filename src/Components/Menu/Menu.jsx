@@ -20,7 +20,7 @@ function Menu() {
       <Helmet>
         <title>Home-School</title>
         <meta name="description" content="Удобное обучение не выходя из дома" />
-        <meta name="theme-color" content="#0D8259" />
+      
       </Helmet>
       <div className={b.aA}>
    

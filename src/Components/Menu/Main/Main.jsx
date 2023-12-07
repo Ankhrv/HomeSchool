@@ -34,7 +34,7 @@ import Modal from '../SimpleModal/Modal';
 <Helmet>
         <title>Hoome-School</title>
         <meta name="description" content="Удобное обучение не выходя из дома" />
-        <meta name="theme-color" content="#0D8259" />
+       
       </Helmet>
                 <div className={c.c}>
                     <div className={c.d}>
