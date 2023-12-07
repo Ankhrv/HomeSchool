@@ -86,7 +86,7 @@
     min-width: 250px;
     height: 290px;
     margin: 0px 1%; 
-    margin-right: 0;
+    margin-right: 0%;
     border-radius: 10px;
     /* border: 3px solid rgba(125, 172, 213, 0.1); */
     max-width: 100%;
@@ -365,6 +365,11 @@ width: 100%;
 }
 
 @media screen and (max-width: 1096px) {
+    .scrollmenu {
+        margin-right: 1.6%;
+       padding: 0px 1.6%;
+          
+       }
 .scrollmenu .aa {
  
     padding-bottom: 6px;
@@ -381,7 +386,7 @@ width: 100%;
 }
 
 .scrollmenu .aa3 {
- 
+
     padding-bottom: 6px;
 }
 }
@@ -578,4 +583,7 @@ width: 100%;
     .b3 {
         padding-top: 5px;
     }
+}
+
+@media screen and (max-width: 430px) {
 }
