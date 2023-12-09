@@ -41,6 +41,7 @@
     white-space: nowrap;
     margin-bottom: 0px;
     padding: 60px 19%;
+    padding-bottom: 40px;
 
 
 
@@ -218,7 +219,7 @@ background-size: cover;
 /* Главный1 */
 .A1{
     background-color: rgb(242, 255, 253);
-    padding-bottom: 60px;
+  
     width: 100%; /* Full width */
 }
 
@@ -302,8 +303,9 @@ background-size: cover;
 
 @media screen and (max-width: 1780px) {
     .scrollmenu {
-        padding: 60px 7%;
+        padding: 60px 9%;
         padding-bottom: 0;
+        padding-bottom: 40px;
 
     }
     /* Главный2 */
@@ -317,7 +319,8 @@ margin: 0% 9%;
     .scrollmenu {
 
        padding: 60px 10%;
-       padding-bottom: 0;
+       padding-bottom: 40px;
+       
 
 
    }
@@ -341,7 +344,7 @@ margin: 0% 10%;
 
         padding: 60px 1.6%;
         /* padding-top: 4px; */
-        /* padding-bottom: 10px; */
+        padding-bottom: 40px;
         overflow-y:hidden;
 
 
@@ -365,10 +368,24 @@ width: 100%;
 }
 }
 
+@media screen and (max-width: 1150px) {
+    .scrollmenu {
+        justify-content: flex-start;
+           /* padding: 60px 1.6%;
+           padding: 0%;
+           padding-bottom: 0;
+           
+           */
+           padding-bottom: 0px;
+   
+       }
+       }
+   
 @media screen and (max-width: 1096px) {
     .scrollmenu {
-        margin: 1.6%;
+        margin:0% 1.6%;
        padding: 60px 0px ;
+       padding-bottom: 0px;
        padding-bottom: 0px;
 
 
@@ -394,16 +411,6 @@ width: 100%;
 }
 }
 
-@media screen and (max-width: 1150px) {
- .scrollmenu {
-     justify-content: flex-start;
-        /* padding: 60px 1.6%;
-        padding: 0%;
-        padding-bottom: 0;
-        */
-
-    }
-    }
 
 @media screen and (max-width: 994px) {
  /* Нижний заголовок текст 2 */
@@ -417,6 +424,10 @@ width: 100%;
 
 @media screen and (max-width: 572px) {
 
+    .a{
+        
+padding-top: 20px;
+    }
     .scrollmenu {
         justify-content: flex-start;
            padding: 40px 0%;
