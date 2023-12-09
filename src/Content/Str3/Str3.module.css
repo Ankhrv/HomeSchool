@@ -450,7 +450,7 @@ width: 100%;
     }
 }
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 950px) {
     .block102, .block103, .block104, .block105{
         width: 30px;
         height: 30px;
@@ -489,7 +489,9 @@ padding-top: 50px;
     padding-bottom: 5px;
     padding-top: 10px;
 }
-
+.block122{
+   line-height: 1.5;
+}
    
 
 /* Главный текст*/
