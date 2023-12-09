@@ -582,4 +582,8 @@ margin-bottom: 0;
 }
 
 @media screen and (max-width: 450px) {
+
+    .blockK1, .blockK2, .blockK3, .blockK4{
+        height: 90px;
+    }
 }
