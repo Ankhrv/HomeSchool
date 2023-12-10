@@ -23,118 +23,15 @@
     /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
 }
 
-.blocks1{
-    display: none;
-}
 
-.blocks{
-   
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2d2d2d;
-width: 100%;
-justify-content: space-between;
-display: flex;
-/* background-color: aquamarine; */
-margin-top: 60px;
-}
-
-.block1{
-    
-    padding: 15px;
-    margin-right: 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 240px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(236, 239, 75);
-}
-
-.block2{
-    padding: 15px;
-    margin: 0% 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 240px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(239, 184, 75);
-}
-
-.block3{
-    padding: 15px;
-    margin: 0% 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 240px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(138, 239, 75);
-}
-
-.block4{
-    padding: 15px;
-    margin-left: 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 240px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(122, 219, 219);
-}
-
-.block12{
-  
-    font-size: 18px;
-    font-weight: 900;
-    padding-bottom: 5px;
-    padding-top: 20px;
-}
-
-.block102{
-    background: url(./100.png);
-  background-size: cover;
-  width: 60px;
-  height: 60px;
-  margin-top: -45px;
-  
-}
-.block103{
-  
-  background: url(./200.png);
-  background-size: cover;
-  width: 60px;
-  height: 60px;
-  margin-top: -45px;
-
-}
-.block104{
-    background: url(./300.png);
-    background-size: cover;
-    width: 60px;
-    height: 60px;
-    margin-top: -45px;
-  
-}
-.block105{
-  
-    background: url(./400.png);
-    background-size: cover;
-    width: 60px;
-    height: 60px;
-    margin-top: -45px;
-  
-}
 
 .fon{
 
     width: 100%;
-    /* background: url(../Str1/dom22222.jpg);
-    background-size:cover; */
+    background: url(./dom22222.jpg);
+    background-size:cover; 
     background-color: white;
+    height: 1000px;
 
 
 }
@@ -144,63 +41,7 @@ margin-top: 60px;
 
 
 
-.b2 {
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 15px;
-/* background: url(./100.png); */
-background-size: cover;
-}
 
-.b20 {
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 15px;
-/* background: url(./200.png); */
-background-size: cover;
-}
-
-.b21 {
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 15px;
-/* background: url(./300.png); */
-background-size: cover;
-}
-
-.b211 {
-
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 15px;
-/* background: url(./400.png); */
-background-size: cover;
-}
-
-.b22{
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 15px;
-}
-
-.b3{
-  display: flex;
- /* background-color: antiquewhite; */
-  align-items: flex-start;
-  color: #2d2d2d;
-  padding: 15px;
-
-  font-family: Helvetica;
-  line-height: 150%;
-}
 
 
 
@@ -208,7 +49,7 @@ background-size: cover;
 /* Главный1 */
 .A1{
     background-color: rgb(242, 255, 253);
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     width: 100%; /* Full width */
     background-color: white;
 }
@@ -230,7 +71,7 @@ background-size: cover;
      color: rgb(221, 221, 221);
      font-family: Helvetica;
      font-size: 14px; */
-  padding-top: 80px;
+  padding-top: 0px;
   /* width:100%; */
   padding-bottom: 0px;
   color: #222;
@@ -245,11 +86,11 @@ background-size: cover;
 }
 /* Главный текст*/
 .Text{
-    width: 85%;
+    width: 100%;
     font-weight: 1000;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+   justify-content: center;
     /* width:100%;  */
     margin-right: 3px;
     /* justify-content: flex-start; */
@@ -257,7 +98,8 @@ background-size: cover;
     /* background-color: blue;  */
     line-height: 100%;
     font-size: 53px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 40px;
     }
 
     /* Главный текст green*/
@@ -281,52 +123,7 @@ background-size: cover;
 
 
         @media screen and (max-width: 1895px) {
-      
-.block1{
-    
-    padding: 15px;
-    margin-right: 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 200px;
-    
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(236, 239, 75);
 }
-
-.block2{
-    padding: 15px;
-    margin: 0% 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 200px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(239, 184, 75);
-}
-
-.block3{
-    padding: 15px;
-    margin: 0% 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 200px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(138, 239, 75);
-}
-
-.block4{
-    padding: 15px;
-    margin-left: 1%;
-    border-radius: 15px;
-    width: 285px;
-    min-width: 200px;
-    height: 190px;
-    background-color:rgb(255, 252, 233);
-    border: 2px solid rgb(122, 219, 219);
-}}
 
 @media screen and (max-width: 1780px) {
   
@@ -381,7 +178,7 @@ width: 100%;
    margin: 0;
 }
   .Text{
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   .blocks1{
     display: inline;
@@ -469,15 +266,7 @@ width: 100%;
 
 @media screen and (max-width: 572px) {
 .a{
-padding-top: 50px;
-}
-
- 
-/* Главный1 */
-.A1{
-
-    padding-bottom: 30px;
- 
+padding-top: 0px;
 }
 
 .blockK1, .blockK2, .blockK3, .blockK4{
@@ -511,9 +300,7 @@ margin-bottom: 0;
 .Text{
    width: 100%;
    font-weight: 1000;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: flex-start;
+
    /* width:100%;  */
    margin-right: 5px;
    /* justify-content: flex-start; */
@@ -521,6 +308,7 @@ margin-bottom: 0;
    /* background-color: blue; */
    /* line-height: 100%; */
    font-size: 24px;
+   padding-top: 0px;
    padding-bottom: 10px;
    margin-bottom: 23px;
    }

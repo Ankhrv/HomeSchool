@@ -425,13 +425,13 @@ width: 100%;
 @media screen and (max-width: 572px) {
 
     .a{
-        
+      
 padding-top: 20px;
     }
     .scrollmenu {
         justify-content: flex-start;
            padding: 40px 0%;
-           padding-bottom: 0;
+         
 
 
        }
