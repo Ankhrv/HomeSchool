@@ -22,6 +22,14 @@
     font-family: Gilroy;
     /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
 }
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Gilroy-Bold.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Gilroy-Bold;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
 
 
 
@@ -29,7 +37,7 @@
 
     width: 100%;
     background: url(./dom22222.jpg);
-    background-size:cover; 
+    background-size:cover;
     background-color: white;
     height: 1000px;
 
@@ -45,7 +53,7 @@
 
 
 
- 
+
 /* Главный1 */
 .A1{
     background-color: rgb(242, 255, 253);
@@ -66,7 +74,7 @@
 .a{
  width:100%;
  display: flex;
- flex-direction: column;
+
      /* padding: 36px 0px 40px 0px;
      color: rgb(221, 221, 221);
      font-family: Helvetica;
@@ -116,17 +124,72 @@
     .Text2{
         padding-bottom: 10px;
         margin-right: 12px;
-
         }
 
-       
+.block1{
+font-family: Gilroy-Medium;
+/* background-color: aqua;  */
+font-size: 32px;
+line-height: 125%;
+margin-left: 70px;
+margin-top: 55px;
+max-width: 463px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+color: #222;
+       }
 
+.block2{
+margin-top:197px ;
+font-family: Gilroy-Medium;
+/* background-color: aqua;  */
+font-size: 32px;
+line-height: 125%;
+flex-direction: column;
+margin-left: 125px; 
+max-width: 500px;
+display: flex;
+color: #222;
+       }
+
+       .a2{
+        width: 100%;
+        display: flex;
+       
+       }
+
+       .block11{
+        flex-wrap:nowrap;
+        display: inline;
+        margin-bottom: 50px;
+
+    }
+
+    
+
+    .block12{
+        margin-bottom: 187px;
+        }
+
+        .block11{
+            margin-bottom: 245px;
+        }
+
+        .block112{
+            margin-bottom: 210px;
+            }
+
+.i{
+    color: rgb(13, 130, 66);
+    font-family: Gilroy-Bold;
+}
 
         @media screen and (max-width: 1895px) {
 }
 
 @media screen and (max-width: 1780px) {
-  
+
     /* Главный2 */
 .A{
 margin: 0% 9%;
@@ -145,7 +208,7 @@ margin: 0% 10%;
 }
 
 @media screen and (max-width: 1280px) {
-  
+
 /* Главный1 */
 .A1{
 /* background-color: aquamarine; */
@@ -190,12 +253,12 @@ width: 100%;
     padding-bottom: 10px;
 }
     .blocks{
-       
- display: none; 
+
+ display: none;
     }
-    
+
     .blockK1{
-       
+
         height: 100px;
         background-color:rgb(255, 252, 233);
         border: 2px solid rgb(236, 239, 75);
@@ -205,17 +268,17 @@ width: 100%;
 
     }
     .blockK2{
-  
+
         height: 100px;
         background-color:rgb(255, 252, 233);
         border: 2px solid rgb(239, 184, 75);
         padding: 15px;
         border-radius: 15px;
         margin-bottom: 25px;
- 
-       
+
+
     }
-    
+
     .blockK3{
         height: 100px;
         background-color:rgb(255, 252, 233);
@@ -224,7 +287,7 @@ width: 100%;
         border-radius: 15px;
         margin-bottom: 25px;
     }
-    
+
     .blockK4{
         height: 100px;
         background-color:rgb(255, 252, 233);
@@ -233,17 +296,17 @@ width: 100%;
         border-radius: 15px;
         margin-bottom: 25px;
     }
-    
+
     .block4{
         padding: 15px;
         margin: 0;
         border-radius: 15px;
-      
+
         background-color:rgb(255, 252, 233);
         border: 2px solid rgb(122, 219, 219);
     }
     .block102K{
-        
+
     }
 }
 
@@ -261,7 +324,7 @@ width: 100%;
 .Text{
     width:100%;
 
-}  
+}
 }
 
 @media screen and (max-width: 572px) {
@@ -274,7 +337,7 @@ padding-top: 0px;
 }
 
 .block102, .block103, .block104, .block105{
-   
+
 }
 .blocks1{
   font-size: 14px;
@@ -289,7 +352,7 @@ padding-top: 0px;
 .block122{
    line-height: 1.5;
 }
-   
+
 
 /* Главный текст*/
 .Textt{
