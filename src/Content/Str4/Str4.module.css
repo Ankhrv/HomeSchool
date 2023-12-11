@@ -31,28 +31,19 @@
 }
 
 
-
+.a22{
+    display: none;
+}
 
 .fon{
 
     width: 100%;
     background: url(./dom22222.jpg);
     background-size:cover;
-    background-color: white;
     height: 1000px;
 
 
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Главный1 */
 .A1{
@@ -74,24 +65,16 @@
 .a{
  width:100%;
  display: flex;
-
-     /* padding: 36px 0px 40px 0px;
-     color: rgb(221, 221, 221);
-     font-family: Helvetica;
-     font-size: 14px; */
   padding-top: 0px;
-  /* width:100%; */
   padding-bottom: 0px;
   color: #222;
-  /* color: rgb(29, 29, 29); */
-  /* background-color: rgb(247, 255, 253); */
 }
 
 /* Главный текст*/
 .Textt{
      width:100%;
-
 }
+
 /* Главный текст*/
 .Text{
     width: 100%;
@@ -159,21 +142,17 @@ color: #222;
        
        }
 
-       .block11{
-        flex-wrap:nowrap;
-        display: inline;
-        margin-bottom: 50px;
-
-    }
-
+ 
     
 
     .block12{
-        margin-bottom: 187px;
+        margin-bottom: 180px;
+       
         }
 
         .block11{
-            margin-bottom: 245px;
+          
+            margin-bottom: 205px;
         }
 
         .block112{
@@ -185,8 +164,7 @@ color: #222;
     font-family: Gilroy-Bold;
 }
 
-        @media screen and (max-width: 1895px) {
-}
+ 
 
 @media screen and (max-width: 1780px) {
 
@@ -203,8 +181,6 @@ margin: 0% 9%;
 .A{
 margin: 0% 10%;
 }
-}
-@media screen and (max-width: 1595px) {
 }
 
 @media screen and (max-width: 1280px) {
@@ -228,6 +204,102 @@ width: 100%;
 }
 }
 
+@media screen and (max-width: 1210px) {
+
+    .blocka{
+        /* background-color: aqua; */
+        width: 50px;
+        height: auto;
+        
+    }
+    .i1{
+        width: 38px;
+        height: 38px;
+        padding-right: 8px;
+        /* background-color: blueviolet; */
+    }
+
+    .i12{
+        width: 40px;
+        height: 40px;
+        
+        padding-right: 6px;
+        margin-bottom: 70px;
+    }
+
+    .a2{
+        display: none;
+    }
+
+.fon{
+    background: fixed;
+    height: auto;
+}
+
+
+.block1{
+    font-family: Gilroy-Medium;
+    font-size: 32px;
+    line-height: 125%;
+    margin-left: 0px;
+    margin-top: 60px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #222;
+    }
+    
+    .block2{
+    margin-top:0px ;
+    font-family: Gilroy-Medium;
+    /* background-color: aqua;  */
+    font-size: 32px;
+    line-height: 125%;
+    flex-direction: column;
+    margin-left: 0px; 
+    max-width: 100%;
+    display: flex;
+    color: #222;
+           }
+    
+           .a22{
+            width: 100%;
+            display: inline;
+           
+            justify-content: space-between;
+           
+           }
+    
+           .block11{
+            margin-left: 0px;
+            margin-bottom: 30px;
+            /* background-color: blue; */
+        }
+    
+        .blocka2{
+            display: flex;
+        }
+        
+    
+        .block12{
+            margin-bottom: 30px;
+            }
+    
+            .block11{
+                margin-bottom: 30px;
+            }
+    
+            .block112{
+                margin-bottom: 30px;
+                }
+
+                .block113{
+                    margin-bottom: 30px;
+                    }
+
+}
+
 @media screen and (max-width: 1100px) {
    .Text{
     width: 100%;
@@ -235,87 +307,17 @@ width: 100%;
 }
 
 @media screen and (max-width: 1130px) {
-.block102, .block103, .block104, .block105{
-    width: 30px;
-    height: 30px;
-   margin: 0;
-}
+
   .Text{
     margin-bottom: 0px;
   }
-  .blocks1{
-    display: inline;
-    font-family: Helvetica;
-    color: #222;
+
+
 }
-
-.block12{
-    padding-bottom: 10px;
-}
-    .blocks{
-
- display: none;
-    }
-
-    .blockK1{
-
-        height: 100px;
-        background-color:rgb(255, 252, 233);
-        border: 2px solid rgb(236, 239, 75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 25px;
-
-    }
-    .blockK2{
-
-        height: 100px;
-        background-color:rgb(255, 252, 233);
-        border: 2px solid rgb(239, 184, 75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 25px;
-
-
-    }
-
-    .blockK3{
-        height: 100px;
-        background-color:rgb(255, 252, 233);
-        border: 2px solid rgb(138, 239, 75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 25px;
-    }
-
-    .blockK4{
-        height: 100px;
-        background-color:rgb(255, 252, 233);
-        border: 2px solid rgb(122, 219, 219);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 25px;
-    }
-
-    .block4{
-        padding: 15px;
-        margin: 0;
-        border-radius: 15px;
-
-        background-color:rgb(255, 252, 233);
-        border: 2px solid rgb(122, 219, 219);
-    }
-    .block102K{
-
-    }
-}
+  
 
 @media screen and (max-width: 950px) {
-    .block102, .block103, .block104, .block105{
-        width: 30px;
-        height: 30px;
-       margin-top: -30px;
-    }
+   
 
 }
 
@@ -332,26 +334,19 @@ width: 100%;
 padding-top: 0px;
 }
 
-.blockK1, .blockK2, .blockK3, .blockK4{
-    height: 70px;
-}
-
-.block102, .block103, .block104, .block105{
-
-}
-.blocks1{
-  font-size: 14px;
-    font-family: Helvetica;
-}
-
-.block12{
-    font-size: 14px;
-    padding-bottom: 5px;
-    padding-top: 10px;
-}
-.block122{
-   line-height: 1.5;
-}
+.block1{
+    font-family: Gilroy-Medium;
+    /* background-color: aqua;  */
+    font-size: 24px;
+    line-height: 125%;
+    margin-left: 0px;
+    margin-top: 10px;
+    max-width: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #222;
+           }
 
 
 /* Главный текст*/
@@ -392,57 +387,9 @@ margin-bottom: 0;
        padding-bottom: 6px;
        margin-right: 4px;
 
-       }
-
-       .b2 {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 15px;
-    /* background: url(./100.png); */
-    background-size: cover;
-    }
-
-    .b20 {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 15px;
-    /* background: url(./200.png); */
-    background-size: cover;
-    }
-
-    .b21 {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 15px;
-    /* background: url(./300.png); */
-    background-size: cover;
-    }
-
-    .b211 {
-
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 15px;
-    /* background: url(./400.png); */
-    background-size: cover;
-    }
-
-    .b3 {
-        padding-top: 5px;
-    }
+       } 
 }
 
 @media screen and (max-width: 450px) {
 
-    .blockK1, .blockK2, .blockK3, .blockK4{
-        height: 90px;
-    }
 }

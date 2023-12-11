@@ -1,7 +1,11 @@
 import React from 'react';
 import c from './Str4.module.css';
 import { Helmet } from 'react-helmet';
-
+import pic from './1.jpg';
+import pic2 from './2.jpg';
+import pic3 from './3.jpg';
+import pic4 from './4.jpg';
+import pic5 from './5.jpg';
 
 
 
@@ -28,23 +32,34 @@ const Str3 = () => {
 <div className={c.a2}>
 
 <div className={c.block1}>
-        <div className={c.block11}><font color="#222">Наша команда проверяет</font> 
-        <span className={c.i}> квалификацию, дипломы, документы </span>специалиста </div>
-        <div className={c.block112}>Одобренные специалисты появляются в каталоге и <span className={c.i}>ведут отчёты</span> по всем проведенным занятиям</div>
-        <div className={c.block113}>Наши педагоги <span className={c.i}>регулярно проходят курсы</span> повышения квалификации от «Инфоурока»</div>
+<div className={c.block11}>Ведущий педагог практикует деятельность на основе <span className={c.i}> диплома, документов </span>специалиста </div>
+<div className={c.block112}>Видео-уроки специалиста появляются в каталоге и <span className={c.i}> имеют акутальность </span> исходя из текущих программ</div>
+<div className={c.block113}>Ведущий педагог «Home-School» <span className={c.i}>регулярно проходит курсы</span> повышения квалификации</div>
         </div>
 
 <div className={c.block2}>
-        <div className={c.block12}>Мы <span className={c.i}>проводим собеседование</span>, где проверяем личные и профессиональные качества специалиста и его техническое оборудование</div>
+<div className={c.block12}>Мы <span className={c.i}>общаемся</span>, и выявляем пробелы каждого ученика, представляя доступ к урокам на различном техническом оборудовании</div>
         <div className={c.block12}>Мы <span className={c.i}>отсматриваем записи уроков</span> и всегда готовы прийти на помощь, если возникнут сложности</div>
+        </div>
+        </div>
+        <div className={c.a22}>
+
+<div className={c.block1}>
+<div className={c.blocka2}><div className={c.blocka}><img src={pic} alt='tel2' className={c.i1}></img></div> <div className={c.block11}>Ведущий педагог практикует деятельность на основе <span className={c.i}> диплома, документов </span>специалиста </div> </div>
+<div className={c.blocka2}><div className={c.blocka}><img src={pic2} alt='tel2' className={c.i1}></img></div> <div className={c.block12}>Мы <span className={c.i}>общаемся</span>, и выявляем пробелы каждого ученика, представляя доступ к урокам на различном техническом оборудовании</div> </div> 
+<div className={c.blocka2}><div className={c.blocka}><img src={pic3} alt='tel2' className={c.i1}></img></div> <div className={c.block112}><span className={c.id}>Видео-уроки специалиста появляются в каталоге и </span> <span className={c.i}> имеют акутальность </span> исходя из текущих программ</div></div> 
+<div className={c.blocka2}><div className={c.blocka}><img src={pic4} alt='tel2' className={c.i1}></img></div> <div className={c.block12}>Мы <span className={c.i}>проверяем самостоятельно выполненные работы</span> и разбираем возникающие сложности</div></div> 
+<div className={c.blocka2}><div className={c.blocka}><img src={pic5} alt='tel2' className={c.i12}></img></div> <div className={c.block12}>Ведущий педагог «Home-School» <span className={c.i}>регулярно проходит курсы</span> повышения квалификации</div></div> 
+        </div>
+        </div>
         </div>
 
 
+
 </div>
 </div>
 </div>
-</div>
-</div>
+
 
 
 
