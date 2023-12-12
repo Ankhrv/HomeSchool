@@ -1,0 +1,689 @@
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Regular1.otf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Helvetica;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Gilroy-Bold.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Gilroy-Bold;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Gilroy-Medium.ttf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Gilroy;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
+
+
+.fon{
+    width: 100%;
+    background: url(../Str1/dom22222.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* Главный1 */
+.A1{
+    background-color: rgb(242, 255, 253);
+
+    width: 100%; /* Full width */
+}
+
+/* Главный2 */
+.A{
+    margin: 0% 19%;
+
+    background-color: rgb(247, 255, 253);
+    
+}
+
+/* Главный3 */
+.a{
+    width: 100%;
+  display: flex;
+     /* padding: 36px 0px 40px 0px;
+     color: rgb(221, 221, 221);
+     font-family: Helvetica;
+     font-size: 14px; */
+     margin-top: 78px;
+     background-color: rgb(247, 255, 253);
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    padding-top: 110px;
+}
+
+.divright{
+display: flex;
+background: url(./1000.jpg);
+background-size: cover;
+    height: 400px;
+    /* background-color: rgb(181, 159, 202); */
+    
+   
+   
+    /* margin-left: 30px; */
+
+}
+
+.g{
+   width: 53.5%;
+   border-right: 4px solid rgb(77, 221, 80); 
+    /* background: url(./i.png); */
+   
+    background-size: cover;
+    }
+    
+    .g1{
+        width: 46.5%;
+      
+         }
+    .g2{
+      
+        width: 100%;
+       
+        height: 49%;
+        border-bottom: 4px solid rgb(77, 221, 80);  
+          /* background: url(./3.png); */
+        margin-bottom: 4px;
+         background-size: cover;  
+      
+         }
+         .g3{
+      
+            width: 100%;
+         
+            height: 48.8%;
+            /* margin-bottom: 14px; */
+            min-height: auto;
+              /* background: url(./1.png); */
+               /* border-bottom: 4px solid rgb(77, 221, 80);   */
+             background-size: cover;  
+             }
+         
+
+.divrightt{
+text-align: center;
+font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(49, 48, 48);
+    padding-top: 8px;
+
+}
+
+
+.divrighttt{
+
+    width: 60%;
+
+    /* max-width: 550px; */
+
+    height: 370px;
+    /* background-color: rgb(181, 159, 202);
+    border: 4px solid rgb(77, 221, 80); */
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+.divleft{width: 55%;
+    margin-right: 0px;
+    color: rgb(29, 29, 29);
+    color: #222;
+
+
+}
+
+.divleft1{
+    display: flex;
+    flex-direction: column;
+    font-family: Gilroy-Medium;
+    /* background-color: blue;   */
+    line-height: 100%;
+    font-size: 53px;
+    font-weight: 1000;
+    padding-bottom: 10px;
+
+    /* background-color: aquamarine; */
+}
+
+.divleft0{
+    display: none;
+
+
+    /* background-color: aquamarine; */
+}
+
+
+.divleft11{
+    color: rgb(29, 29, 29);
+    color: #222;
+    background-color: rgb(90, 229, 92);
+    font-family: Gilroy-Medium;
+    /* background-color: blue;  */
+    line-height: 100%;
+    font-size: 53px;
+    font-weight: 1000;
+    padding: 0px 5px;
+padding-bottom: 1px;
+    margin: 5px 0;
+    margin-right: 0px;
+    margin-top: 2px;
+    /* margin-bottom: 32px; */
+}
+
+.divleft2, .divleft3, .divleft4, .divleft5{
+    padding: 10px 0px;
+    padding-top: 0px;
+    /* background-color: rgb(226, 226, 226); */
+}
+
+
+.divleft2, .divleft4{
+    padding-bottom: 15px;
+
+
+}
+
+
+.divleft111{
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 100;
+    color: rgb(49, 48, 48);
+    display: flex;
+
+    /* width: 99%; */
+    justify-content: space-between;
+ /* flex-direction: column; */
+
+     margin-right: 0px;
+}
+
+.divleft6{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 17px 20px;
+    align-items: center;
+    color: white;
+background-color: rgb(150, 43, 217);
+margin-top: 20px;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 600;
+border-radius: 5px;
+}
+
+.divleft112{
+     /* width: 50%; */
+}
+
+.divleft113{
+    /* width: 50%; */
+}
+
+.divleft22{
+display: flex;
+}
+
+.t{
+    width: 26px;
+   height: 26px;
+    margin-right: 0px;
+}
+.divleft2, .divleft3{
+    padding-right: 25px;
+
+
+}
+
+
+
+@media screen and (max-width: 1780px) {
+
+    /* Главный2 */
+.A{
+margin: 0% 9%;
+}
+}
+
+@media screen and (max-width: 1600px) {
+
+     /* Главный2 */
+.A{
+margin: 0% 10%;
+}
+}
+
+
+@media screen and (max-width: 1280px) {
+
+/* Главный1 */
+.A1{
+/* background-color: aquamarine; */
+}
+
+/* Главный2 */
+.A{
+margin: 0% 1.6%;
+}
+
+/* Главный3 */
+.a{
+width: 100%;
+/* height: 76px; */
+
+/* background-color: aquamarine; */
+}
+}
+
+@media screen and (max-width: 1170px) {
+
+    .divleft{
+        margin-right: 0px;
+        color: rgb(29, 29, 29);
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 1220px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+.divleft2, .divleft3{
+    padding-right: 0px;
+
+
+}
+}
+
+
+@media screen and (max-width: 1100px) {
+    .divleft2, .divleft3{
+        padding-right: 0px;
+
+
+    }}
+
+   
+
+    @media screen and (max-width: 1070px) {
+        .divleft2, .divleft3{
+            padding-right: 25px;
+
+
+        }}
+    @media screen and (max-width: 970px) {
+
+       
+
+        .divleft2, .divleft3{
+            padding-right: 5px;
+
+
+        }
+    .div1{
+
+        flex-direction: column;
+    }
+
+    /* .fon{
+        width: fit-content;
+  width: 100%;
+  height: 100%;
+        background: url(./dom222.jpg);
+        background-size:cover;
+
+    } */
+
+    .divrighttt{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        max-width: 600px;
+     /* width: 100%; */
+    margin: 0;
+    margin-right: 0%; 
+    }
+
+    .g3{
+      
+        width: 100%;
+     
+        height: 48.6%;
+       
+         }
+
+    .divright{
+/*        
+         width: 100%; */
+        /* height: 400px; */
+       
+        margin: 0;
+        /* margin-right: 10px;  */
+      
+    }
+
+    .divleft111{
+        display: flex;
+        /* justify-content: flex-start; */
+        max-width: 590px;
+        /* background-color: blueviolet; */
+    }
+
+    .divleft{
+     width: auto;
+
+
+    }
+
+    .divleft6{
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 671px) {
+
+   
+
+        }
+
+        @media screen and (max-width: 590px) {
+
+         
+                }
+@media screen and (max-width: 570px) {
+       /* Главный3 */
+.a{
+    width: 100%;
+  display: flex;
+     /* padding: 36px 0px 40px 0px;
+     color: rgb(221, 221, 221);
+     font-family: Helvetica;
+     font-size: 14px; */
+     margin-top: 70px;
+
+}
+   
+   }
+    @media screen and (max-width: 572px) {
+        .divleft2, .divleft3{
+            padding-right: 50px;
+    
+    
+        }
+   
+
+    .divrighttt{
+        min-height: 250px;
+        max-height: 290px;
+        /* width: 550px;
+        max-width: 100%;
+       margin: 0; */
+      /* width: 98.4%; */
+      /* min-width: 100%;
+      margin-right: 10px; */
+      /* width: auto; */
+   margin-right: 1.6%;
+     
+    }
+
+    .g3{
+      
+        width: 100%;
+     
+        height: 47.9%;
+       
+         }
+
+    .divright{
+      
+        width: 100%;
+        height: 100%;
+        /* min-height: 100%;
+        height: 250px; */
+    }
+    /* Главный3 */
+.a{
+    width: 100%;
+  display: flex;
+     /* padding: 36px 0px 40px 0px;
+     color: rgb(221, 221, 221);
+     font-family: Helvetica;
+     font-size: 14px; */
+     /* margin-top: 70px; */
+
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+.divleft{width: 100%;
+    margin-right: 0px;
+    color: rgb(29, 29, 29);
+
+
+}
+
+.divleft1{
+    display: flex;
+    flex-direction: column;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+
+    /* background-color: aquamarine; */
+}
+
+.divleft11{
+    color: rgb(29, 29, 29);
+    background-color: rgb(90, 229, 92);
+    padding-top: 2px;
+    line-height: 23px;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    padding: 0px 5px;
+    padding-top: 2px;
+    margin: 5px 0;
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.divleft2, .divleft3, .divleft4, .divleft5{
+    padding: 10px 0px;
+    padding-top: 0px;
+    /* background-color: rgb(226, 226, 226); */
+}
+
+
+.divleft2, .divleft4{
+    padding-bottom: 15px;
+
+
+}
+
+
+.divleft111{
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 100;
+    color: #222;
+    display: flex;
+
+    /* width: 99%; */
+    justify-content: space-between;
+ /* flex-direction: column; */
+
+     margin-right: 0px;
+}
+
+.divleft6{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 17px 20px;
+    align-items: center;
+    color: white;
+background-color: rgb(150, 43, 217);
+margin-top: 15px;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 600;
+border-radius: 5px;
+}
+
+.divleft112{
+     /* width: 50%; */
+}
+
+.divleft113{
+    /* width: 50%; */
+}
+
+.divleft22{
+display: flex;
+}
+
+.t{
+    width: 26px;
+   height: 26px;
+    margin-right: 0px;
+}
+.divleft2, .divleft3{
+    margin-right: 25px;
+
+
+}
+
+.divleft0{
+    display: inline;
+
+
+    /* background-color: aquamarine; */
+}
+
+.divleft{
+    display: none;
+
+
+    /* background-color: aquamarine; */
+}
+
+.divleft2, .divleft3{
+    padding-right: 5px;
+}
+
+}
+
+@media screen and (max-width: 440px) {
+
+  
+    .div1{
+          
+        margin-top: 210px;
+        padding-top: 0;
+    }
+    .divrighttt{
+        margin-right: 2.1%;
+    }
+
+.divleft2, .divleft3{
+    margin-right: 10px;
+
+
+}}
+
+@media screen and (max-width: 414px) {
+   
+
+    .divrighttt{
+        /* min-height: 100%;
+        height: 250px; */
+        /* width: 550px;
+        max-width: 100%;
+       margin: 0; */
+      /* width: 98.4%; */
+      /* min-width: 100%;
+      margin-right: 10px; */
+      width: auto;
+    
+   
+     
+    }
+
+    .divleft2, .divleft3{
+        margin-right: 0px;
+
+
+    }}
+
+    @media screen and (max-width: 407px) {
+
+        .divleft2, .divleft3{
+            margin-right: 15px;
+
+
+        }
+      
+    }
+
+        @media screen and (max-width: 403px) {
+
+            .divleft4{
+                margin-right: 3px;
+    
+    
+            }
+          }
+
+          @media screen and (max-width: 370px) {
+
+          .div1{
+          
+            margin-top: 0px;
+            padding-top: 0;
+        }
+    }
+
+    @media screen and (max-width: 352px) {
+
+        .g3{
+      
+            width: 100%;
+         
+            height: 47.6%;
+           
+             }
+    
+  }
