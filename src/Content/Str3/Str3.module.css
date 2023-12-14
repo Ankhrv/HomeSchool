@@ -28,17 +28,16 @@
 }
 
 .blocks{
-   
     font-family: Helvetica;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #2d2d2d;
-width: 100%;
-justify-content: space-between;
-display: flex;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
 /* background-color: aquamarine; */
-margin-top: 60px;
+   margin-top: 60px;
 }
 
 .block1{
@@ -87,7 +86,6 @@ margin-top: 60px;
 }
 
 .block12{
-  
     font-size: 18px;
     font-weight: 900;
     padding-bottom: 5px;
@@ -99,50 +97,37 @@ margin-top: 60px;
   background-size: cover;
   width: 60px;
   height: 60px;
-  margin-top: -45px;
-  
+  margin-top: -45px; 
 }
+
 .block103{
-  
   background: url(./200.png);
   background-size: cover;
   width: 60px;
   height: 60px;
   margin-top: -45px;
-
 }
+
 .block104{
     background: url(./300.png);
     background-size: cover;
     width: 60px;
     height: 60px;
     margin-top: -45px;
-  
 }
+
 .block105{
-  
     background: url(./400.png);
     background-size: cover;
     width: 60px;
     height: 60px;
     margin-top: -45px;
-  
 }
 
 .fon{
-
     width: 100%;
-    /* background: url(../Str1/dom22222.jpg);
-    background-size:cover; */
     background-color: white;
-
-
 }
-
-
-
-
-
 
 .b2 {
     width: 60px;
@@ -151,7 +136,7 @@ margin-top: 60px;
     font-weight: 600;
     margin-left: 15px;
 /* background: url(./100.png); */
-background-size: cover;
+   background-size: cover;
 }
 
 .b20 {
@@ -161,7 +146,7 @@ background-size: cover;
     font-weight: 600;
     margin-left: 15px;
 /* background: url(./200.png); */
-background-size: cover;
+   background-size: cover;
 }
 
 .b21 {
@@ -171,11 +156,10 @@ background-size: cover;
     font-weight: 600;
     margin-left: 15px;
 /* background: url(./300.png); */
-background-size: cover;
+   background-size: cover;
 }
 
 .b211 {
-
     width: 60px;
     height: 60px;
     font-size: 20px;
@@ -197,18 +181,14 @@ background-size: cover;
   align-items: flex-start;
   color: #2d2d2d;
   padding: 15px;
-
   font-family: Helvetica;
   line-height: 150%;
 }
 
-
-
- 
 /* Главный1 */
 .A1{
     background-color: rgb(242, 255, 253);
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     width: 100%; /* Full width */
     background-color: white;
 }
@@ -216,32 +196,24 @@ background-size: cover;
 /* Главный2 */
 .A{
     margin: 0% 19%;
-
     background-color: rgb(247, 255, 253);
     background-color: white;
 }
 
 /* Главный3 */
 .a{
- width:100%;
- display: flex;
- flex-direction: column;
-     /* padding: 36px 0px 40px 0px;
-     color: rgb(221, 221, 221);
-     font-family: Helvetica;
-     font-size: 14px; */
-  padding-top: 80px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
   /* width:100%; */
   padding-bottom: 0px;
   color: #222;
-  /* color: rgb(29, 29, 29); */
-  /* background-color: rgb(247, 255, 253); */
 }
 
 /* Главный текст*/
 .Textt{
      width:100%;
-
 }
 /* Главный текст*/
 .Text{
@@ -274,7 +246,6 @@ background-size: cover;
     .Text2{
         padding-bottom: 10px;
         margin-right: 12px;
-
         }
 
        
@@ -378,11 +349,21 @@ width: 100%;
 .block102, .block103, .block104, .block105{
     width: 30px;
     height: 30px;
-   margin: 0;
+    margin: 0;
 }
+
   .Text{
     margin-bottom: 60px;
   }
+
+  
+/* Главный1 */
+.A1{
+    
+    padding-bottom: 55px;
+ 
+}
+
   .blocks1{
     display: inline;
     font-family: Helvetica;
@@ -392,31 +373,26 @@ width: 100%;
 .block12{
     padding-bottom: 10px;
 }
-    .blocks{
-       
+    .blocks{ 
  display: none; 
     }
     
     .blockK1{
-       
         height: 100px;
         background-color:rgb(255, 252, 233);
         border: 2px solid rgb(236, 239, 75);
         padding: 15px;
         border-radius: 15px;
         margin-bottom: 25px;
-
     }
+
     .blockK2{
-  
         height: 100px;
         background-color:rgb(255, 252, 233);
         border: 2px solid rgb(239, 184, 75);
         padding: 15px;
         border-radius: 15px;
-        margin-bottom: 25px;
- 
-       
+        margin-bottom: 25px; 
     }
     
     .blockK3{
@@ -441,10 +417,10 @@ width: 100%;
         padding: 15px;
         margin: 0;
         border-radius: 15px;
-      
         background-color:rgb(255, 252, 233);
         border: 2px solid rgb(122, 219, 219);
     }
+
     .block102K{
         
     }
@@ -469,14 +445,14 @@ width: 100%;
 
 @media screen and (max-width: 572px) {
 .a{
-padding-top: 50px;
+padding-top: 0px;
 }
 
  
 /* Главный1 */
 .A1{
 
-    padding-bottom: 30px;
+    padding-bottom: 0px;
  
 }
 
@@ -505,7 +481,7 @@ padding-top: 50px;
 /* Главный текст*/
 .Textt{
     width:100%;
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 /* Главный текст*/
 .Text{
@@ -514,12 +490,8 @@ margin-bottom: 0;
    display: flex;
    flex-wrap: wrap;
    align-items: flex-start;
-   /* width:100%;  */
    margin-right: 5px;
-   /* justify-content: flex-start; */
    font-family: Gilroy-Medium;
-   /* background-color: blue; */
-   /* line-height: 100%; */
    font-size: 24px;
    padding-bottom: 10px;
    margin-bottom: 23px;
@@ -540,7 +512,6 @@ margin-bottom: 0;
    .Text2{
        padding-bottom: 6px;
        margin-right: 4px;
-
        }
 
        .b2 {
@@ -560,7 +531,7 @@ margin-bottom: 0;
         font-weight: 600;
         margin-left: 15px;
     /* background: url(./200.png); */
-    background-size: cover;
+        background-size: cover;
     }
 
     .b21 {
@@ -569,19 +540,18 @@ margin-bottom: 0;
         font-size: 20px;
         font-weight: 600;
         margin-left: 15px;
-    /* background: url(./300.png); */
-    background-size: cover;
+       /* background: url(./300.png); */
+        background-size: cover;
     }
 
     .b211 {
-
         width: 40px;
         height: 40px;
         font-size: 20px;
         font-weight: 600;
         margin-left: 15px;
     /* background: url(./400.png); */
-    background-size: cover;
+        background-size: cover;
     }
 
     .b3 {

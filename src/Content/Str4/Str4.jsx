@@ -39,7 +39,7 @@ const Str3 = () => {
         <div className={c.block3}></div>
 <div className={c.block2}>
 <div className={c.block12}>Мы <span className={c.i}> выявим</span> пробелы ученика, и предоставим доступ к урокам на любом техническом оборудовании</div>
-        <div className={c.block123}>Мы <span className={c.i}>отсматриваем записи уроков</span> и всегда готовы прийти на помощь, если возникнут сложности</div>
+        <div className={c.block123}>Мы <span className={c.i}>постоянно на связи</span> и всегда готовы прийти на помощь, если возникнут сложности</div>
         </div>
         </div>
         <div className={c.a22}>

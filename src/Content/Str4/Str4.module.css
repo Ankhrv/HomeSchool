@@ -56,16 +56,16 @@
 /* Главный2 */
 .A{
     margin: 0% 19%;
-
+    padding-top: 80px;
     background-color: rgb(247, 255, 253);
     background-color: white;
 }
 
 /* Главный3 */
 .a{
- width:100%;
- display: flex;
-  padding-top: 0px;
+  width:100%;
+  display: flex;
+ 
   padding-bottom: 0px;
   color: #222;
 }
@@ -144,6 +144,7 @@
                 grid-template-columns: 0.9fr 133px 1fr;
                 height: 940px;
                 grid-column-gap:0px;
+                /* background-color: blueviolet; */
                }
     
                .block12{
@@ -344,7 +345,7 @@ margin: 0% 10%;
     }
 
     .block12{
-        margin-bottom: 206px;
+        margin-bottom: 226px;
         width: 100%;
                }
 
@@ -444,7 +445,16 @@ width: 100%;
 
                 .block1123{
                     margin-bottom: 30px;
-                }         
+                }   
+
+                /* Главный1 */
+.A1{
+
+    padding-bottom: 50px;
+   
+}
+
+               
 }
 
 @media screen and (max-width: 1100px) {
@@ -545,7 +555,12 @@ margin-bottom: 0;
        margin-right: 4px;
        }
        
-     
+                     /* Главный1 */
+.A1{
+
+    padding-bottom: 45px;
+   
+}
 }
 
 @media screen and (max-width: 450px) {

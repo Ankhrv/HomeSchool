@@ -18,8 +18,8 @@ function App() {
     <Header/>
      <Str1/>
      <Str2/>
-     <Str3/>
      <Str4/>
+     <Str3/>
      <Str5/>
     <div className='Menu'>
     <Menu/>
