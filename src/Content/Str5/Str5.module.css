@@ -263,6 +263,7 @@ width: 100%;
         flex-direction: column;
         width: auto;
         max-width: 650px;
+        min-width: 500px;
         height: 400px;
      /* width: 100%; */
         margin: 0;
@@ -270,7 +271,7 @@ width: 100%;
     }
     
     .divright{
-        margin: 0;
+     
     }
 
     .divleft111{
@@ -294,11 +295,12 @@ width: 100%;
     .divrighttt{
         display: flex;
         justify-content: flex-start;
-        flex-direction: column;
-        width: auto;
-         /* background-color: blueviolet; */
+        flex-direction: row;
+        width: 100%;
+        min-width: 400px;
         margin: 0;
-        margin-right: 0%;
+        padding: 0;
+     
     }
 
     .divright{
@@ -310,20 +312,14 @@ width: 100%;
     @media screen and (max-width: 572px) {
 
         .divrighttt{
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            width: auto;
-            /* background-color: blueviolet; */
-            margin: 0;
-            margin-right: 0%;
+            min-width: 300px;
         }
     
         .divright{
          width: 358px;
          min-width: 300px;
             height: 220px;
-            }
+            } 
 
                /* Главный3 */
 .a{
@@ -334,13 +330,7 @@ width: 100%;
 .fon{
     padding-top: 35px;
 }
-    .g3{
-
-        width: 100%;
-
-        height: 47.9%;
-
-         }
+  
 
     /* Главный3 */
 .a{
@@ -425,7 +415,7 @@ display: flex;
        line-height: 45%;
        padding: 0px 4px;
        margin-top: 2px;
-       padding-top:5px;
+       padding-top:7px;
        padding-bottom: 8px;
        margin-right: 5px;
        margin-bottom: 2px;
@@ -461,28 +451,17 @@ display: flex;
 
           @media screen and (max-width: 370px) {
 
-          .div1{
-            margin-top: 0px;
-            padding-top: 0;
-        }
+       
     }
 
     @media screen and (max-width: 366px) {
 
-            .divright{
-display: flex;
-align-items: center;
-justify-content: center;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(111, 207, 51);
-     
+            .divrighttt{
+                min-width: 250px; 
     } 
     
-      .divright{
-      
-        
-         width: 300px;
+      .divright{ 
+            width: 300px;
             height: 180px; 
             }
 
