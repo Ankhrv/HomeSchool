@@ -18,7 +18,6 @@ const Str5 = () => {
         <div className={a.a}>
        <div className={a.fon}>
            
-          
             <div className={a.div1}>
 
             <div className={a.divleft}>
