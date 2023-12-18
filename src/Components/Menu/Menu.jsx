@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { SimpleModal } from "./SimpleModal/SimpleModal";
+import { SimpleModal } from "../../SimpleModal/SimpleModal";
+import { SimpleModal2 } from "../../SimpleModal2/SimpleModal2";
 import { Helmet } from 'react-helmet';
 import b from './Menu.module.css';
 import door2 from './door2.png';
@@ -10,7 +11,7 @@ import menu2 from './menu2.png';
 
 
 function Menu() {
-  
+  const [modalInfoIsOpen2, setModalInfoOpen2] = useState(false);
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
 
   return (
@@ -24,12 +25,15 @@ function Menu() {
       </Helmet>
       <div className={b.aA}>
    
-        <div className={b.modalbutton1}><img src={door2} alt='door2'className={b.t1}></img>Войти</div>
+        <div className={b.modalbutton1} onClick={() => setModalInfoOpen2(true)}>
+          <img src={door2} alt='door2'className={b.t1}></img>
+          Войти</div>
+
         <div className={b.modalbutton2}><img src={ball} alt='ball'className={b.t2}></img><div className={b.t222}>Бесплатное занятие</div></div>
         
         <div className={b.modalbutton}
-          onClick={() => setModalInfoOpen(true)}
-        ><img src={menu2} alt='menu2'className={b.t3}></img>
+          onClick={() => setModalInfoOpen(true)}>
+            <img src={menu2} alt='menu2'className={b.t3}></img>
          <div className={b.t31}> Mеню </div></div>
         </div> 
          </div>
@@ -50,6 +54,20 @@ function Menu() {
          <div className={b.b17}>Стоимость</div>
          </div>
         </SimpleModal>
+        
+        <div className={b.smenu}>
+        <SimpleModal2
+          isOpen={modalInfoIsOpen2}
+          onClose={() => setModalInfoOpen2(false)}
+        >
+          <h2>Modal Info</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
+            dolorum dolore vero eligendi cum iusto ea quam perspiciatis
+            veritatis rem cupiditate a in, aliquam pariatur.
+          </p>
+        </SimpleModal2> </div>
+
         </div> </div>
   
        

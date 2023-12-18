@@ -1,19 +1,21 @@
-import React from 'react';
 import a from './Header2.module.css';
 import logo from '../Header/phone-call.png';
 import logo2 from '../Header/telegram.png';
 import door from '../Header/door.png';
+import React, { useState } from "react";
+import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
 // import tel from '../Header/logo.messangers/77.png';
 // import tel2 from '../Header/logo.messangers/32.png';
 // import tel3 from '../Header/logo.messangers/33.png';
 // import tel4 from '../Header/logo.messangers/34.png';
 // import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
-// import { FaPhoneVolume } from "react-icons/fa6";
 
 
 
 const Header = () => {
+   const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
+  
     return (
 <div className={a.A1}>
 <Helmet>
@@ -52,7 +54,9 @@ const Header = () => {
 
          </div>
 
-<a className={a.c5}><img src={door} alt='door'className={a.t2}></img>Войти</a>
+{/* <a className={a.c5} onClick={() => setModalInfoOpen(true)}> */}
+<a className={a.c5}onClick={() => setModalInfoOpen5(true)}>
+   <img src={door} alt='door'className={a.t2}></img>Войти</a>
 
 </div>
 </div>
@@ -83,12 +87,30 @@ const Header = () => {
 
          </div>
 
-<a className={a.c5}><img src={door} alt='door'className={a.t2}></img> Войти</a>
+{/* <a className={a.c5} onClick={() => setModalInfoOpen(true)}> */}
+<a className={a.c5} 
+onClick={() => setModalInfoOpen5(true)}> 
+<img src={door} alt='door'className={a.t2}></img> Войти</a>
+
+
 
 </div>
+
+
 </div>
 
-
+<div className={a.smenu}>
+        <SimpleModal5
+          isOpen={modalInfoIsOpen5}
+          onClose={() => setModalInfoOpen5(false)}
+        >
+          <h2>Modal Info</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
+            dolorum dolore vero eligendi cum iusto ea quam perspiciatis
+            veritatis rem cupiditate a in, aliquam pariatur.
+          </p>
+        </SimpleModal5> </div>
 
 </div>
 </div>
