@@ -67,7 +67,7 @@ import Userfront from "@userfront/core";
 
   return (
        
- <form onSubmit={this.handleSubmit} >
+ <form className='Form' onSubmit={this.handleSubmit} >
  <div className='GLAV'>
  <div className='zag'>Вход в личный кабинет</div>
  <div className='name'>Введите ваше имя</div>
@@ -79,7 +79,7 @@ import Userfront from "@userfront/core";
  
 />
 <div className='name1'>Введите ваш пароль</div>
- <input className='inp1'
+<input className='inp1'
          name="password"
          type="password"
          value={this.state.password}

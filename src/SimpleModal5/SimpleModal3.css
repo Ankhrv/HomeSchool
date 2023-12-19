@@ -37,7 +37,7 @@
   min-height: 350px; */
   border-radius: 20px;
   background-color:#ffffff;
-  padding: 40px 3.7% 50px 3.7%;
+  padding: 40px 3.7% 45px 3.7%;
   /* transform: translateY(-50px); */
   transition: opacity 0.3s, transform 0.3s;
   z-index: 15999;

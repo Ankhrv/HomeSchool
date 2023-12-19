@@ -1,7 +1,9 @@
 /* модальное окно */
 
 .inp{
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 98.5%;
   height: 47px;
   border: none;
   border: 1px solid #666;
@@ -11,29 +13,36 @@
   font-size: 16px;
   font-family: Helvetica;
   color: #222;
-  padding: 0px 0px;
+ 
 }
 
 .inp1{
-  width: 100%;
-  max-width: 334px;
-  min-width: 220px;
+  display: flex;
+  justify-content: space-between;
+  width: 98.5%;
   height: 47px;
+  margin: 0px 0px;
   border: none;
   border: 1px solid #666;
   border-radius: 5px;
   font-size: 14px;
   font-family: Helvetica;
-  color: #222;
-  /* padding: 0px 10px;
-  margin: 0px 20px; */
-transition: background-color 5000s ease-in-out 0s;
+  color: #222; 
+
+}
+
+.inpp{
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.Form{
+width: 100%;
+/* background-color: aquamarine; */
 }
 
 .but{
-  margin: 10px;
-  width: 100%;
-  width: 356px;
+  margin-top: 10px;
   width: 100%;
   height: 52px;
   border: none;
@@ -45,7 +54,7 @@ transition: background-color 5000s ease-in-out 0s;
 
 .GLAV{
  width: 100%;
- /* background-color: rgb(126, 126, 210); */
+ /* background-color: rgb(126, 126, 210);  */
  display: flex;
  flex-direction: column;
  align-items: center;
