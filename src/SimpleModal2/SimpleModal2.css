@@ -29,13 +29,13 @@
   margin: 20px;
   width: 100%;
   max-width: 353px;
-  min-width: 315px;
-  height: auto;
+  min-width: 300px;
+  height: 100%;
   /* max-height: 390px;
   min-height: 350px; */
   border-radius: 20px;
   background-color:#ffffff;
-  padding: 40px 3.7% 45px 3.7%;
+  padding: 0px 3.7% 0px 3.7%;
   /* transform: translateY(-50px); */
   transition: opacity 0.3s, transform 0.3s;
   z-index: 18999;
@@ -74,4 +74,27 @@
 .modal2--exiting .modal-content,
 .modal2--exited .modal-content {
   transform: translateY(-50px);
+}
+
+
+@media screen and (max-width: 383px) {
+
+  .modalcontent3 {
+    position: relative;
+    margin: 20px;
+    width: 100%;
+    max-width: 353px;
+    min-width: 315px;
+    
+    /* max-height: 390px;
+    min-height: 350px; */
+    border-radius: 20px;
+    background-color:#ffffff;
+    padding: 100px 3.7% 5px 3.7%;
+    /* transform: translateY(-50px); */
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 15999;
+  }
+  
+
 }
