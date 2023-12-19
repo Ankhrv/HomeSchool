@@ -48,15 +48,12 @@
 
 /* Главный3 */
 .a{
-    width: 100%;
-    display: flex;
-     /* padding: 36px 0px 40px 0px;
-     color: rgb(221, 221, 221);
-     font-family: Helvetica;
-     font-size: 14px; */
+     width: 100%;
+     display: flex;
      margin-top: 78px;
      background-color: rgb(247, 255, 253);
 }
+
 .div1{
     width: 100%;
     display: flex;

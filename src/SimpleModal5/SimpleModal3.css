@@ -3,6 +3,8 @@
   top: 0;
   left: 0;
   width: 100%;
+  width: 100vm;
+  height: 100vh;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   /* opacity: 0; */
@@ -14,7 +16,7 @@
 
 .modalwrapper3 {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   display: flex;
   justify-content: center;
@@ -28,22 +30,27 @@
   position: relative;
   margin: 20px;
   width: 100%;
-  max-width: 600px;
+  max-width: 353px;
+  min-width: 315px;
+  height: auto;
+  /* max-height: 390px;
+  min-height: 350px; */
   border-radius: 20px;
-  background-color: #ffffff;
-  padding: 40px 20px 20px 20px;
-  transform: translateY(-50px);
+  background-color:#ffffff;
+  padding: 40px 3.7% 50px 3.7%;
+  /* transform: translateY(-50px); */
   transition: opacity 0.3s, transform 0.3s;
   z-index: 15999;
 }
 
 .modalclosebutton3 {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 13px;
+  right: 13px;
   width: 30px;
   height: 30px;
   padding: 0;
+  border: none;
   background-color: transparent;
   z-index: 15999;
 }

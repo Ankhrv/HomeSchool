@@ -4,12 +4,9 @@ import logo2 from '../Header/telegram.png';
 import door from '../Header/door.png';
 import React, { useState } from "react";
 import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
-// import tel from '../Header/logo.messangers/77.png';
-// import tel2 from '../Header/logo.messangers/32.png';
-// import tel3 from '../Header/logo.messangers/33.png';
-// import tel4 from '../Header/logo.messangers/34.png';
-// import { Link } from "react-router-dom";
+import Signin from '../signin/signin';
 import { Helmet } from 'react-helmet';
+
 
 
 
@@ -91,12 +88,7 @@ const Header = () => {
 <a className={a.c5} 
 onClick={() => setModalInfoOpen5(true)}> 
 <img src={door} alt='door'className={a.t2}></img> Войти</a>
-
-
-
 </div>
-
-
 </div>
 
 <div className={a.smenu}>
@@ -104,14 +96,10 @@ onClick={() => setModalInfoOpen5(true)}>
           isOpen={modalInfoIsOpen5}
           onClose={() => setModalInfoOpen5(false)}
         >
-          <h2>Modal Info</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
-            dolorum dolore vero eligendi cum iusto ea quam perspiciatis
-            veritatis rem cupiditate a in, aliquam pariatur.
-          </p>
-        </SimpleModal5> </div>
-
+          <Signin/>
+         
+        </SimpleModal5> 
+        </div>
 </div>
 </div>
 

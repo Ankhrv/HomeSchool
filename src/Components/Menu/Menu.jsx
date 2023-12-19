@@ -6,7 +6,7 @@ import b from './Menu.module.css';
 import door2 from './door2.png';
 import ball from './ball.png';
 import menu2 from './menu2.png';
-
+import Signin from "../signin/signin";
 
 
 
@@ -60,12 +60,8 @@ function Menu() {
           isOpen={modalInfoIsOpen2}
           onClose={() => setModalInfoOpen2(false)}
         >
-          <h2>Modal Info</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
-            dolorum dolore vero eligendi cum iusto ea quam perspiciatis
-            veritatis rem cupiditate a in, aliquam pariatur.
-          </p>
+           <Signin/>
+
         </SimpleModal2> </div>
 
         </div> </div>
