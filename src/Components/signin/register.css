@@ -52,8 +52,10 @@
   font-family: Helvetica;
   color: #222;
   outline:none;
-  padding: 0 10px;
+  padding: 0px 10px;
+  
 }
+
 
 .inp1{
   box-sizing: border-box; 
@@ -70,10 +72,23 @@
   padding: 0 10px;
 }
 
-.inpp{
+.inp3{
+  box-sizing: border-box; 
   width: 100%;
-  background-color: aquamarine;
+  height: 47px;
+  margin: 0px 0px;
+  margin-top: 15px;
+  border: none;
+  border: 1px solid #666;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #222; 
+  outline:none;
+  padding: 0 10px;
 }
+
+
 
 .Form{
 width: 100%;
@@ -127,17 +142,16 @@ width: 100%;
   padding-bottom: 20px;
 }
 
-.zag3{
+.zag3reg{
   padding-top: 5px;
- 
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: #222;
   font-size: 16px;
   font-family: Helvetica;
-  padding-bottom: 50px;
+  padding-bottom: 65px;
 }
 
 .zag33{
@@ -150,7 +164,7 @@ width: 100%;
   flex-wrap: nowrap;
   position: absolute;
   background-color: rgb(255, 255, 255);
-  top: 141px;
+  top: 103px;
   border-radius: 5px;
   margin-right: 44%;
   padding: 3px 5px;
@@ -158,7 +172,7 @@ width: 100%;
   color: #666;
   font-family: Helvetica;
   font-size: 14px;
-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .name1{
@@ -167,7 +181,7 @@ flex-wrap: nowrap;
   flex-wrap: nowrap;
   position: absolute;
   background-color: rgb(255, 255, 255);
-  top:205px;
+  top:166px;
   border-radius: 5px;
   margin-right: 41%;
   padding: 3px 5px;
@@ -177,6 +191,24 @@ flex-wrap: nowrap;
   font-size: 14px;
 
 }
+
+.name2{
+  width: 127px;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top:228px;
+  border-radius: 5px;
+  margin-right: 43.5%;
+  padding: 3px 5px;
+  text-align: center;  
+  color: #666;
+  font-family: Helvetica;
+  font-size: 14px;
+
+}
+
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -199,11 +231,11 @@ transition: background-color 5000s ease-in-out 0s;
     padding-bottom: 10px;
   }
   
-  .zag3{
+  .zag3reg{
     display: flex;
     flex-direction: column;
    align-items: center;
-   padding-bottom: 20px;
+   padding-bottom: 38px;
   
   }
 
@@ -256,4 +288,21 @@ transition: background-color 5000s ease-in-out 0s;
   
   }
 
+  .name2{
+    width: 127px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top:216px;
+    border-radius: 5px;
+    margin-right: 43.5%;
+    padding: 3px 5px;
+    text-align: center;  
+    color: #666;
+    font-family: Helvetica;
+    font-size: 14px;
+  
+  }
+  
 }

@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 export const SimpleModal5 = ({ isOpen, onClose, children }) => {
   const onWrapperClick3 = (event) => {
-    if (event.target.classList.contains("modalwrapper3")) onClose();
+    if (event.target.classList.contains("closed")) onClose();
   };
   return (
     <>
@@ -27,6 +27,7 @@ export const SimpleModal5 = ({ isOpen, onClose, children }) => {
                   className="modalclosebutton3"
                   onClick={() => onClose()}
                 >
+                  
                   <IconClose />
                 </button>
                 {children}

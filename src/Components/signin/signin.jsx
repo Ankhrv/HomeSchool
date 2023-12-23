@@ -3,13 +3,15 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import './input.css';
 // import a from '../signin/form.module.css';
 import Userfront from "@userfront/core";
+import Signin2 from "./signin2";
 
 // import React, { useRef } from 'react';
 
 // const setActivelink = ({isActive}) => isActive ? 'active-link' : 'notactive' ;
   
 
-  Userfront.init("8b66qjvb");
+  
+Userfront.init("8b66qjvb");
   
 
   class Signin extends React.Component {
@@ -86,6 +88,7 @@ import Userfront from "@userfront/core";
          onChange={this.handleInputChange}
         />
  <button type="submit" className='but'>Далее</button>
+ <div className='Err'> {this.state.alertMessage} </div>
  <div className='zag2'>
  Заполняя эту форму, вы подтверждаете, что ознакомились с политикой конфиденциальности и пользовательским соглашением, а также даёте согласие на обработку своих персональных данных
  </div>
@@ -95,7 +98,7 @@ import Userfront from "@userfront/core";
  Ещё нет аккаунта? 
  </div>  
  <div className='zag43'>
-   Зарегистрироваться
+ <Signin2/>
  </div></div>      
  </form>
   );

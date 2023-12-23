@@ -1,12 +1,12 @@
 import React from "react";
 import { Transition } from "react-transition-group";
 import { ReactComponent as IconClose } from "../SimpleModal/icon-close.svg";
-import "./SimpleModal2.css";
+import "./SimpleModal6.css";
 import { Helmet } from 'react-helmet';
 
-export const SimpleModal2 = ({ isOpen, onClose, children }) => {
-  const onWrapperClick = (event) => {
-    if (event.target.classList.contains("modalclosebutton2")) onClose();
+export const SimpleModal6 = ({ isOpen, onClose, children }) => {
+  const onWrapperClick3 = (event) => {
+    if (event.target.classList.contains("closed")) onClose();
   };
   return (
     <>
@@ -18,17 +18,22 @@ export const SimpleModal2 = ({ isOpen, onClose, children }) => {
 
 
       
-      <Transition in={isOpen} timeout={350} unmountOnExit={true}>
+      <Transition in={isOpen} timeout={0} unmountOnExit={true}>
         {(state) => (
-          <div className={`modal2 modal2--${state}`}>
-            <div className="modalwrapper2" onClick={onWrapperClick}>
-              <div className="modalcontent2">
+          <div className={`modal4 modal4--${state}`}>
+            <div className="modalwrapper4" onClick={onWrapperClick3}>
+              <div className="modalcontent4">
                 <button
-                  className="modalclosebutton2"
+                  className="modalclosebutton4"
                   onClick={() => onClose()}
                 >
-                  <IconClose />
+                  
+                  <IconClose/> 
                 </button>
+                <span
+                  className="modalclosebutton"
+                  onClick={() => onClose()}
+                >Войти</span>
                 {children}
               </div>
             </div>
