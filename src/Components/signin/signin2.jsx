@@ -23,7 +23,7 @@ const Signin2 = () => {
       
      </Helmet>
 
-<a onClick={() => setModalInfoOpen5(true)} > Регистрация
+<a className='reg' onClick={() => setModalInfoOpen5(true)} > Регистрация
 </a>
 <div >
         <SimpleModal6

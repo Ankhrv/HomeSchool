@@ -1,5 +1,13 @@
 /* модальное окно */
 
+.span{
+cursor: pointer;
+}
+
+.span:hover{
+  color: rgb(70, 144, 255);
+  }
+  
 .Err{
   color: red;
   margin-bottom: -5px;
@@ -151,11 +159,12 @@ width: 100%;
   color: #222;
   font-size: 16px;
   font-family: Helvetica;
-  padding-bottom: 65px;
+  padding-bottom: 70px;
 }
 
 .zag33{
   padding-right: 5px;
+  color:#222;
 }
 
 .name{
@@ -235,7 +244,7 @@ transition: background-color 5000s ease-in-out 0s;
     display: flex;
     flex-direction: column;
    align-items: center;
-   padding-bottom: 38px;
+   padding-bottom: 39px;
   
   }
 
