@@ -29,10 +29,7 @@ export const SimpleModal6 = ({ isOpen, onClose, children }) => {
                 >     
                   <IconClose/> 
                 </button>
-                <span
-                  className="modalclosebutton"
-                  onClick={() => onClose()}
-                >Войти</span>
+              
                 {children}
               </div>
             </div>

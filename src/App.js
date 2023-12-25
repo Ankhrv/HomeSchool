@@ -9,26 +9,40 @@ import Str5 from './Content/Str5/Str5';
 import Menu from './Components/Menu/Menu';
 import Ball from './Components/Menu/Balll/Ball';
 import Footer from './Components/Footer/Footer';
+import Userfront from "@userfront/core";
+import { Routes, Route,  Navigate, useLocation, } from "react-router-dom";
+import App2 from './App2';
+
+Userfront.init("vnddpqyn");
 
 function App() {
 
   return (
-    <div className="App"> 
-    
-    <Header/>
-     <Str1/>
-     <Str2/>
-     <Str4/>
-     <Str3/>
-     <Str5/>
-    <div className='Menu'>
-    <Menu/>
-    <Ball/>
-    </div>
-   <Footer/>
-    </div>
-   
-  );
+  <Routes>
+
+  <Route path="/" element={<App2 />} />
+  <Route path="/dashboard" element={<RequireAuth> <App2 /> </RequireAuth>} /> 
+{/* 
+  <Route path="/UserProfileinfo" element={<RequireAuth> <UserProfileinfo /> </RequireAuth>} />
+
+  <Route path="/Designnproject" element={<RequireAuth> <Designnproject /> </RequireAuth>} /> */}
+
+
+</Routes>
+
+);
 }
 
+
+
 export default App;
+
+function RequireAuth({ children }) {
+let location = useLocation();
+if (!Userfront.tokens.accessToken) {
+// Redirect to the /login page
+return <Navigate to="/" state={{ from: location }} replace />;
+}
+
+return children;
+}

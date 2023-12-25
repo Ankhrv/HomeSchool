@@ -7,13 +7,14 @@ import door2 from './door2.png';
 import ball from './ball.png';
 import menu2 from './menu2.png';
 import Signin from "../signin/signin";
-
+import Register from '../signin/registr';
 
 
 function Menu() {
   const [modalInfoIsOpen2, setModalInfoOpen2] = useState(false);
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
-
+  const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
+  const [status, setStatus] = useState(false);
   return (
     <div className={b.smenua}>
          <div className={b.smenuaa}>
@@ -55,15 +56,31 @@ function Menu() {
          </div>
         </SimpleModal>
         
+        {
+  status ? <>
+
+<div className={b.smenu}>
+        <SimpleModal2
+          isOpen={modalInfoIsOpen2}
+          onClose={() => setModalInfoOpen2(false)}>
+          <Register/>
+          <button onClick={() => setStatus(false)}>Войти</button>
+        </SimpleModal2> 
+        </div>
+        
+          </> : <>
+
         <div className={b.smenu}>
         <SimpleModal2
           isOpen={modalInfoIsOpen2}
           onClose={() => setModalInfoOpen2(false)}
         >
-           <Signin/>
-
-        </SimpleModal2> </div>
-
+          <Signin/>
+             <button className={b.reg} onClick={() => setStatus(true)}>Регистрация</button>
+        </SimpleModal2> 
+        </div>
+</>
+}
         </div> </div>
   
        

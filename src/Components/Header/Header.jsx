@@ -6,13 +6,16 @@ import React, { useState } from "react";
 import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
 import Signin from '../signin/signin';
 import { Helmet } from 'react-helmet';
+import Register from '../signin/registr';
 
 
 
 
 const Header = () => {
    const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
+   const [status, setStatus] = useState(false);
   
+
     return (
 <div className={a.A1}>
 <Helmet>
@@ -91,15 +94,32 @@ onClick={() => setModalInfoOpen5(true)}>
 </div>
 </div>
 
+{
+  status ? <>
+
 <div className={a.smenu}>
+        <SimpleModal5
+          isOpen={modalInfoIsOpen5}
+          onClose={() => setModalInfoOpen5(false)}>
+          <Register/>
+          <button className={a.reg2} onClick={() => setStatus(false)}>Войти</button>
+        </SimpleModal5> 
+        </div>
+        
+          </> : <>
+
+        <div className={a.smenu}>
         <SimpleModal5
           isOpen={modalInfoIsOpen5}
           onClose={() => setModalInfoOpen5(false)}
         >
           <Signin/>
-         
+             <button className={a.reg} onClick={() => setStatus(true)}>Зарегистрироваться</button>
         </SimpleModal5> 
         </div>
+</>
+}
+
 </div>
 </div>
 

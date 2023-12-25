@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import './register.css';
 // import a from '../signin/form.module.css';
 import Userfront from "@userfront/core";
-import Signin3 from "./signin3";
+// import Signin3 from "./signin3";
 
 // import React, { useRef } from 'react';
 
@@ -11,7 +11,7 @@ import Signin3 from "./signin3";
   
 
   
-Userfront.init("8b66qjvb");
+Userfront.init("vnddpqyn");
   
 
   class Register extends React.Component {
@@ -19,7 +19,7 @@ Userfront.init("8b66qjvb");
       super(props);
       this.state = {
         email: "",
-        // accountName: "",
+        accountName: "",
         password: "",
         passwordVerify: "",
         alertMessage: "",
@@ -49,7 +49,7 @@ Userfront.init("8b66qjvb");
         email: this.state.email,
         password: this.state.password,
         data: {
-          // accountName: this.state.accountName,
+          accountName: this.state.accountName,
           email: this.state.email,
         },
       }).catch((error) => {
@@ -61,7 +61,6 @@ Userfront.init("8b66qjvb");
       this.setState({ alertMessage: message });
     }
   
-  
     render() {
     
 
@@ -69,7 +68,7 @@ Userfront.init("8b66qjvb");
     <form className='Form' onSubmit={this.handleSubmit} >
     <div className='GLAV'>
     <div className='zag'>Регистрация</div>
-    <div className='name'>Введите ваше имя</div>
+    <div className='name'>Введите вашу почту</div>
     <input className='inp'
      name="email"
      type="email"
@@ -77,15 +76,23 @@ Userfront.init("8b66qjvb");
      onChange={this.handleInputChange}
     
    />
-   <div className='name1'>Введите ваш пароль</div>
-   <input className='inp1'
+     <div className='name1'>Введите ваше имя</div>        
+     <input className='inp1'
+             name="accountName"
+             type="text"
+             value={this.state.accountName}
+             onChange={this.handleInputChange}  
+           />
+   <div className='name2'>Введите ваш пароль</div>
+   <input className='inp3'
             name="password"
             type="password"
             value={this.state.password}
             onChange={this.handleInputChange}
            />
 
-<div className='name2'>Повторите пароль</div>
+
+<div className='name3'>Повторите ваш пароль</div>
    <input className='inp3'
              name="passwordVerify"
              type="password"

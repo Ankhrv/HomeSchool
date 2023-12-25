@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import './input.css';
 // import a from '../signin/form.module.css';
 import Userfront from "@userfront/core";
-import Signin2 from "./signin2";
+
 
 // import React, { useRef } from 'react';
 
@@ -11,7 +11,7 @@ import Signin2 from "./signin2";
   
 
   
-Userfront.init("8b66qjvb");
+Userfront.init("vnddpqyn");
   
 
   class Signin extends React.Component {
@@ -72,7 +72,7 @@ Userfront.init("8b66qjvb");
  <form className='Form' onSubmit={this.handleSubmit} >
  <div className='GLAV'>
  <div className='zag'>Вход в личный кабинет</div>
- <div className='name'>Введите ваше имя</div>
+ <div className='name0'>Введите вашу почту</div>
  <input className='inp'
  name="emailOrUsername"
  type="text"
@@ -80,7 +80,7 @@ Userfront.init("8b66qjvb");
  onChange={this.handleInputChange}
  
 />
-<div className='name1'>Введите ваш пароль</div>
+<div className='name11'>Введите ваш пароль</div>
 <input className='inp1'
          name="password"
          type="password"
@@ -98,7 +98,7 @@ Userfront.init("8b66qjvb");
  Ещё нет аккаунта? 
  </div>  
  <div className='zag43'>
- <Signin2/>
+ 
  </div></div>      
  </form>
   );

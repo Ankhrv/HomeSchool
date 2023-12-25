@@ -76,6 +76,35 @@
     /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
 }
 
+.reg{
+position:relative;
+bottom: 2.6em;
+left: 166px;
+color: rgb(70, 144, 255);
+font-size: 16px;
+font-family: Helvetica;
+border: none;
+background-color: white;
+cursor: pointer;
+}
+
+
+.reg2{
+    position:relative;
+    bottom: 2.6em;
+    left: 223px;
+    color: rgb(70, 144, 255);
+    font-size: 16px;
+    font-family: Helvetica;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    }
+    
+    .reg:hover,.reg2:hover{
+        color: rgb(13, 130, 66);
+    }
+
 .phone{
     display: flex;
 }
