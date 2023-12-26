@@ -62,7 +62,7 @@ function Menu() {
 <div className={b.smenu}>
         <SimpleModal2
           isOpen={modalInfoIsOpen2}
-          onClose={() => setModalInfoOpen2(false)}>
+          onClose={() => setModalInfoOpen5(false)}>
           <Register/>
           <button className={b.reg2} onClick={() => setStatus(false)}>Войти</button>
         </SimpleModal2> 
