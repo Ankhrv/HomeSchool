@@ -10,6 +10,34 @@
 
 
 
+.reg{
+    position:relative;
+    bottom: 2.56em;
+    left: 166px;
+    color: rgb(70, 144, 255);
+    font-size: 16px;
+    font-family: Helvetica;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    }
+    
+    
+    .reg2{
+        position:relative;
+        bottom: 2.56em;
+        left: 223px;
+        color: rgb(70, 144, 255);
+        font-size: 16px;
+        font-family: Helvetica;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        }
+        
+        .reg:hover,.reg2:hover{
+            color: rgb(13, 130, 66);
+        }
 
 /* шар меню главный*/
 .modalbutton2{
@@ -169,4 +197,45 @@
 
     .b18{padding-top:  15px;
     }
-    
+    @media screen and (max-width: 424px) {
+        .reg{
+            position:relative;
+           
+            left: 50%;
+            color: rgb(70, 144, 255);
+            font-size: 16px;
+            font-family: Helvetica;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            }
+    }
+
+
+    @media screen and (max-width: 383px) {
+
+    .reg{
+        position:relative;
+        bottom: 1.5em;
+        left: 21%;
+        color: rgb(70, 144, 255);
+        font-size: 16px;
+        font-family: Helvetica;
+        border: none;
+        background-color: rgb(249, 249, 249, 0);
+        cursor: pointer;
+        }
+        
+        
+        .reg2{
+            position:relative;
+            bottom: 1.5em;
+            left: 40%; 
+            color: rgb(70, 144, 255);
+            font-size: 16px;
+            font-family: Helvetica;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            }
+        }

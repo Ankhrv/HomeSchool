@@ -64,7 +64,7 @@ function Menu() {
           isOpen={modalInfoIsOpen2}
           onClose={() => setModalInfoOpen2(false)}>
           <Register/>
-          <button onClick={() => setStatus(false)}>Войти</button>
+          <button className={b.reg2} onClick={() => setStatus(false)}>Войти</button>
         </SimpleModal2> 
         </div>
         
@@ -76,7 +76,7 @@ function Menu() {
           onClose={() => setModalInfoOpen2(false)}
         >
           <Signin/>
-             <button className={b.reg} onClick={() => setStatus(true)}>Регистрация</button>
+             <button className={b.reg} onClick={() => setStatus(true)}>Зарегистрироваться</button>
         </SimpleModal2> 
         </div>
 </>

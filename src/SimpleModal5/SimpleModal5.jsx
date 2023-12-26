@@ -26,8 +26,7 @@ export const SimpleModal5 = ({ isOpen, onClose, children }) => {
                 <button
                   className="modalclosebutton3"
                   onClick={() => onClose()}
-                >
-                  
+                > 
                   <IconClose />
                 </button>
                 {children}

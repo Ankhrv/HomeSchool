@@ -15,8 +15,6 @@ export const SimpleModal2 = ({ isOpen, onClose, children }) => {
         <meta name="description" content="Удобное обучение не выходя из дома" />
         <meta name="theme-color" content="#0D8259" />
       </Helmet>
-
-
       
       <Transition in={isOpen} timeout={350} unmountOnExit={true}>
         {(state) => (
