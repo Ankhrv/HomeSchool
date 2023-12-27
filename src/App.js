@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer';
 import Userfront from "@userfront/core";
 import { Routes, Route,  Navigate, useLocation, } from "react-router-dom";
 import App2 from './App2';
+import App2auth from './App2auth';
 
 Userfront.init("vnddpqyn");
 
@@ -21,7 +22,7 @@ function App() {
   <Routes>
 
   <Route path="/" element={<App2 />} />
-  <Route path="/dashboard" element={<RequireAuth> <App2 /> </RequireAuth>} /> 
+  <Route path="/dashboard" element={<RequireAuth> <App2auth /> </RequireAuth>} /> 
 {/* 
   <Route path="/UserProfileinfo" element={<RequireAuth> <UserProfileinfo /> </RequireAuth>} />
 

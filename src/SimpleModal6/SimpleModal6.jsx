@@ -18,18 +18,17 @@ export const SimpleModal6 = ({ isOpen, onClose, children }) => {
 
 
       
-      <Transition in={isOpen} timeout={0} unmountOnExit={true}>
+      <Transition in={isOpen} timeout={350} unmountOnExit={true}>
         {(state) => (
-          <div className={`modal4 modal4--${state}`}>
-            <div className="modalwrapper4" onClick={onWrapperClick3}>
-              <div className="modalcontent4">
+          <div className={`modal3 modal3--${state}`}>
+            <div className="modalwrapper3" onClick={onWrapperClick3}>
+              <div className="modalcontent3">
                 <button
-                  className="modalclosebutton4"
+                  className="modalclosebutton3"
                   onClick={() => onClose()}
-                >     
-                  <IconClose/> 
+                > 
+                  <IconClose />
                 </button>
-              
                 {children}
               </div>
             </div>
