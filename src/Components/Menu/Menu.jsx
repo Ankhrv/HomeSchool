@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SimpleModal } from "../../SimpleModal/SimpleModal";
 import { SimpleModal2 } from "../../SimpleModal2/SimpleModal2";
 import { SimpleModal6 } from "../../SimpleModal6/SimpleModal6";
-import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
+// import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
 import { Helmet } from 'react-helmet';
 import b from './Menu.module.css';
 import door2 from './door2.png';
@@ -16,7 +16,7 @@ import BezplZan from '../BesplZan/BezplZan';
 function Menu() {
   const [modalInfoIsOpen2, setModalInfoOpen2] = useState(false);
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
-  const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
+  // const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
   const [modalInfoIsOpen6, setModalInfoOpen6] = useState(false);
   const [status, setStatus] = useState(false);
   return (
