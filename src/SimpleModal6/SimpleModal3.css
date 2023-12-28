@@ -14,7 +14,7 @@
   z-index: 15999;
 }
 
-.modalwrapper3 {
+.modalwrapper3s {
   position: absolute;
   top: 0px;
   left: 0;
@@ -26,11 +26,11 @@
   z-index: 15999;
 }
 
-.modalcontent3 {
+.modalcontent3s {
   position: relative;
   margin: 20px;
   width: 100%;
-  max-width: 353px;
+  max-width: 503px;
   min-width: 290px;
   height: auto;
   /* max-height: 390px;
@@ -43,10 +43,10 @@
   z-index: 15999;
 }
 
-.modalclosebutton3 {
+.modalclosebutton3s {
   position: absolute;
-  top: 13px;
-  right: 13px;
+  top: 6px;
+  right: 6px;
   width: 30px;
   height: 30px;
   padding: 0;

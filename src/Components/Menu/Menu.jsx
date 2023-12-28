@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { SimpleModal } from "../../SimpleModal/SimpleModal";
 import { SimpleModal2 } from "../../SimpleModal2/SimpleModal2";
 import { SimpleModal6 } from "../../SimpleModal6/SimpleModal6";
+import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
 import { Helmet } from 'react-helmet';
 import b from './Menu.module.css';
 import door2 from './door2.png';
@@ -77,7 +78,7 @@ function Menu() {
 <div className={b.smenu}>
         <SimpleModal2
           isOpen={modalInfoIsOpen2}
-          onClose={() => setModalInfoOpen5(false)}>
+          onClose={() => setModalInfoOpen2(false)}>
           <Register/>
           <button className={b.reg2} onClick={() => setStatus(false)}>Войти</button>
         </SimpleModal2> 

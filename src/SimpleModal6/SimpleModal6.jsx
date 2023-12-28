@@ -1,7 +1,7 @@
 import React from "react";
 import { Transition } from "react-transition-group";
 import { ReactComponent as IconClose } from "../SimpleModal/icon-close.svg";
-import "./SimpleModal6.css";
+import "./SimpleModal3.css";
 import { Helmet } from 'react-helmet';
 
 export const SimpleModal6 = ({ isOpen, onClose, children }) => {
@@ -22,9 +22,9 @@ export const SimpleModal6 = ({ isOpen, onClose, children }) => {
         {(state) => (
           <div className={`modal3 modal3--${state}`}>
             <div className="modalwrapper3" onClick={onWrapperClick3}>
-              <div className="modalcontent3">
+              <div className="modalcontent3s">
                 <button
-                  className="modalclosebutton3"
+                  className="modalclosebutton3s"
                   onClick={() => onClose()}
                 > 
                   <IconClose />

@@ -90,7 +90,7 @@ Userfront.init("vnddpqyn");
  <button type="submit" className='but'>Далее</button>
  <div className='Err'> {this.state.alertMessage} </div>
  <div className='zag2'>
- Заполняя эту форму, вы подтверждаете, что ознакомились с политикой конфиденциальности и <span className='span'>пользовательским соглашением </span>, а также даёте согласие на <span className='span'>обработку своих персональных данных</span>
+ Заполняя эту форму, вы подтверждаете, что ознакомились с <span className='span'>политикой конфиденциальности</span> и <span className='span'>пользовательским соглашением </span>, а также даёте согласие на <span className='span'>обработку своих персональных данных</span>
  </div>
  </div>
  <div className='zag3'>
