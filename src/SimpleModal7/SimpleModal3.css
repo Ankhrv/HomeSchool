@@ -1,9 +1,8 @@
-* {
- 
-}
 
 
-.modal {
+
+.modal7 {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -15,39 +14,36 @@
   z-index: 999;
   width: 100vw;
   height: 100vh;
-  margin: 0;
-  padding: 0;
+  opacity: 1;
   overflow: hidden;
+  z-index: 1101;
+ 
 }
-/* 
-.modal:target {
-  display: block;
-} */
 
-.modal::-webkit-scrollbar {
+
+.modal7::-webkit-scrollbar {
   display: none;
 }
 
-.modal{
+.modal7{
 -ms-overflow-style: none;  /* IE и Edge */
 scrollbar-width: none;  /* Firefox */
 }
 
 
-.modal-wrapper {
+.modal-wrapper7 {
  position: fixed; 
  height: 94%;
- 
  width: 100%;
  display: flex;
- justify-content: flex-end;
+ justify-content: flex-start;
  align-items: flex-end;
  bottom: 66px; 
- right: 8px;
+ left: 8px;
  z-index: 988; 
 }
 
-.nnn{
+.nnn7{
   position:relative;
   height: 94%;  
   height: 83%;
@@ -60,25 +56,25 @@ scrollbar-width: none;  /* Firefox */
   border-radius: 5px 5px 5px 5px;
   overflow:scroll;
   transform: translateY(0px); 
-  
   z-index: 13333;
   /* background-color: white;} */
 }
 
-  .nnn::-webkit-scrollbar {
+  .nnn7::-webkit-scrollbar {
     display: none;
   }
 
-  .nnn{
+  .nnn7{
   -ms-overflow-style: none;  /* IE и Edge */
   scrollbar-width: none;  /* Firefox */
   }
 
-.modal-content {
+.modal-content7 {
+
 height: auto;
 }
 
- .modal-close-button {
+ .modal-close-button7 {
   border: 0px;
   position: fixed;
   bottom: 49px;
@@ -89,17 +85,18 @@ height: auto;
   background-color: rgb(52, 29, 29, 0); 
   z-index: 12222;
   display: none;
+
 }
 
 /* open */
 
-.modal--entering,
-.modal--entered {
+.modal7--entering,
+.modal7--entered {
   opacity: 1;
 }
 
-.modal--entering .modal-content,
-.modal--entered .modal-content {
+.modal7--entering .modal-content7,
+.modal7--entered .modal-content7 {
   transform: translateY(0px); 
   
 }

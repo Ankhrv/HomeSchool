@@ -1,21 +1,19 @@
 import React, { useEffect } from "react";
 import { Transition } from "react-transition-group";
-
 import { ReactComponent as IconClose } from "../SimpleModal/icon-close.svg";
-import "./SimpleModal.css";
+import "./SimpleModal3.css";
 import { Helmet } from 'react-helmet';
 
-export const SimpleModal = ({ isOpen, onClose, children }) => {
+export const SimpleModal7 = ({ isOpen, onClose, children }) => {
   const onWrapperClick = (event) => {
-    event.stopPropagation();
-    if (event.target.classList.contains("modal-wrapper")) onClose();
+    if (event.target.classList.contains("modal-wrapper7")) onClose();
   };
 
   useEffect(() => {
     const body = document.querySelector('body');
     body.style.overflow = isOpen ? 'hidden' : 'auto';
   }, [isOpen])
-  
+
   return (
     <>
     <Helmet>
@@ -29,13 +27,12 @@ export const SimpleModal = ({ isOpen, onClose, children }) => {
       <Transition in={isOpen} timeout={0} unmountOnExit={true}>
         {(state) => (
           
-          <div className={`modal modal--${state}`}>
+          <div className={`modal7 modal7--${state}`}>
              
-            <div className="modal-wrapper" onClick={onWrapperClick }> 
-            {/* <InnerModal onClick={e => e.stopPropagation()} /> */}
-            <div className="nnn">    <div className="modal-content"></div>
+            <div className="modal-wrapper7" onClick={onWrapperClick}> 
+            <div className="nnn7">    <div className="modal-content7"></div>
              <button
-                  className="modal-close-button"
+                  className="modal-close-button7"
                   onClick={() => onClose()}
                 >
                   <IconClose />

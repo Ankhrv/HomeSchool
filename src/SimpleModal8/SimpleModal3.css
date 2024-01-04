@@ -1,15 +1,11 @@
-* {
- 
-}
 
-
-.modal {
+.modal8 {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
   opacity: 0;  
   transition: opacity 0.3s;
   z-index: 999;
@@ -24,61 +20,60 @@
   display: block;
 } */
 
-.modal::-webkit-scrollbar {
+.modal8::-webkit-scrollbar {
   display: none;
 }
 
-.modal{
+.modal8{
 -ms-overflow-style: none;  /* IE и Edge */
 scrollbar-width: none;  /* Firefox */
 }
 
-
-.modal-wrapper {
+.modal-wrapper8 {
  position: fixed; 
- height: 94%;
- 
+ height: 74%;
  width: 100%;
  display: flex;
  justify-content: flex-end;
- align-items: flex-end;
- bottom: 66px; 
+ align-items: flex-start;
+ top: 76px; 
  right: 8px;
  z-index: 988; 
 }
 
-.nnn{
+.nnn8{
   position:relative;
-  height: 94%;  
-  height: 83%;
-  max-height:415px;
+  height: 100%;  
+  height: 100%;
+  max-height:320px;
   /* display: flex;
   align-items: end; */
   margin-bottom: 0px; 
   margin-top: 0px;  
   background-color: white;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 10px 10px 10px 10px;
   overflow:scroll;
   transform: translateY(0px); 
-  
+  box-shadow: 0px 0px 17px 0px #909090;
   z-index: 13333;
   /* background-color: white;} */
 }
 
-  .nnn::-webkit-scrollbar {
+  .nnn8::-webkit-scrollbar {
     display: none;
   }
 
-  .nnn{
+  .nnn8{
   -ms-overflow-style: none;  /* IE и Edge */
   scrollbar-width: none;  /* Firefox */
   }
 
-.modal-content {
-height: auto;
+.modal-content8 {
+
+/* height: auto; */
 }
 
- .modal-close-button {
+ .modal-close-button8 {
   border: 0px;
   position: fixed;
   bottom: 49px;
@@ -86,22 +81,23 @@ height: auto;
   width: 35px;
   height: 27px;
   /* padding: 10px; */
-  background-color: rgb(52, 29, 29, 0); 
+  background-color: rgb(52, 29, 29, 0);
   z-index: 12222;
   display: none;
+
 }
 
 /* open */
 
-.modal--entering,
-.modal--entered {
+.modal8--entering,
+.modal8--entered {
   opacity: 1;
 }
 
-.modal--entering .modal-content,
-.modal--entered .modal-content {
-  transform: translateY(0px); 
-  
+.modal8--entering .modal-content8,
+.modal8--entered .modal-content8 {
+  transform: translateY(0px);
+
 }
 
 /* close */
@@ -116,6 +112,6 @@ height: auto;
 
   /* transform: translateY(-350px); */
    /* transform: translateX(0px);
-  
+
   transform: translateY(0px);  */
 }

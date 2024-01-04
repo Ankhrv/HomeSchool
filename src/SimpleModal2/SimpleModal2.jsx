@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Transition } from "react-transition-group";
 import { ReactComponent as IconClose } from "../SimpleModal/icon-close.svg";
 import "./SimpleModal2.css";
@@ -8,6 +8,12 @@ export const SimpleModal2 = ({ isOpen, onClose, children }) => {
   const onWrapperClick = (event) => {
     if (event.target.classList.contains("modalclosebutton2")) onClose();
   };
+
+  useEffect(() => {
+    const body = document.querySelector('body');
+    body.style.overflow = isOpen ? 'hidden' : 'auto';
+  }, [isOpen])
+  
   return (
     <>
     <Helmet>

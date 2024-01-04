@@ -20,7 +20,7 @@ function App2() {
     
     <div className="App"> 
    
-    <Header/>
+     <Header/>
      <Str1/>
      <Str2/>
      <Str4/>
@@ -30,7 +30,7 @@ function App2() {
     <Menu/>
     <Ball/>
     </div>
-   <Footer/>
+    <Footer/>
     </div>
  
   );

@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from "react";
 import a from './Footer.module.css';
+import Signin from '../signin/signin';
 import { Helmet } from 'react-helmet';
+import Register from '../signin/registr';
 import logo5 from './0100.png';
 import 'primeicons/primeicons.css';
+import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
 // import logo2 from '../Header/telegram.png';
 // import door from '../Header/door.png';
 
 
 const Footer = () => {
+
+    const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
+    const [status, setStatus] = useState(false);
+
     return (
 <div className={a.A1}>
 <Helmet>
@@ -58,9 +65,10 @@ const Footer = () => {
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (495) 032-99-99</a>
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (800) 775-50-70</a>
 </div>
+
 <div className={a.footer3}>
 
-<a className={ `${a.f} ${a.fe3}` }>Регистрация</a>
+<a className={ `${a.f} ${a.fe}` } onClick={() => setModalInfoOpen5(true)}>Регистрация</a>
 <a className={ `${a.f} ${a.fff} ${a.fe}` }>Инструкция пользования сайтом</a>
 <a className={ `${a.f} ${a.fff} ${a.fe}` }>Системные требования</a>
 <a className={ `${a.f} ${a.fff} ${a.fe}` }>Пользовательское соглашение</a>
@@ -69,14 +77,10 @@ const Footer = () => {
 <a className={ `${a.f} ${a.fff} ${a.fe}` }>Правила пользования сайтом</a>
 <a className={ `${a.f} ${a.fff}` }>Онлайн-школа «Home-School» © 2024</a>
 
-
-
 </div>
 </div>
 
 <div className={a.footerr}>
-
-
 
 <div className={a.socials}> 
 <div className={a.vk}></div> 
@@ -91,11 +95,32 @@ const Footer = () => {
 {/* <a className={ `${a.fp} ${a.fe2} ${a.fff}` }>Министерство Образования и Науки РФЛицензия</a> */}
 </div></div>
 
+{
+  status ? <>
 
+<div className={a.smenu}>
+        <SimpleModal5
+          isOpen={modalInfoIsOpen5}
+          onClose={() => setModalInfoOpen5(false)}
+        >
+          <Signin/>
+             <button className={a.reg} onClick={() => setStatus(false)}>Зарегистрироваться</button>
+        </SimpleModal5> 
+        </div>
 
+          </> : <>
 
-
-
+          <div className={a.smenu}>
+        <SimpleModal5
+          isOpen={modalInfoIsOpen5}
+          onClose={() => setModalInfoOpen5(false)}>
+          <Register/>
+          <button className={a.reg2} onClick={() => setStatus(true)}>Войти</button>
+        </SimpleModal5> 
+        </div>
+          
+</>
+}
 
 </div>
 </div>
