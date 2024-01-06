@@ -6,23 +6,25 @@ import { Helmet } from 'react-helmet';
 
 
 
-const Os = () => {
+
+const Sysreq = () => {
     return (
-<div className={o.A1}>
+     
+<div className={o.A14}>
 <Helmet>
         <title>Домашняя школа</title>
         <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
        
       </Helmet>
-<div className={o.A}>
-        <div className={o.a}>
-      
-           
-        </div></div>
+<div className={o.A4}>
+        <div className={o.a4}>
+      hhhhhhhhhhhhhhhhhhh
+        </div>  
+        </div>
         </div>
         
 
         );
 }
 
-export default Os;
+export default Sysreq;

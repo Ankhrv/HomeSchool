@@ -1,0 +1,13 @@
+.active-link, .active-link2, .active-link3, .active-link4, .active-link5, .active-link6, .active-link7, .active-link10, .active-link11 {
+   
+    color: rgb(13, 130, 66);
+    text-decoration: none;
+    }
+    
+.notactive2, .notactive3, .notactive10, .notactive11{
+    text-decoration: none;
+    color:#222;
+}
+/* .notactive:hover{
+
+}  */

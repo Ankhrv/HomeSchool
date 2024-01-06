@@ -58,6 +58,7 @@ const Bezplzan = (props) => {
   value={value}
   onChange={setValue}
   maxLength="16"
+  minLength="15"
   name="phone"
  />
  </div>

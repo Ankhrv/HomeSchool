@@ -18,9 +18,6 @@ const Footer = () => {
     textDecoration: "none",
   };
 
-    const [modalInfoIsOpen2, setModalInfoOpen2] = useState(false);
-    const [status, setStatus] = useState(false);
-
     return (
 <div className={a.A1}>
 <Helmet>
@@ -33,8 +30,8 @@ const Footer = () => {
 
 <div className={a.footer}>
 <div className={a.c4}>
-    <a className={a.log}></a>
-    <a className={a.log2}>Home-School</a>
+ <a className={a.log}></a>
+  <Link to="/dashboard"><a className={a.log2}>Home-School</a></Link>
 </div>
 
 
@@ -57,12 +54,12 @@ const Footer = () => {
 <a className={ `${a.f} ${a.fe}` }>Видеоуроки</a>
 <a className={ `${a.f} ${a.fe}` }>Спроси учителя</a>
 <a className={ `${a.f} ${a.fe}` }>Стоимость</a>
-<Link to="/lichnyi-kabinet" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Личный кабинет</a></Link>
+<Link to="/lichnyi-kabinet-auth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Личный кабинет</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Полезное родителям</a>
 </div>
 <div className={a.footer2}>
 <a className={`${a.f} ${a.skr}`}>Техподдержка</a>
-<Link to="/obratnaja-sviaz" style={linkStyle}><a className={ `${a.fs} ${a.fe}` }><i className="pi pi-question-circle" style={{ fontSize: '14px', padding: '8px' }}></i> Обратная связь</a></Link>
+<Link to="/obratnaja-sviaz-auth" style={linkStyle}><a className={ `${a.fs} ${a.fe}` }><i className="pi pi-question-circle" style={{ fontSize: '14px', padding: '8px' }}></i> Обратная связь</a></Link>
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-telegram" style={{ fontSize: '14px', padding: '8px' }}></i> Телеграм</a>
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-whatsapp" style={{ fontSize: '14px', padding: '8px' }}></i> WhatsApp</a>
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-envelope" style={{ fontSize: '14px', padding: '8px' }}></i> school@infourok.ru</a>
@@ -74,9 +71,9 @@ const Footer = () => {
 
 <div className={a.footer3}>
 
-<a className={ `${a.f} ${a.fe}` } onClick={() => setModalInfoOpen2(true)}>Регистрация</a>
+<a className={ `${a.f} ${a.fee}` } >Регистрация</a>
 <a href={PDF1} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Инструкция пользования сайтом</a>
-<Link to="/system-requirements" style={linkStyle}><a className={ `${a.f} ${a.fff} ${a.fe}` }>Системные требования</a></Link>
+<Link to="/system-requirements-auth" style={linkStyle}><a className={ `${a.f} ${a.fff} ${a.fe}` }>Системные требования</a></Link>
 <a href={PDF2} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Пользовательское соглашение</a>
 <a href={PDF3} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Политика конфиденциальности</a>
 <a href={PDF4} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Политика о персональных данных</a>
@@ -101,32 +98,7 @@ const Footer = () => {
 {/* <a className={ `${a.fp} ${a.fe2} ${a.fff}` }>Министерство Образования и Науки РФЛицензия</a> */}
 </div></div>
 
-{
-  status ? <>
 
-<div className={a.smenu}>
-        <SimpleModal2
-          isOpen={modalInfoIsOpen2}
-          onClose={() => setModalInfoOpen2(false)}
-        >
-          <Signin/>
-             <button className={a.reg} onClick={() => setStatus(false)}>Зарегистрироваться</button>
-        </SimpleModal2> 
-        </div>
-
-          </> : <>
-
-          <div className={a.smenu}>
-        <SimpleModal2
-          isOpen={modalInfoIsOpen2}
-          onClose={() => setModalInfoOpen2(false)}>
-          <Register/>
-          <button className={a.reg2} onClick={() => setStatus(true)}>Войти</button>
-        </SimpleModal2> 
-        </div>
-          
-</>
-}
 
 </div>
 </div>

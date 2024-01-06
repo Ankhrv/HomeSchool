@@ -18,7 +18,7 @@ function Menu() {
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
   // const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
   const [modalInfoIsOpen6, setModalInfoOpen6] = useState(false);
-  const [status, setStatus] = useState(false);
+  // const [status, setStatus] = useState(false);
   return (
     <div className={b.smenua}>
          <div className={b.smenuaa}>

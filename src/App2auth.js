@@ -7,7 +7,7 @@ import Str4 from './Content/Str4/Str4';
 import Str5 from './Content/Str5/Str5';
 import Menuauth from './Components/Menu/Menuauth';
 import Ball from './Components/Menu/Balll/Ball';
-import Footer from './Components/Footer/Footer';
+import Footerauth from './Components/Footer/Footerauth';
 import Userfront from "@userfront/core";
 import { Routes, Route,  Navigate, useLocation, } from "react-router-dom";
 import Headerauth from './Components/Header/Headerauth';
@@ -30,7 +30,7 @@ function App2auth() {
     <Menuauth/>
     <Ball/>
     </div>
-   <Footer/>
+   <Footerauth/>
     </div>
  
   );

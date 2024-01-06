@@ -11,16 +11,18 @@ import menu2 from './menu2.png';
 import Signin from "../signin/signin";
 import Register from '../signin/registr';
 import BezplZan from '../BesplZan/BezplZan';
+import { NavLink } from "react-router-dom";
+import '../Menu/active.css';
 
 
 function Menu() {
+  const setActive2 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
+  const setActive3 = ({isActive}) => isActive ? 'active-link3' : 'notactive3' ;
   const [modalInfoIsOpen2, setModalInfoOpen2] = useState(false);
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
   // const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
   const [modalInfoIsOpen6, setModalInfoOpen6] = useState(false);
   const [status, setStatus] = useState(false);
-
-
   
   return (
     <div className={b.smenua}>
@@ -56,13 +58,13 @@ function Menu() {
           onClose={() => setModalInfoOpen(false)}
         >
          <div className={b.b}>
-         <div className={b.b18}>Главная</div>
+         <NavLink to="/" className={setActive2}><div className={b.b18}>Главная</div></NavLink>  
          <div className={b.b1}>Кабинет педагога</div>
          <div className={b.b1}>ОГЭ</div>
          <div className={b.b1}>Спроси учителя</div>
          <div className={b.b1}>Видеоуроки</div>
          <div className={b.b1}>Видеолекции</div>
-         <div className={b.b1}>Обратная связь</div>
+         <NavLink to="/obratnaja-sviaz" className={setActive3}><div className={b.b1}>Обратная связь</div></NavLink>  
          <div className={b.b17}>Стоимость</div>
          </div>
         </SimpleModal>
