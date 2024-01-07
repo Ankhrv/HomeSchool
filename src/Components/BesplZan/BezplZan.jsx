@@ -9,6 +9,7 @@ import ru from 'react-phone-number-input/locale/ru'
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 import s from '../BesplZan/M.module.css';
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Bezplzan = (props) => {
   const navigate = useNavigate()
@@ -29,7 +30,7 @@ const Bezplzan = (props) => {
       setButtonText("Отправлено");
       console.log(result.text);
       e.target.reset();
-      navigate('/');
+      navigate('/login');
   }, (error) => {
       console.log(error.text);
       setButtonText("Sending Failed");
@@ -53,6 +54,7 @@ const Bezplzan = (props) => {
     
 <div className={s.name100}>Мобильный телефон</div>
 <div className={s.i}>
+
 <PhoneInput 
   labels={ru}
   value={value}
@@ -61,9 +63,11 @@ const Bezplzan = (props) => {
   minLength="15"
   name="phone"
  />
+
  </div>
-<div><button  className={s.knop} type="submit" value="Перезвоните мне">{buttonText}
-      </button></div>
+ <div>
+
+  <button  className={s.knop} type="submit" value="Перезвоните мне">{buttonText}</button></div>
      </div>
     
     </form>

@@ -47,9 +47,7 @@ scrollbar-width: none;  /* Firefox */
   position:relative;
   height: 94%;  
   height: 83%;
-  max-height:415px;
-  /* display: flex;
-  align-items: end; */
+  max-height:320px;
   margin-bottom: 0px; 
   margin-top: 0px;  
   background-color: white;

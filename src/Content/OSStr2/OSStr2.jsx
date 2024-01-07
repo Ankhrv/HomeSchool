@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './y.png';
-import Menu from '../../Components/Menu/Menu';
+import Menuauth from '../../Components/Menu/Menuauth';
 import Ball from '../../Components/Menu/Balll/Ball';
 import Footerauth from '../../Components/Footer/Footerauth';
 import Headerauth from '../../Components/Header/Headerauth';
@@ -14,7 +14,7 @@ const OSStr2 = () => {
     <div className="App"> 
      <Headerauth/>
      <div className='Menu'>
-    <Menu/>
+    <Menuauth/>
     <Ball/>
     </div>
     <Lk/>

@@ -55,9 +55,9 @@ const Footer = () => {
 <a className={ `${a.f} ${a.fe}` }>Подготовка к ОГЭ</a>
 <a className={ `${a.f} ${a.fe}` }>Программы 5-9 классов</a>
 <a className={ `${a.f} ${a.fe}` }>Видеоуроки</a>
-<a className={ `${a.f} ${a.fe}` }>Спроси учителя</a>
+<Link to="/vopros-otvet" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Спроси учителя</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Стоимость</a>
-<Link to="/lichnyi-kabinet" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Личный кабинет</a></Link>
+<Link to="/lichnyi-kabinet-auth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Личный кабинет</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Полезное родителям</a>
 </div>
 <div className={a.footer2}>

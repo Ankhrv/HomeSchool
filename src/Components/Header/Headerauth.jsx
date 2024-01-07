@@ -94,13 +94,9 @@ const Headerauth = () => {
 
 <div className={a.c1}>
  
-
   <a className={a.c}>Стоимость</a>
 
-
 </div>
-
-
 
 <div className={a.c3}>
 
@@ -112,15 +108,11 @@ const Headerauth = () => {
 
          </div>
 
-
 <a className={a.c5} onClick={() => setModalInfoOpen8(true)}>
 
 <img src={door} alt='door'className={a.t2}></img> Ученик</a>
 </div>
 </div>
-
-
-       
 
 </div>
 </div>

@@ -2,18 +2,33 @@ import React, { useState } from "react";
 import { SimpleModal } from "../../SimpleModal/SimpleModal";
 import { SimpleModal7 } from "../../SimpleModal7/SimpleModal7";
 import { SimpleModal6 } from "../../SimpleModal6/SimpleModal6";
-// import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
+import c from '../../Content/Lk/Lk.module.css';
+import profile from '../../Content/Lk/profile.png';
+import exit from '../../Content/Lk/exit.png';
+import message from '../../Content/Lk/message.png';
+import video from '../../Content/Lk/video.png';
+import video2 from '../../Content/Lk/video2.png'
+import Userfront from "@userfront/core";
 import { Helmet } from 'react-helmet';
 import b from './Menu.module.css';
 import door2 from './door2.png';
 import ball from './ball.png';
 import menu2 from './menu2.png';
+import { NavLink } from "react-router-dom";
 // import Profile from "../profile/profile";
 // import Register from '../signin/registr';
 import BezplZan from '../BesplZan/BezplZan';
 
 
-function Menu() {
+function Menuauth() {
+
+  
+  const setActive11 = ({isActive}) => isActive ? 'active-link11' : 'notactive11' ;
+  const setActive10 = ({isActive}) => isActive ? 'active-link10' : 'notactive10' ;
+  
+  const setActive2 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
+  const setActive3 = ({isActive}) => isActive ? 'active-link3' : 'notactive3' ;
+
   const [modalInfoIsOpen7, setModalInfoOpen7] = useState(false);
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
   // const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
@@ -52,14 +67,14 @@ function Menu() {
           isOpen={modalInfoIsOpen}
           onClose={() => setModalInfoOpen(false)}
         >
-         <div className={b.b}>
-         <div className={b.b18}>Главная</div>
+          <div className={b.b}>
+         <NavLink to="/dashboard" className={setActive2}><div className={b.b18}>Главная</div></NavLink>  
          <div className={b.b1}>Кабинет педагога</div>
          <div className={b.b1}>ОГЭ</div>
          <div className={b.b1}>Спроси учителя</div>
          <div className={b.b1}>Видеоуроки</div>
          <div className={b.b1}>Видеолекции</div>
-         <div className={b.b1}>Обратная связь</div>
+         <NavLink to="/obratnaja-sviaz-auth" className={setActive3}><div className={b.b1}>Обратная связь</div></NavLink>  
          <div className={b.b17}>Стоимость</div>
          </div>
         </SimpleModal>
@@ -77,15 +92,13 @@ function Menu() {
           isOpen={modalInfoIsOpen7}
           onClose={() => setModalInfoOpen7(false)}
         >
-          <div className={b.b}>
-         <div className={b.b18}>Главная</div>
-         <div className={b.b1}>Кабинет педагога</div>
-         <div className={b.b1}>ОГЭ</div>
-         <div className={b.b1}>Спроси учителя</div>
-         <div className={b.b1}>Видеоуроки</div>
-         <div className={b.b1}>Видеолекции</div>
-         <div className={b.b1}>Обратная связь</div>
-         <div className={b.b17}>Стоимость</div>
+           <div className={c.b}>
+         <div className={c.b18}>Профиль</div>
+         <NavLink to="/lichnyi-kabinet-auth" className={setActive10}><div className={c.b100}><div className={c.b1}><img src={profile} alt='profile' className={c.profile}></img> Личный кабинет</div></div></NavLink>
+         <NavLink to="/obratnaja-sviaz-auth" className={setActive11}><div className={c.b100}><div className={c.b1}><img src={message} alt='message' className={c.profile}></img> Обратная связь</div></div></NavLink>
+         <div className={c.b100}><div className={c.b1}><img src={video2} alt='video2' className={c.profile}></img> Видеоуроки</div></div>
+         <div className={c.b100}><div className={c.b1}><img src={video} alt='video' className={c.profile}></img> Видеолекции</div></div>
+         <div className={c.b100}><div onClick={Userfront.logout} className={c.b17}><img src={exit} alt='exit' className={c.profile}></img>Выйти</div></div>
          </div>
        
         </SimpleModal7> 
@@ -97,4 +110,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Menuauth;

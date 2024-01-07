@@ -15,8 +15,10 @@ import App2 from './App2';
 import OSStr1 from './Content/OSStr1/OSStr1';
 import OSStr1auth from './Content/OSStr1/OSStr1auth';
 import OSStr4 from './Content/OSStr4/OSStr4';
+import OSStr4auth from './Content/OSStr4/OSStr4auth';
 import OSStr2 from './Content/OSStr2/OSStr2';
 import OSStr3 from './Content/OSStr3/OSStr3';
+import OSStr3auth from './Content/OSStr3/OSStr3auth';
 import App2auth from './App2auth';
 
 Userfront.init("vnddpqyn");
@@ -28,11 +30,12 @@ function App() {
   <Route path="/" element={<App2 />} />
   <Route path="/login" element={<App2 />} />
   <Route path="/vopros-otvet" element={<OSStr4/>} /> 
+  <Route path="/vopros-otvet-auth" element={<OSStr4auth/>} /> 
   <Route path="/lichnyi-kabinet-auth" element={<RequireAuth> <OSStr2/> </RequireAuth>} />
   <Route path="/obratnaja-sviaz" element={<OSStr1/>} />
   <Route path="/obratnaja-sviaz-auth" element={<OSStr1auth/>} />
   <Route path="/system-requirements" element={<OSStr3/>} />
-  <Route path="/system-requirements-auth" element={<OSStr3/>} />
+  <Route path="/system-requirements-auth" element={<OSStr3auth/>} />
   <Route path="/dashboard" element={<RequireAuth> <App2auth /> </RequireAuth>} /> 
 </Routes>
 

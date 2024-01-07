@@ -7,11 +7,17 @@ import { SimpleModal5 } from "../../SimpleModal5/SimpleModal5";
 import Signin from '../signin/signin';
 import { Helmet } from 'react-helmet';
 import Register from '../signin/registr';
-
+import { Link, NavLink } from "react-router-dom";
 
 
 
 const Header = () => {
+
+  const linkStyle = {
+    textDecoration: "none",
+    color:"#222"
+  };
+
    const [modalInfoIsOpen5, setModalInfoOpen5] = useState(false);
    const [status, setStatus] = useState(false);
   
@@ -27,7 +33,7 @@ const Header = () => {
         <div className={a.a}>
  <div className={a.c4}>
     <a className={a.log}></a>
-    <a className={a.log2}>Home-School</a>
+    <Link to="/" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.c1}>
