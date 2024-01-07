@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from "react"
 import a from './Str5.module.css';
-
 import { Helmet } from 'react-helmet';
+import { SimpleModal6 } from "../../SimpleModal6/SimpleModal6";
+import Nachat from '../../Components/Nachat/nachat';
+import b from '../../Components/Menu/Menu.module.css';
 
 
 
 
 const Str5 = () => {
+
+    const [modalInfoIsOpen6, setModalInfoOpen6] = useState(false);
+
     return (
 <div className={a.A1}>
 <Helmet>
@@ -29,10 +34,12 @@ const Str5 = () => {
 
                 <div className={a.divleft112}>Для обучения не нужны сторонние приложения: мы собрали все чаты, записи уроков, домашние задания и учебные достижения в одном месте. Платформа со встроенным видеочатом и онлайн-доской для вашего комфорта.</div>
                 </div>
-            <div className={a.divleft6}>Записаться бесплатно</div>
+            <div className={a.divleft6} onClick={() => setModalInfoOpen6(true)}>Записаться бесплатно</div>
             </div>
             <div className={a.divleft0}>
             <div className={a.Textt}> 
+
+
 <div className={a.Text}>
 <a className={a.Text1}>Удобная платформа</a>
 <a className={a.Text2}>для видео-уроков </a>
@@ -43,7 +50,7 @@ const Str5 = () => {
 
 <div className={a.divleft112}>Для обучения не нужны сторонние приложения: мы собрали все чаты, записи уроков, домашние задания и учебные достижения в одном месте. Платформа со встроенным видеочатом и онлайн-доской для вашего комфорта.</div>
 </div>
-            <div className={a.divleft6}>Записаться бесплатно</div>
+            <div className={a.divleft6} onClick={() => setModalInfoOpen6(true)}>Записаться бесплатно</div>
             </div>
 
             <div className={a.divrighttt}>
@@ -51,6 +58,14 @@ const Str5 = () => {
 
             </div></div>
            
+            <div className={b.smenu}>
+        <SimpleModal6
+          isOpen={modalInfoIsOpen6}
+          onClose={() => setModalInfoOpen6(false)}>
+          <Nachat/>
+        </SimpleModal6> 
+        </div>
+        
         </div></div>
         </div></div>
         

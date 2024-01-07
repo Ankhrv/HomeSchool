@@ -186,10 +186,7 @@ padding-bottom: 1px;
 
 .divleft2, .divleft4{
     padding-bottom: 15px;
-
-
 }
-
 
 .divleft111{
     font-family: Helvetica;
@@ -198,11 +195,9 @@ padding-bottom: 1px;
     font-weight: 100;
     color: rgb(49, 48, 48);
     display: flex;
-
     /* width: 99%; */
     justify-content: space-between;
  /* flex-direction: column; */
-
      margin-right: 0px;
 }
 
@@ -219,6 +214,11 @@ font-family: Gilroy;
 font-size: 18px;
 font-weight: 500;
 border-radius: 5px;
+cursor: pointer;
+}
+
+.divleft6:hover{
+    background-color: rgb(113, 31, 163);
 }
 
 .divleft112{

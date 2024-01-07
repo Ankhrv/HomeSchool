@@ -2,6 +2,8 @@
 
 .span{
 cursor: pointer;
+text-decoration: none;
+color: #666;
 }
 
 .span:hover{
@@ -178,7 +180,6 @@ width: 100%;
   color: #666;
   font-family: Helvetica;
   font-size: 14px;
-
 }
 
 .name2{

@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from "react";
 import a from './Str1.module.css';
 import logo from './y.png';
 import { Helmet } from 'react-helmet';
-
-
-
+import { SimpleModal6 } from "../../SimpleModal6/SimpleModal6";
+import Nachat from '../../Components/Nachat/nachat';
+import b from '../../Components/Menu/Menu.module.css';
 
 const Str1 = () => {
+
+    const [modalInfoIsOpen6, setModalInfoOpen6] = useState(false);
+
     return (
 <div className={a.A1}>
 <Helmet>
@@ -38,8 +41,16 @@ const Str1 = () => {
             <div className={`${a.divleft22} ${a.fff}`}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft5}>Интерактивные занятия на уникальной платформе</div></div>
             </div> 
             </div>
-            <div className={a.divleft6}>Попробовать бесплатно</div>
+            <div className={a.divleft6} onClick={() => setModalInfoOpen6(true)}>Попробовать бесплатно</div>
             </div>
+
+            <div className={b.smenu}>
+        <SimpleModal6
+          isOpen={modalInfoIsOpen6}
+          onClose={() => setModalInfoOpen6(false)}>
+          <Nachat/>
+        </SimpleModal6> 
+        </div>
 
             <div className={a.divleft0}>
             <div className={a.divleft1}>
@@ -57,7 +68,7 @@ const Str1 = () => {
             <div className={`${a.divleft22} ${a.fff}`}><img src={logo} alt='logo'className={a.t}></img><div className={a.divleft5}>Интерактивные занятия на уникальной платформе</div></div>
             </div> 
             </div>
-            <div className={a.divleft6}>Попробовать бесплатно</div>
+            <div className={a.divleft6} onClick={() => setModalInfoOpen6(true)}>Попробовать бесплатно</div>
             </div>
 
             <div className={a.divrighttt}>

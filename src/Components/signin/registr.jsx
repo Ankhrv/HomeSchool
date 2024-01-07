@@ -1,7 +1,9 @@
 import React  from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import './register.css';
-// import a from '../signin/form.module.css';
+import PDF1 from "../../PDF/DOC009.pdf";
+import PDF2 from "../../PDF/DOC009.pdf";
+import PDF3 from "../../PDF/DOC009.pdf";
 import Userfront from "@userfront/core";
 // import Signin3 from "./signin3";
 
@@ -103,7 +105,7 @@ Userfront.init("vnddpqyn");
     <button type="submit" className='but'>Далее</button>
     <div className='Err'> {this.state.alertMessage} </div>
     <div className='zag2'>
- Заполняя эту форму, вы подтверждаете, что ознакомились с <span className='span'>политикой конфиденциальности</span> и <span className='span'>пользовательским соглашением </span>, а также даёте согласие на <span className='span'>обработку своих персональных данных</span>
+ Заполняя эту форму, вы подтверждаете, что ознакомились с <a href={PDF1} target="_blank" rel="noreferrer" className='span'>политикой конфиденциальности</a> и <a href={PDF2} target="_blank" rel="noreferrer" className='span'>пользовательским соглашением </a>, а также даёте согласие на <a href={PDF3} target="_blank" rel="noreferrer" className='span'>обработку своих персональных данных</a>
  </div>
  </div>
  <div className='zag3reg'>

@@ -158,8 +158,12 @@ font-family: Gilroy;
 font-size: 18px;
 font-weight: 500;
 border-radius: 5px;
+cursor: pointer;
 }
 
+.divleft6:hover{
+    background-color: rgb(113, 31, 163);
+}
 .divleft112{
      /* width: 50%; */
 }
