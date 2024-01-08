@@ -51,6 +51,10 @@
     border: none;
   }
 
+  .knop:hover{
+    background-color: rgb(113, 31, 163);
+  }
+
 .Tt{
   width: 100%;
   padding-top: 0px;
@@ -69,7 +73,8 @@
 .spanN{
   cursor: pointer;
   border-bottom: 1px solid #666;
-  color: #666;;
+  color: #666;
+  text-decoration: none;
 }
 
 .spanN1{
@@ -109,7 +114,7 @@ font-weight: 600;
 }
 
 .name100N{
-  width: 143px;
+  width: 127px;
   display: flex;
   flex-wrap: nowrap;
   position: absolute;
@@ -125,7 +130,7 @@ font-weight: 600;
 }
 
 .name100E{
-  width: 143px;
+  width: 139px;
   display: flex;
   flex-wrap: nowrap;
   position: absolute;
@@ -171,7 +176,7 @@ font-weight: 600;
     }
   
     .name100{
-      width: 142px;
+      width: 143px;
       display: flex;
       flex-wrap: nowrap;
       position: absolute;
@@ -187,7 +192,7 @@ font-weight: 600;
     }
 
     .name100E{
-      width: 143px;
+      width: 139px;
       display: flex;
       flex-wrap: nowrap;
       position: absolute;
@@ -203,7 +208,7 @@ font-weight: 600;
     }
 
     .name100N{
-      width: 143px;
+      width: 127px;
       display: flex;
       flex-wrap: nowrap;
       position: absolute;
@@ -272,39 +277,7 @@ font-weight: 600;
     align-items: center;
     margin-top: 22px;
    }
-   .name0{
-    width: 139px;
-    display: flex;
-    flex-wrap: nowrap;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    top: 69px;
-    border-radius: 5px;
-    margin-right: 39%;
-    padding: 3px 5px;
-    text-align: center;  
-    color: #666;
-    font-family: Helvetica;
-    font-size: 14px;
-    flex-wrap: nowrap;
-  }
-  
-  .name11{
-    width: 141px;
-    display: flex;
-    flex-wrap: nowrap;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    top:132px;
-    border-radius: 5px;
-    margin-right: 38%;
-    padding: 3px 5px;
-    text-align: center;  
-    color: #666;
-    font-family: Helvetica;
-    font-size: 14px;
-  
-  }
+   
   }
 
 

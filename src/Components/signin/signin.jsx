@@ -3,9 +3,9 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import './input.css';
 // import a from '../signin/form.module.css';
 import Userfront from "@userfront/core";
-import PDF1 from "../../PDF/DOC009.pdf";
-import PDF2 from "../../PDF/DOC009.pdf";
-import PDF3 from "../../PDF/DOC009.pdf";
+import PDF1 from "../../PDF/Privacy.pdf";
+import PDF2 from "../../PDF/PolzSogl.pdf";
+import PDF3 from "../../PDF/Privacydata.pdf";
 
 // import React, { useRef } from 'react';
 

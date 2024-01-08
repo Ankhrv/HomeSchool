@@ -10,9 +10,9 @@ import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import s from '../BesplZan/M.module.css';
 import ReCAPTCHA from "react-google-recaptcha";
-import PDF1 from "../../PDF/DOC009.pdf";
-import PDF2 from "../../PDF/DOC009.pdf";
-import PDF3 from "../../PDF/DOC009.pdf";
+import PDF1 from "../../PDF/Privacy.pdf";
+import PDF2 from "../../PDF/PolzSogl.pdf";
+import PDF3 from "../../PDF/Privacydata.pdf";
 
 
 const Bezplzan = (props) => {

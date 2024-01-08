@@ -7,11 +7,12 @@ import logo5 from './0100.png';
 import 'primeicons/primeicons.css';
 import { SimpleModal2 } from "../../SimpleModal2/SimpleModal2";
 import { Link } from "react-router-dom";
-import PDF1 from "../../PDF/DOC009.pdf";
-import PDF2 from "../../PDF/DOC009.pdf";
-import PDF3 from "../../PDF/DOC009.pdf";
-import PDF4 from "../../PDF/DOC009.pdf";
-import PDF5 from "../../PDF/DOC009.pdf";
+import PDF1 from "../../PDF/Privacy.pdf";
+import PDF2 from "../../PDF/PolzSogl.pdf";
+import PDF3 from "../../PDF/Privacydata.pdf";
+import PDF4 from "../../PDF/Privacy.pdf";
+import PDF5 from "../../PDF/Privacy.pdf";
+import Diplom from "../../PDF/Diplom.pdf";
 
 const Footer = () => {
   const linkStyle = {
@@ -34,7 +35,6 @@ const Footer = () => {
   <Link to="/dashboard"><a className={a.log2}>Home-School</a></Link>
 </div>
 
-
 <div className={a.socials}> 
 <div className={a.vk}></div> 
 <div className={a.tg}></div>
@@ -42,7 +42,7 @@ const Footer = () => {
 <div className={a.wb}></div>
 
 </div>
-<a className={ `${a.f} ${a.fff} ${a.fe2}` }> <img src={logo5} alt='logo' className={a.l5}></img>Образовательную деятельность ведёт дипломированный педагог</a>
+<a href={Diplom} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe2}` }> <img src={logo5} alt='logo' className={a.l5}></img>Образовательную деятельность ведёт дипломированный педагог</a>
 <a className={ `${a.f} ${a.fff} ${a.fe2}` }> <img src={logo5} alt='logo' className={a.l5}></img>Эксперт ОГЭ</a>
 {/* <a className={ `${a.fp} ${a.fe2} ${a.fff}` }>Министерство Образования и Науки РФЛицензия</a> */}
 </div>
@@ -93,12 +93,10 @@ const Footer = () => {
 
 </div>
 <div className={a.pic}>
-<div className={a.pic1}><a> <img src={logo5} alt='logo' className={a.l5}></img></a><div className={a.textt}><div className={a.text2 }>Образовательную деятельность ведёт</div><div className={a.text2}> дипломированный педагог</div></div></div>
+<a href={Diplom} target="_blank" rel="noreferrer"  className={a.pic1}><a> <img src={logo5} alt='logo' className={a.l5}></img></a><div className={a.textt}><div className={a.text2 }>Образовательную деятельность ведёт</div><div className={a.text2}> дипломированный педагог</div></div></a>
 <a className={ `${a.f} ${a.fff} ${a.fe4} ${a.fr}` }> <img src={logo5} alt='logo' className={a.l5}></img>Эксперт ОГЭ</a>
 {/* <a className={ `${a.fp} ${a.fe2} ${a.fff}` }>Министерство Образования и Науки РФЛицензия</a> */}
 </div></div>
-
-
 
 </div>
 </div>
