@@ -52,25 +52,25 @@ const Footer = () => {
 </div>
 <div className={a.footer1}>
 <a className={`${a.f} ${a.skr1}`}>Разделы сайта</a>
-<a className={ `${a.f} ${a.fe}` }>Кабинет педагога</a>
+<Link to="/vopros-otvet" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Кабинет педагога</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Подготовка к ОГЭ</a>
 <a className={ `${a.f} ${a.fe}` }>Программы 5-9 классов</a>
-<a className={ `${a.f} ${a.fe}` }>Видеоуроки</a>
+<a onClick={() => setModalInfoOpen2(true)} className={ `${a.f} ${a.fe}` }>Видеоуроки</a>
 <Link to="/vopros-otvet" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Спроси учителя</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Стоимость</a>
-<Link to="/lichnyi-kabinet-auth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Личный кабинет</a></Link>
+<a onClick={() => setModalInfoOpen2(true)}className={ `${a.f} ${a.fe}` }>Личный кабинет</a>
 <a className={ `${a.f} ${a.fe}` }>Полезное родителям</a>
 </div>
 <div className={a.footer2}>
 <a className={`${a.f} ${a.skr}`}>Техподдержка</a>
 <Link to="/obratnaja-sviaz" style={linkStyle}><a className={ `${a.fs} ${a.fe}` }><i className="pi pi-question-circle" style={{ fontSize: '14px', padding: '8px' }}></i> Обратная связь</a></Link>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-telegram" style={{ fontSize: '14px', padding: '8px' }}></i> Телеграм</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-whatsapp" style={{ fontSize: '14px', padding: '8px' }}></i> WhatsApp</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-envelope" style={{ fontSize: '14px', padding: '8px' }}></i> school@infourok.ru</a>
+<a href="tg://resolve?domail=hschool_pedagog" className={ `${a.fs} ${a.fe}` }><i className="pi pi-telegram" style={{ fontSize: '14px', padding: '8px' }}></i> Телеграм</a>
+<a href="https://wa.me/79995390501"className={ `${a.fs} ${a.fe}` }><i className="pi pi-whatsapp" style={{ fontSize: '14px', padding: '8px' }}></i> WhatsApp</a>
+<a href="https://mailto:petya.fomichev@internet.ru/" className={ `${a.fs} ${a.fe}` }><i className="pi pi-envelope" style={{ fontSize: '14px', padding: '8px' }}></i> school@infourok.ru</a>
 <a className={ `${a.fs}` }><i className="pi pi-clock" style={{ fontSize: '14px', padding: '8px' }}></i> 10:00 – 22:00 мск</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (499) 229-88-88</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (495) 032-99-99</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (800) 775-50-70</a>
+<a href="tel:=+79995390501" className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (999) 539-05-01</a>
+<a href="tel:=+79995390501" className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (999) 539-05-01</a>
+<a href="tel:=+79995390501" className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (999) 539-05-01</a>
 </div>
 
 <div className={a.footer3}>

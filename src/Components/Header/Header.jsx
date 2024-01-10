@@ -37,15 +37,15 @@ const Header = () => {
 </div>
 
 <div className={a.c1}>
-  <a className={a.cС}>Кабинет педагога</a>
+<Link to="/vopros-otvet" style={linkStyle}><a className={a.cС}>Кабинет педагога</a></Link>
 
   <a className={a.c}>ОГЭ</a>
 
-  <a className={a.c}>Спроси учителя</a>
+  <Link to="/vopros-otvet" style={linkStyle}><a className={a.c}>Спроси учителя</a></Link>
 
-  <a className={a.c}>Стоимость</a>
+  <Link to="/vopros-otvet" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
 
-  <a className={a.Сc}>Видеоуроки</a>
+  <a onClick={() => setModalInfoOpen5(true)}className={a.Сc}>Видеоуроки</a>
 </div>
 
 
@@ -55,8 +55,8 @@ const Header = () => {
 <div className={a.i}>
          <div className={a.i1}>
 
-   <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <div className={a.iw}>+7 (800) 775 50 70</div></div>
-    <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <div className={a.i123}>@hschool_pedagog</div></div></div>
+   <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79995390501" className={a.iw}>+7 (800) 775 50 70</a></div>
+    <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <a href="tg://resolve?domail=hschool_pedagog" className={a.i123}>@hschool_pedagog</a></div></div>
 
          </div>
 
@@ -70,26 +70,22 @@ const Header = () => {
 <div className={a.aA}>
  <div className={a.c4}>
     <a className={a.log}></a>
-    <a className={a.log2}>Home-School</a>
+    <Link to="/" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.c1}>
  
-
-  <a className={a.c}>Стоимость</a>
-
+<Link to="/vopros-otvet" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
 
 </div>
-
-
 
 <div className={a.c3}>
 
 <div className={a.i}>
          <div className={a.i1}>
 
-         <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <div className={a.iw}>+7 (800) 775 50 70</div></div>
-    <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <div className={a.i123}>@hschool_pedagog</div></div></div>
+         <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79995390501" className={a.iw}>+7 (800) 775 50 70</a></div>
+    <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <a href="tg://resolve?domail=hschool_pedagog" className={a.i123}>@hschool_pedagog</a></div></div>
 
          </div>
 

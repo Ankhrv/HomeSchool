@@ -5,7 +5,7 @@ import Menuauth from '../../Components/Menu/Menuauth';
 import Ball from '../../Components/Menu/Balll/Ball';
 import Footerauth from '../../Components/Footer/Footerauth';
 import Headerauth from '../../Components/Header/Headerauth';
-import Obrs from './Obrs/Obrs';
+import Obrsauth from './Obrs/Obrsauth';
 import '../../App.css';
 
 
@@ -18,7 +18,7 @@ const OSStr1auth = () => {
     <Menuauth/>
     <Ball/>
     </div>
-    <Obrs/>
+    <Obrsauth/>
     <Footerauth/>
      </div>
 

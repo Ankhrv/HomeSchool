@@ -4,12 +4,12 @@ import Menu from '../../Components/Menu/Menu';
 import Ball from '../../Components/Menu/Balll/Ball';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
-import Obsv from '../OSStr1/Obrs/Obrs';
+import Kabped from '../OSStr5/Kabped/Kabped';
 import '../../App.css';
 
 
 
-const OSStr4 = () => {
+const OSStr5 = () => {
     return (
     <div className="App"> 
      <Header/>
@@ -17,7 +17,7 @@ const OSStr4 = () => {
     <Menu/>
     <Ball/>
     </div>
-    <Obsv/>
+    <Kabped/>
     <Footer/>
      </div>
 
@@ -26,4 +26,4 @@ const OSStr4 = () => {
         );
 }
 
-export default OSStr4;
+export default OSStr5;

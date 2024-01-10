@@ -66,6 +66,7 @@
   cursor: pointer;
   border-bottom: 1px solid #666;
   color: #666;;
+  text-decoration: none;
 }
 .spanN1{
 color:  rgb(13, 130, 66);
@@ -102,7 +103,37 @@ font-weight: 600;
   font-family: Helvetica;
   font-size: 14px;
 }
+/* .name100EE{
+  width: 139px;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top:210px;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding: 3px 5px;
+  text-align: center;  
+  color: #666;
+  font-family: Helvetica;
+  font-size: 14px;
+}
 
+.name100NN{
+  width: 527px;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top:83px;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding: 3px 5px;
+  text-align: center;  
+  color: #666;
+  font-family: Helvetica;
+  font-size: 14px;
+} */
 
 @media screen and (max-width: 580px) {
 

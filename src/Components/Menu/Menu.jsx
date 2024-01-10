@@ -16,6 +16,9 @@ import '../Menu/active.css';
 
 
 function Menu() {
+  const setActive15 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
+  const setActive14 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
+  const setActive10 = ({isActive}) => isActive ? 'active-link3' : 'notactive3' ;
   const setActive2 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
   const setActive3 = ({isActive}) => isActive ? 'active-link3' : 'notactive3' ;
   const [modalInfoIsOpen2, setModalInfoOpen2] = useState(false);
@@ -59,13 +62,13 @@ function Menu() {
         >
          <div className={b.b}>
          <NavLink to="/" className={setActive2}><div className={b.b18}>Главная</div></NavLink>  
-         <div className={b.b1}>Кабинет педагога</div>
+         <NavLink to="/kabinet-pedagoga" className={setActive15}><div className={b.b1}>Кабинет педагога</div></NavLink>  
          <div className={b.b1}>ОГЭ</div>
-         <div className={b.b1}>Спроси учителя</div>
-         <div className={b.b1}>Видеоуроки</div>
-         <div className={b.b1}>Видеолекции</div>
-         <NavLink to="/obratnaja-sviaz" className={setActive3}><div className={b.b1}>Обратная связь</div></NavLink>  
-         <div className={b.b17}>Стоимость</div>
+         <NavLink to="/obratnaja-sviaz" className={setActive14}> <div className={b.b1}>Спроси учителя</div></NavLink>  
+         <div onClick={() => setModalInfoOpen2(true)} className={b.b1}>Видеоуроки</div>
+         <div onClick={() => setModalInfoOpen2(true)} className={b.b1}>Видеолекции</div>
+         <NavLink to="/vopros-otvet" className={setActive3}><div className={b.b1}>Обратная связь</div></NavLink>  
+         <NavLink to="/obratnaja-sviaz" className={setActive10}><div className={b.b17}>Стоимость</div></NavLink>  
          </div>
         </SimpleModal>
         

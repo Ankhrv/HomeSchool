@@ -12,8 +12,8 @@ import '../../App.css';
 
 const OSStr1 = () => {
     return (
-        <div className="App"> 
-     <Header/>
+    <div className="App"> 
+    <Header/>
      <div className='Menu'>
     <Menu/>
     <Ball/>

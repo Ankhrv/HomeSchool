@@ -32,12 +32,12 @@ const Footer = () => {
 <div className={a.footer}>
 <div className={a.c4}>
  <a className={a.log}></a>
-  <Link to="/dashboard"><a className={a.log2}>Home-School</a></Link>
+ <Link to="/dashboard" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.socials}> 
-<div className={a.vk}></div> 
-<div className={a.tg}></div>
+<a href="https://vk.com/infourok_school" className={a.vk}></a> 
+<a href="tg://resolve?domail=hschool_pedagog" className={a.tg}></a>
 <div className={a.wu}></div>
 <div className={a.wb}></div>
 

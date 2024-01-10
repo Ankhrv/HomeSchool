@@ -1,7 +1,30 @@
 
 
+.navi{
+  padding-top: 178px;
+ 
+  
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #666;
+}
 
+.navi2, .navi4{
+cursor: pointer;
+}
 
+.navi2:hover{
+  color: #008549;
+}
+
+.navi4:hover{
+  color: #008549;
+}
+
+.navi3{
+  padding: 0px 13px;
+  color: #9c9c9c;
+}
 
 
 /* Главный1 */
@@ -15,19 +38,163 @@
     margin: 0% 19%;
     padding-top: 0px;
     background-color: rgb(244, 244, 244);
-
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 /* Главный3 */
 .a4{
-     width: 100%;
-     height: 1000px;
+     width: 600px;
+     max-width: 600px;
      display: flex;
-     margin-top: 78px;
-     background-color: rgb(244, 244, 244);
+     margin-top: 45px;
+     margin-bottom: 90px;
+     height:100%;
+     background-color: rgb(255, 255, 255);
+     justify-content: center;
+     border-radius: 15px;
+     padding: 0px 40px;
+     box-sizing: border-box;
 }
 
+  .capcha{
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: -10px;
+  }
 
+  .GL{
+    margin-top: 45px;
+    background-color: rgb(8, 10, 9);
+    width: 100%;
+ 
+  }
+
+  .obsh{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    }
+
+    .i{
+      margin-bottom: 10px;
+      min-width: 100%;
+      width: 100%;
+    }
+
+    .knop{
+      margin-left: 0px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      min-width: 175px;
+      width: 100%;
+      height: 48px;
+      background-color: rgb(13, 130, 66);
+      color: white ;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: Helvetica;
+      border: none;
+    }
+
+  .Tt{
+    width: 100%;
+    padding-top: 0px;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: left;
+    color: #666;
+    font-family: Helvetica;
+    padding-bottom: 35px;
+  }
+
+  .R{
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .spanN{
+    cursor: pointer;
+    border-bottom: 1px solid #666;
+    color: #666;
+    text-decoration: none;
+  }
+
+  .spanN1{
+  color:  rgb(13, 130, 66);
+  font-weight: 600;
+  }
+
+  .spanN:hover{
+    border:none
+  }
+
+  .ui{
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #222;
+    line-height: 1.4;
+  }
+
+  /* .name100{
+    width: 143px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top:120px;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 3px 5px;
+    text-align: center;
+    color: #666;
+    font-family: Helvetica;
+    font-size: 14px;
+  } */
+
+  /* .name100NN{
+    width: 127px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top:83px;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 3px 5px;
+    text-align: center;
+    color: #666;
+    font-family: Helvetica;
+    font-size: 14px;
+  }
+
+  .name100EE{
+  width: 139px;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top:210px;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding: 3px 5px;
+  text-align: center;
+  color: #666;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+   */
 
 
 
@@ -37,6 +204,14 @@
 .A4{
 margin: 0% 9%;
 }
+
+.navi{
+  padding-top: 148px;
+  display: flex;
+  width: 100%;
+  /* padding-left: 9%; */
+}
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -45,6 +220,14 @@ margin: 0% 9%;
 .A4{
 margin: 0% 10%;
 }
+
+.navi{
+  padding-top: 148px;
+  display: flex;
+  width: 100%;
+  /* padding-left: 10%; */
+}
+
 }
 
 
@@ -59,6 +242,15 @@ margin: 0% 10%;
 .A4{
 margin: 0% 1.6%;
 }
+
+.navi{
+  padding-top: 148px;
+  display: flex;
+  width: 100%;
+  padding-left: 1.6%;
+}
+
+
 
 /* Главный3 */
 .a4{

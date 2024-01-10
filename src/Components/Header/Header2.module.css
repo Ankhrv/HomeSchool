@@ -254,6 +254,7 @@ cursor: pointer;
        font-size: 1.1em;
        padding-left: 10px;
        cursor: pointer;
+       text-decoration: none;
     }
 
     /* элементы ссылок справа  */
@@ -313,6 +314,7 @@ cursor: pointer;
                 font-family: Helvetica;
                 color: rgb(39, 39, 39);
                 cursor: pointer;
+                text-decoration: none;
                  }
 
                          /* див для телефона и контактов  */
@@ -330,6 +332,7 @@ cursor: pointer;
                     font-family: Inter-Light;
                     color: rgb(39, 39, 39);
                     cursor: pointer;
+                    text-decoration: none;
                  }
 
                      /* див для контактов  */

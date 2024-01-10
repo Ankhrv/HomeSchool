@@ -1,24 +1,24 @@
 import React from 'react';
 // import logo from './y.png';
-import Menuauth from '../../Components/Menu/Menuauth';
+import Menu from '../../Components/Menu/Menu';
 import Ball from '../../Components/Menu/Balll/Ball';
-import Footerauth from '../../Components/Footer/Footer';
-import Headerauth from '../../Components/Header/Headerauth';
+import Footer from '../../Components/Footer/Footer';
+import Header from '../../Components/Header/Header';
 import Voprotv from './Voprotv/Voprotv';
 import '../../App.css';
 
 
 
-const OSStr4auth = () => {
+const OSStr5auth = () => {
     return (
     <div className="App"> 
-     <Headerauth/>
+     <Header/>
      <div className='Menu'>
-    <Menuauth/>
+    <Menu/>
     <Ball/>
     </div>
     <Voprotv/>
-    <Footerauth/>
+    <Footer/>
      </div>
 
         

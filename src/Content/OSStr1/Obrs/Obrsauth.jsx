@@ -21,7 +21,7 @@ import PDF1 from "../../../PDF/Privacy.pdf";
 import PDF2 from "../../../PDF/PolzSogl.pdf";
 import PDF3 from "../../../PDF/Privacydata.pdf";
 
-const Obrs = () => {
+const Obrsauth = () => {
    const navigate = useNavigate()
 
   const [value, setValue] = useState()
@@ -52,29 +52,28 @@ const Obrs = () => {
 <Helmet>
         <title>Домашняя школа</title>
         <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
+
       </Helmet>
-
-        <div className={o.A4}>
-     
-        <div className={o.navi}>
-          <span className={o.navi2}>Главная</span><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
-
+<div className={o.A4}>
         <div className={o.a4}>
-
-
         <div className={s.GL}>
         
+
 <div className='zagO2'>Вы можете задать нам вопрос</div>
 <div className={s.ui}>Мы свяжемся с Вами в ближайшее время</div>
        <form ref={form} onSubmit= {sendEmail} >
 
        <div className={s.obsh}>
 
+       {/* <div className={s.name100NN}>Введите ваше имя</div>   */}
+
      <input placeholder="Введите ваше имя"className='inpOO2'type="text" title="Разрешено использовать только пробелы и русские буквы"
      pattern="^[А-Яа-яЁё\s]+$" maxLength={10} name="us_name" required 
      />
 
 <div className={s.i}>
+
+{/* <div className={s.name100EE}>Введите вашу почту</div> */}
 
     <input  placeholder="Введите вашу почту"className='inpOO'pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z])+$" type="email" name="email" maxLength={25} required 
    />
@@ -104,4 +103,4 @@ const Obrs = () => {
         );
 }
 
-export default Obrs;
+export default Obrsauth;
