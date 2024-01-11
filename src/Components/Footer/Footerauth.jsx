@@ -48,12 +48,13 @@ const Footer = () => {
 </div>
 <div className={a.footer1}>
 <a className={`${a.f} ${a.skr1}`}>Разделы сайта</a>
-<a className={ `${a.f} ${a.fe}` }>Кабинет педагога</a>
-<a className={ `${a.f} ${a.fe}` }>Подготовка к ОГЭ</a>
-<a className={ `${a.f} ${a.fe}` }>Программы 5-9 классов</a>
+<Link to="/kabinet-pedagoga-auth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Кабинет педагога</a></Link>
+<Link to="/Ogauth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Подготовка к ОГЭ</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Видеоуроки</a>
-<Link to="/vopros-otvet-auth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Спроси учителя</a></Link>
-<a className={ `${a.f} ${a.fe}` }>Стоимость</a>
+<Link to="/vopros-otvet-ya" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Программы 5-9 классов</a></Link>
+<a className={ `${a.f} ${a.fe}` }>Видеоуроки</a>
+<Link to="/vopros-otvet-ya" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Спроси учителя</a></Link>
+<Link to="/vopros-otvet-ya" style={linkStyle}></Link><a className={ `${a.f} ${a.fe}` }>Стоимость</a>
 <Link to="/lichnyi-kabinet-auth" style={linkStyle}><a className={ `${a.f} ${a.fe}` }>Личный кабинет</a></Link>
 <a className={ `${a.f} ${a.fe}` }>Полезное родителям</a>
 </div>
@@ -64,9 +65,9 @@ const Footer = () => {
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-whatsapp" style={{ fontSize: '14px', padding: '8px' }}></i> WhatsApp</a>
 <a className={ `${a.fs} ${a.fe}` }><i className="pi pi-envelope" style={{ fontSize: '14px', padding: '8px' }}></i> school@infourok.ru</a>
 <a className={ `${a.fs}` }><i className="pi pi-clock" style={{ fontSize: '14px', padding: '8px' }}></i> 10:00 – 22:00 мск</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (499) 229-88-88</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (495) 032-99-99</a>
-<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (800) 775-50-70</a>
+<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (986) 995 40 77</a>
+<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (986) 995 40 77</a>
+<a className={ `${a.fs} ${a.fe}` }><i className="pi pi-phone" style={{ fontSize: '14px', padding: '8px' }}></i> +7 (986) 995 40 77</a>
 </div>
 
 <div className={a.footer3}>

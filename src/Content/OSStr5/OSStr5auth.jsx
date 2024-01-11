@@ -1,10 +1,10 @@
 import React from 'react';
 // import logo from './y.png';
-import Menu from '../../Components/Menu/Menu';
+import Menuauth from '../../Components/Menu/Menuauth';
 import Ball from '../../Components/Menu/Balll/Ball';
-import Footer from '../../Components/Footer/Footer';
-import Header from '../../Components/Header/Header';
-import Voprotv from './Voprotv/Voprotv';
+import Footerauth from '../../Components/Footer/Footerauth';
+import Headerauth from '../../Components/Header/Headerauth';
+import Voprotv from './Kabped/Kabped';
 import '../../App.css';
 
 
@@ -12,13 +12,13 @@ import '../../App.css';
 const OSStr5auth = () => {
     return (
     <div className="App"> 
-     <Header/>
+     <Headerauth/>
      <div className='Menu'>
-    <Menu/>
+    <Menuauth/>
     <Ball/>
     </div>
-    <Voprotv/>
-    <Footer/>
+   <Voprotv/> 
+    <Footerauth/>
      </div>
 
         
@@ -26,4 +26,4 @@ const OSStr5auth = () => {
         );
 }
 
-export default OSStr4auth;
+export default OSStr5auth;

@@ -34,24 +34,23 @@ const Headerauth = () => {
 <Helmet>
         <title>Домашняя школа</title>
         <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
-      </Helmet>
-
+       
+        </Helmet>
 <div className={a.A}>
-    <div className={a.a}>
+        <div className={a.a}>
  <div className={a.c4}>
     <a className={a.log}></a>
     <Link to="/dashboard" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.c1}>
-  <a className={a.cС}>Кабинет педагога</a>
+<Link to="/kabinet-pedagoga-auth" style={linkStyle}><a className={a.cС}>Кабинет педагога</a></Link>
 
-  <a className={a.c}>ОГЭ</a>
+<Link to="/Ogauth" style={linkStyle}><a className={a.c}>ОГЭ</a></Link>
 
-  <a className={a.c}>Спроси учителя</a>
+  <Link to="/vopros-otvet-ya" style={linkStyle}><a className={a.c}>Спроси учителя</a></Link>
 
-  <a className={a.c}>Стоимость</a>
-
+  <Link to="/vopros-otvet-ya" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
   <a className={a.Сc}>Видеоуроки</a>
 </div>
 

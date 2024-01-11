@@ -4,12 +4,12 @@ import Menuauth from '../../Components/Menu/Menuauth';
 import Ball from '../../Components/Menu/Balll/Ball';
 import Footerauth from '../../Components/Footer/Footerauth';
 import Headerauth from '../../Components/Header/Headerauth';
-import Obrs from '../OSStr1/Obrs/Obrs';
+import Vo from './Og/Vo';
 import '../../App.css';
 
 
 
-const OSStr4auth = () => {
+const OSStr7auth = () => {
     return (
     <div className="App"> 
      <Headerauth/>
@@ -17,7 +17,7 @@ const OSStr4auth = () => {
     <Menuauth/>
     <Ball/>
     </div>
-    <Obrs/>
+    <Vo/>
     <Footerauth/>
      </div>
 
@@ -26,4 +26,4 @@ const OSStr4auth = () => {
         );
 }
 
-export default OSStr4auth;
+export default OSStr7auth;

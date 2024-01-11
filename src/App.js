@@ -15,7 +15,13 @@ import App2 from './App2';
 import OSStr1 from './Content/OSStr1/OSStr1';
 import OSStr1auth from './Content/OSStr1/OSStr1auth';
 import OSStr4 from './Content/OSStr4/OSStr4';
+
 import OSStr5 from './Content/OSStr5/OSStr5';
+import OSStr5auth from './Content/OSStr5/OSStr5auth';
+import OSStr6 from './Content/OSStr6/OSStr6';
+import OSStr6auth from './Content/OSStr6/OSStr6auth';
+import OSStr7 from './Content/OSStr7/OSStr7';
+import OSStr7auth from './Content/OSStr7/OSStr7auth';
 import OSStr4auth from './Content/OSStr4/OSStr4auth';
 import OSStr2 from './Content/OSStr2/OSStr2';
 import OSStr3 from './Content/OSStr3/OSStr3';
@@ -31,7 +37,13 @@ function App() {
   <Route path="/" element={<App2 />} />
   <Route path="/login" element={<App2 />} />
   <Route path="/vopros-otvet" element={<OSStr4/>} /> 
+  {/* <Route path="/vopros-otvet-auth" element={<OSStr4auth/>} />  */}
   <Route path="/kabinet-pedagoga" element={<OSStr5/>} /> 
+  <Route path="/kabinet-pedagoga-auth" element={<OSStr5auth/>} /> 
+  <Route path="/Og" element={<OSStr6/>} /> 
+  <Route path="/Ogauth" element={<OSStr6auth/>} /> 
+  <Route path="/vopros-otvet-y" element={<OSStr7/>} /> 
+  <Route path="/vopros-otvet-ya" element={<OSStr7auth/>} /> 
   <Route path="/vopros-otvet-auth" element={<OSStr4auth/>} /> 
   <Route path="/lichnyi-kabinet-auth" element={<OSStr2/>} />
   <Route path="/obratnaja-sviaz" element={<OSStr1/>} />

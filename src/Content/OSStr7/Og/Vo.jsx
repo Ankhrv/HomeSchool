@@ -1,4 +1,4 @@
-import o from './Kabped.module.css';
+import o from './Vo.module.css';
 // import logo from './y.png';
 import { Helmet } from 'react-helmet';
 import React, { useState } from "react";
@@ -17,13 +17,12 @@ import PDF1 from "../../../PDF/Privacy.pdf";
 import PDF2 from "../../../PDF/PolzSogl.pdf";
 import PDF3 from "../../../PDF/Privacydata.pdf";
 
-const Kabped = () => {
-
+const Vo = () => {
   const linkStyle = {
     textDecoration: "none",
     color: "#666"
   };
-  
+
   const navigate = useNavigate()
 
  const [value, setValue] = useState()
@@ -59,14 +58,14 @@ const Kabped = () => {
        <div className={o.A4}>
     
        <div className={o.navi}>
-       <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Кабинет педагога</span></div> 
+       <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Вопрос учителю</span></div> 
 
        <div className={o.a4}>
 
 
        <div className={s.GL}>
        
-<div className='zagO2'>Вы можете задать мне вопрос</div>
+<div className='zagO2'>Вопрос учителю</div>
 <div className={s.ui}>Я отвечу Вам в ближайшее время</div>
       <form ref={form} onSubmit= {sendEmail} >
 
@@ -106,4 +105,4 @@ const Kabped = () => {
        );
 }
 
-export default Kabped;
+export default Vo;

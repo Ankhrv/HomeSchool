@@ -37,11 +37,11 @@ const Header = () => {
 </div>
 
 <div className={a.c1}>
-<Link to="/vopros-otvet" style={linkStyle}><a className={a.cС}>Кабинет педагога</a></Link>
+<Link to="/kabinet-pedagoga" style={linkStyle}><a className={a.cС}>Кабинет педагога</a></Link>
 
-  <a className={a.c}>ОГЭ</a>
+<Link to="/Og" style={linkStyle}><a className={a.c}>ОГЭ</a></Link>
 
-  <Link to="/vopros-otvet" style={linkStyle}><a className={a.c}>Спроси учителя</a></Link>
+  <Link to="/vopros-otvet-y" style={linkStyle}><a className={a.c}>Спроси учителя</a></Link>
 
   <Link to="/vopros-otvet" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
 
@@ -55,7 +55,7 @@ const Header = () => {
 <div className={a.i}>
          <div className={a.i1}>
 
-   <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79995390501" className={a.iw}>+7 (800) 775 50 70</a></div>
+   <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79869954077" className={a.iw}>+7 (986) 995 40 77</a></div>
     <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <a href="tg://resolve?domail=hschool_pedagog" className={a.i123}>@hschool_pedagog</a></div></div>
 
          </div>
@@ -84,7 +84,7 @@ const Header = () => {
 <div className={a.i}>
          <div className={a.i1}>
 
-         <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79995390501" className={a.iw}>+7 (800) 775 50 70</a></div>
+         <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79869954077" className={a.iw}>+7 (986) 995 40 77</a></div>
     <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <a href="tg://resolve?domail=hschool_pedagog" className={a.i123}>@hschool_pedagog</a></div></div>
 
          </div>
