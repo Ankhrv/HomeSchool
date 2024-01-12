@@ -25,7 +25,7 @@ function Menuauth() {
   
   const setActive11 = ({isActive}) => isActive ? 'active-link11' : 'notactive11' ;
   const setActive10 = ({isActive}) => isActive ? 'active-link10' : 'notactive10' ;
-  
+  const setActive16 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
   const setActive15 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
   const setActive14 = ({isActive}) => isActive ? 'active-link2' : 'notactive2' ;
   
@@ -71,14 +71,14 @@ function Menuauth() {
           onClose={() => setModalInfoOpen(false)}
         >
          <div className={b.b}>
-         <NavLink to="/" className={setActive2}><div className={b.b18}>Главная</div></NavLink>  
-         <NavLink to="/vopros-otvet" className={setActive15}><div className={b.b1}>Кабинет педагога</div></NavLink>  
-         <div className={b.b1}>ОГЭ</div>
-         <NavLink to="/obratnaja-sviaz-auth" className={setActive14}> <div className={b.b1}>Спроси учителя</div></NavLink>  
+         <NavLink to="/dashboard" className={setActive2}><div className={b.b18}>Главная</div></NavLink>  
+         <NavLink to="/kabinet-pedagoga-auth" className={setActive15}><div className={b.b1}>Кабинет педагога</div></NavLink>  
+         <NavLink to="/Ogauth" className={setActive16}><div className={b.b1}>ОГЭ</div></NavLink>
+         <NavLink to="/vopros-otvet-ya" className={setActive14}> <div className={b.b1}>Спроси учителя</div></NavLink>  
          <div className={b.b1}>Видеоуроки</div>
          <div className={b.b1}>Видеолекции</div>
          <NavLink to="/obratnaja-sviaz-auth" className={setActive3}><div className={b.b1}>Обратная связь</div></NavLink>  
-         <NavLink to="/obratnaja-sviaz-auth" className={setActive10}><div className={b.b17}>Стоимость</div></NavLink>  
+         <NavLink to="/vopros-otvet-auth" className={setActive10}><div className={b.b17}>Стоимость</div></NavLink>  
          </div>
         </SimpleModal>
         
@@ -98,7 +98,7 @@ function Menuauth() {
            <div className={c.b}>
          <div className={c.b18}>Профиль</div>
          <NavLink to="/lichnyi-kabinet-auth" className={setActive10}><div className={c.b100}><div className={c.b1}><img src={profile} alt='profile' className={c.profile}></img> Личный кабинет</div></div></NavLink>
-         <NavLink to="/vopros-otvet-auth" className={setActive11}><div className={c.b100}><div className={c.b1}><img src={message} alt='message' className={c.profile}></img> Обратная связь</div></div></NavLink>
+         <NavLink to="/obratnaja-sviaz-auth" className={setActive11}><div className={c.b100}><div className={c.b1}><img src={message} alt='message' className={c.profile}></img> Обратная связь</div></div></NavLink>
          <div className={c.b100}><div className={c.b1}><img src={video2} alt='video2' className={c.profile}></img> Видеоуроки</div></div>
          <div className={c.b100}><div className={c.b1}><img src={video} alt='video' className={c.profile}></img> Видеолекции</div></div>
          <div className={c.b100}><div onClick={Userfront.logout} className={c.b17}><img src={exit} alt='exit' className={c.profile}></img>Выйти</div></div>

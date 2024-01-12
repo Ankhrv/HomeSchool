@@ -50,7 +50,7 @@ const Obrs = () => {
 
 <div className={o.A14}>
 <Helmet>
-        <title>Домашняя школа</title>
+        <title>Обратная звязь</title>
         <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
       </Helmet>
 

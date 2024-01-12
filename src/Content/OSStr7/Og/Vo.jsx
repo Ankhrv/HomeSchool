@@ -58,15 +58,15 @@ const Vo = () => {
        <div className={o.A4}>
     
        <div className={o.navi}>
-       <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Вопрос учителю</span></div> 
+       <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
 
        <div className={o.a4}>
 
 
        <div className={s.GL}>
        
-<div className='zagO2'>Вопрос учителю</div>
-<div className={s.ui}>Я отвечу Вам в ближайшее время</div>
+<div className='zagO2'>Задайте нам вопрос</div>
+<div className={s.ui}>Мы ответим Вам в ближайшее время</div>
       <form ref={form} onSubmit= {sendEmail} >
 
       <div className={s.obsh}>

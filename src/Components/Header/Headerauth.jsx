@@ -50,7 +50,7 @@ const Headerauth = () => {
 
   <Link to="/vopros-otvet-ya" style={linkStyle}><a className={a.c}>Спроси учителя</a></Link>
 
-  <Link to="/vopros-otvet-ya" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
+  <Link to="/vopros-otvet-auth" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
   <a className={a.Сc}>Видеоуроки</a>
 </div>
 
@@ -59,8 +59,8 @@ const Headerauth = () => {
 <div className={a.i}>
          <div className={a.i1}>
 
-   <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <div className={a.iw}>+7 (800) 775 50 70</div></div>
-    <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <div className={a.i123}>@hschool_pedagog</div></div></div>
+   <div className={a.phone}><img src={logo} alt='logo' className={a.p}></img> <a href="tel:=+79869954077"className={a.iw}>+7 (986) 995 40 77</a></div>
+    <div className={a.phone1}><img src={logo2} alt='logo2'className={a.t}></img> <a href="tg://resolve?domail=hschool_pedagog" className={a.i123}>@hschool_pedagog</a></div></div>
 
          </div>
 
@@ -88,7 +88,7 @@ const Headerauth = () => {
 <div className={a.aA}>
  <div className={a.c4}>
     <a className={a.log}></a>
-    <a className={a.log2}>Home-School</a>
+    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.c1}>
