@@ -54,8 +54,6 @@
     margin-bottom: 16px;
 }
 
-
-
 .grid{
     margin-bottom: 10px;
     /* background-color: aquamarine; */
@@ -70,6 +68,11 @@
  margin-bottom: 7px;
 }
 
+.liI{
+    display: block;
+    margin-bottom: 7px;
+   }
+
 .spanli{
     color: #009839;
     font-size: 16px;
@@ -80,14 +83,20 @@
     font-size: 16px;
 }
 
-.spanli2{
-    background: url(https://static.iu.ru/version_1/img/download-round-green.svg) right bottom 1px no-repeat;
-    background-size: cover;
+.spangoogleAn{
+    margin-right: 3px;
+  padding-left: 23px;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-image: url(https://static.iu.ru/version_1/img/device/android.svg);
 }
 
-.spanli3{
-    background: url(https://static.iu.ru/version_1/img/download-round-green.svg) right bottom 1px no-repeat;
-    background-size: cover;
+.spangoogleIo{
+  margin-right: 3px;
+  padding-left: 23px;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-image: url(https://static.iu.ru/version_1/img/device/ios.svg);
 }
 
 .spangrid2{
@@ -96,12 +105,59 @@
     font-weight: 100;
 }
 
+.spangoogleG{
+    padding-right: 5px;
+    width: calc(100% / 2);
+    margin-bottom: 12px;
+    padding-left: 22px;
+    font-weight: 600;
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    background-image: url(https://static.iu.ru/version_1/img/browsers/chrome.svg);
+}
+
+.spangoogleE{
+    padding-right: 5px;
+    width: calc(100% / 2);
+    margin-bottom: 12px;
+    padding-left: 23px;
+    font-weight: 600;
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    background-image: url(https://static.iu.ru/version_1/img/browsers/safari.svg);
+    background-image: url(https://static.iu.ru/version_1/img/browsers/edge.svg);
+}
+
+.spangoogleS{
+    padding-right: 5px;
+    width: calc(100% / 2);
+    margin-bottom: 12px;
+    margin-left: 28px;
+    padding-left: 22px;
+    font-weight: 600;
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    background-image: url(https://static.iu.ru/version_1/img/browsers/safari.svg);
+}
+
+.spangoogleF{
+    margin-left: 23px;
+    padding-right: 5px;
+    width: calc(100% / 2);
+    margin-bottom: 12px;
+    padding-left: 22px;
+    font-weight: 600;
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    background-image: url(https://static.iu.ru/version_1/img/browsers/firefox.svg);
+}
+
 .lib{
     font-size: 16px;
     display: block;
     margin-bottom: 0px;
     line-height: 140%;
-    border-left: 3px solid #e32b31;
+    
     padding-left: 12px;
     width: 350px;
     /* background-color: #e32b31; */
@@ -129,7 +185,7 @@
     margin-top: 9px;
   }
 
-.grid1, .grid2, .grid3{
+.grid1, .grid2, .grid22, .grid3{
   margin-bottom: 7px;
   font-family: Gilroy-Medium;
   font-weight: 700;
@@ -137,9 +193,19 @@
   /* background-color: antiquewhite; */
 }
 
+.grid22{
+    border-left: 3px solid #e32b31;   
+}
+
 .spangrid3{
    font-size: 16px;
 }
+
+.spangrid33{
+    font-size: 16px;
+    
+ }
+ 
 
 .obs{
     box-sizing: border-box;
@@ -150,7 +216,7 @@
     width: 100%;
     padding: 23px 0px;
     background-color: rgb(247, 253, 255);
-    background: url(./backgr.jpg)right bottom 1px no-repeat;
+    background: url(./backgr.jpg) right bottom 1px no-repeat;
     background-size:cover;
     border-radius: 10px;
     margin-bottom: 100px;
@@ -192,14 +258,13 @@
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .div3:hover{
-    transition: 0.5s;
+       transition: 0.5s;
        background-color: rgb(11, 112, 57);
-
        }
-
 
 @media screen and (max-width: 1780px) {
 
@@ -239,3 +304,137 @@ width: 100%;
 }
 }
 
+@media screen and (max-width: 1200px) {
+
+    .spangrid33{
+        font-size: 16px;
+        padding-right: 65px;
+     }
+
+    .liI{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7px;
+        margin-top: 9px;
+        max-width: 435px;
+        min-width: 300px;
+        text-align: left;
+       }
+
+    .grid{
+        margin-bottom: 10px;
+        /* background-color: aquamarine; */
+        display: grid;
+        grid-column-gap:0px;
+        grid-template-columns: 1fr 1fr ;
+        /* height: 240px; */
+    }
+
+    .grid2{
+        /* background-color: #009839; */
+        border:none;
+    }
+
+    .grid22{
+        /* background-color: #009839; */
+        border-left: 3px solid #e32b31;
+    }
+
+    .lib{
+        font-size: 16px;
+        display: block;
+        margin-bottom: 0px;
+        line-height: 140%;
+        /* border-left: 3px solid #e32b31; */
+        border: none;
+        padding-left: 12px;
+        width: auto;
+        /* background-color: #e32b31; */
+       }
+
+       .librauser{
+        display: inline-block;
+        font-size: 16px;
+        font-family: Inter-Medium;
+        font-weight: 100;
+        line-height: 100%;
+        color: #919191;
+        max-width:max-content; 
+      }
+
+      .spangoogleS{
+        padding-right: 5px;
+        width: calc(100% / 2);
+        margin-bottom: 12px;
+        margin-left: 0px;
+        padding-left: 22px;
+        font-weight: 600;
+        background-position: 0 1px;
+        background-repeat: no-repeat;
+        background-image: url(https://static.iu.ru/version_1/img/browsers/safari.svg);
+    }
+    
+    .spangoogleF{
+        margin-left: 23px;
+        padding-right: 5px;
+        width: calc(100% / 2);
+        margin-bottom: 12px;
+        padding-left: 21px;
+        font-weight: 600;
+        background-position: 0 1px;
+        background-repeat: no-repeat;
+        background-image: url(https://static.iu.ru/version_1/img/browsers/firefox.svg);
+    }
+
+}
+
+@media screen and (max-width: 663px) {
+    .grid{
+        margin-bottom: 10px;
+        /* background-color: aquamarine; */
+        display: grid;
+        grid-column-gap:0px;
+        grid-template-columns: 1fr  ;
+        /* height: 240px; */
+    }
+    
+}
+
+@media screen and (max-width: 570px) {
+
+    .grid2{
+/*        
+        background-color: #51c0e2; */
+    }
+    .librauser{
+        margin-top: -20px;
+        padding: 0;
+      }
+
+    .spangrid3, .librauser, .spangrid2, .lib, .div2{
+        font-size: 14px;
+    }
+
+    .spangrid33{
+       height: 30px;
+       padding-right: 58px;
+        font-size: 14px;
+        align-items: center;
+
+    }
+
+    .liI{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7px;
+        margin-top: 10px;
+        max-width: 435px;
+        min-width: 300px;
+        text-align: left;
+       }
+
+       .obs{
+        margin-bottom: 85px;
+        margin-top: 60px;
+       }
+}

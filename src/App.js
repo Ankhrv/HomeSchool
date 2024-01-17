@@ -10,6 +10,7 @@ import OSStr5auth from './Content/OSStr5/OSStr5auth';
 import OSStr6 from './Content/OSStr6/OSStr6';
 import OSStr6auth from './Content/OSStr6/OSStr6auth';
 import OSStr7 from './Content/OSStr7/OSStr7';
+import OSStr8 from './Content/OSStr8/OSStr8';
 import OSStr7auth from './Content/OSStr7/OSStr7auth';
 import OSStr4auth from './Content/OSStr4/OSStr4auth';
 import OSStr2 from './Content/OSStr2/OSStr2';
@@ -37,6 +38,7 @@ function App() {
   <Route path="/obratnaja-sviaz" element={<OSStr1/>} />
   <Route path="/obratnaja-sviaz-auth" element={<OSStr1auth/>} />
   <Route path="/system-requirements" element={<OSStr3/>} />
+  <Route path="/Video" element={<OSStr8/>} />
   <Route path="/system-requirements-auth" element={<OSStr3auth/>} />
   <Route path="/dashboard" element={<RequireAuth> <App2auth /> </RequireAuth>} /> 
 </Routes>

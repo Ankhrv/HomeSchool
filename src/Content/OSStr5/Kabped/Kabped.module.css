@@ -261,4 +261,9 @@
   }
   }
   
-  
+  @media screen and (max-width: 570px) {
+
+    .navi{
+      padding-top: 78px;
+    }
+  }

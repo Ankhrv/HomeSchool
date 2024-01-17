@@ -38,8 +38,8 @@ const Sysreq = () => {
         </div>
         <div className={j.grid2}>
         <li className={j.li}>Браузеры</li>
-        <li className={j.li}><span className={j.spangoogle}></span><span className={j.spangrid3}>Google Chrome</span><span className={j.spanli3}></span> <span className={j.spangrid3}></span><span className={j.spangrid3}>Mozilla FireFox</span></li>
-        <li className={j.li}><span className={j.spangoogle}></span><span className={j.spangrid3}>Microsoft Edge</span><span className={j.spanli3}></span> <span className={j.spangrid3}>Safari</span></li>
+        <li className={j.liI}><span className={j.spangrid3}><span className={j.spangoogleG}></span>Google Chrome</span> <span className={j.spangrid3}><span className={j.spangoogleF}></span>Mozilla FireFox</span></li>
+        <li className={j.liI}><span className={j.spangrid3}><span className={j.spangoogleE}></span>Microsoft Edge</span> <span className={j.spangrid33}><span className={j.spangoogleS}></span>Safari</span></li>
         <li className={j.librauser}>Браузеры необходимо обновить до последней версии</li>
         </div>
         <div className={j.grid3}>
@@ -55,7 +55,7 @@ const Sysreq = () => {
         <li className={j.li}><span className={j.spangrid3}>2.0+ Ghz тактовая частота процессора</span></li>
         
         </div>
-        <div className={j.grid2}>
+        <div className={j.grid22}>
         <li className={j.lib}>!</li>
         <li className={j.lib}><span className={j.spangrid2}>Браузеры</span> Internet Explorer <span className={j.spangrid2}>и</span> Microsoft Edge Legacy <span className={j.spangrid2}>не поддерживаются!</span></li>
         </div>
@@ -67,14 +67,15 @@ const Sysreq = () => {
         <div className={j.b1}><div className={j.b12}>Android и iOS</div><div className={j.b2}></div></div>
         <div className={j.grid}>
         <div className={j.grid1}> 
-        <li className={j.li}><span className={j.spangrid3}>Телефон с iOS (12.2+): Safari браузер</span></li>
-        <li className={j.li}><span className={j.spangrid3}>Телефон с Android (6.0+): Chrome Mobile</span></li>
+        <li className={j.li}>Версии систем</li>
+        <li className={j.li}><span className={j.spangrid3}><span className={j.spangoogleIo}></span>Телефон с iOS (12.2+): Safari браузер</span></li>
+        <li className={j.li}><span className={j.spangrid3}><span className={j.spangoogleAn}></span>Телефон с Android (6.0+): Chrome Mobile</span></li>
         </div>
         </div>
         <div className={j.obs}>
           <div className={j.div1}>Наша команда поможет с любыми вопросами</div>
           <div className={j.div2}>Работаем 365 дней в году с 10:00 до 22:00 по московскому времени</div>
-          <Link to="/obratnaja-sviaz"><div className={j.div3}>Написать команде</div></Link>
+          <Link to="/obratnaja-sviaz"><a className={j.div3}>Написать команде</a></Link>
         </div>
         </div>  
         </div>

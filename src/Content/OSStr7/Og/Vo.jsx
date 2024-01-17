@@ -59,7 +59,16 @@ const Vo = () => {
     
        <div className={o.navi}>
        <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
-
+       
+       <div className={o.text}>
+<div className={o.textT}>
+<p className={o.Z}>Спроси учителя</p>
+<p className={o.Z1}>Это удобный сервис для помощи по любому школьному предмету даже во внеучебное время.</p>
+<p className={o.Z1}>Если у вас возник трудный вопрос, на который вы не можете ответить самостоятельно, и нет времени разобрать его на занятии, напишите его нам, а наши педагоги максимально быстро дадут на него ответ!</p>
+<p className={o.Z1}>На вопросы отвечают наши лучшие преподаватели.</p>
+<p className={o.Z1}>Это абсолютно бесплатно!</p></div>
+<div className={o.textT2}></div>
+</div>
        <div className={o.a4}>
 
 
@@ -81,9 +90,6 @@ const Vo = () => {
   />
 
 <textarea className='inpOO3' maxLength={500} placeholder="Ваш вопрос или сообщение" name="message"></textarea>
-
-
-
 
      <div className={s.Tt}>
      <p className={s.R}>Заполняя эту форму, вы подтверждаете, что ознакомились с <a href={PDF1} target="_blank" rel="noreferrer" className={s.spanN}>политикой конфиденциальности</a> и <a href={PDF2} target="_blank" rel="noreferrer" className={s.spanN}>пользовательским соглашением </a>, а также даёте согласие на <a href={PDF3} target="_blank" rel="noreferrer" className={s.spanN}>обработку своих персональных данных</a></p></div>

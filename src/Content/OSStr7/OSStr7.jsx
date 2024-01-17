@@ -9,7 +9,7 @@ import '../../App.css';
 
 
 
-const OSStr6 = () => {
+const OSStr7 = () => {
     return (
     <div className="App"> 
      <Header/>
@@ -26,4 +26,4 @@ const OSStr6 = () => {
         );
 }
 
-export default OSStr6;
+export default OSStr7;

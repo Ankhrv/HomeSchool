@@ -32,7 +32,7 @@ const Footer = () => {
 <div className={a.footer}>
 <div className={a.c4}>
     <a className={a.log}></a>
-    <a className={a.log2}>Home-School</a>
+    <a className={a.log2}>School-Home</a>
 </div>
 
 

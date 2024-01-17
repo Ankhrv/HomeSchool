@@ -35,7 +35,7 @@ const Footer = () => {
 <div className={a.footer}>
 <div className={a.c4}>
     <a className={a.log}></a>
-    <a className={a.log2}>Home-School</a>
+    <a className={a.log2}>School-Home</a>
 </div>
 
 
@@ -82,7 +82,7 @@ const Footer = () => {
 <a href={PDF1} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Политика конфиденциальности</a>
 <a href={PDF3} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Политика о персональных данных</a>
 <a href={PDF5} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe}` }>Правила пользования сайтом</a>
-<a className={ `${a.f} ${a.fff}` }>Онлайн-школа «Home-School» © 2024</a>
+<a className={ `${a.f} ${a.fff}` }>Онлайн-школа «School-Home» © 2024</a>
 
 </div>
 </div>
