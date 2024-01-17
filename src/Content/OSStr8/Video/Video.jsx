@@ -1,4 +1,4 @@
-import o from './Vo.module.css';
+import o from './Video.module.css';
 // import logo from './y.png';
 import { Helmet } from 'react-helmet';
 import React, { useState } from "react";
@@ -19,6 +19,10 @@ import PDF3 from "../../../PDF/Privacydata.pdf";
 
 const Video = () => {
   
+       const linkStyle = {
+              textDecoration: "none",
+              color: "#666"
+            };
 
    return (
 

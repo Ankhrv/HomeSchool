@@ -22,7 +22,7 @@
 
 .textT2{
   width: 720px;
-  background: url(./sprsuch.jpg);
+  /* background: url(./sprsuch.jpg); */
   background-size: cover;
   border-radius: 10px;
 }

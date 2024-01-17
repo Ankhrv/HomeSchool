@@ -27,6 +27,7 @@ const Headerauth = () => {
 
   const setActive11 = ({isActive}) => isActive ? 'active-link11' : 'notactive11' ;
   const setActive10 = ({isActive}) => isActive ? 'active-link10' : 'notactive10' ;
+  const setActive12 = ({isActive}) => isActive ? 'active-link10' : 'notactive10' ;
    const [modalInfoIsOpen8, setModalInfoOpen8] = useState(false);
 
     return (
@@ -40,7 +41,7 @@ const Headerauth = () => {
         <div className={a.a}>
  <div className={a.c4}>
     <a className={a.log}></a>
-    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
+    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>School-Home</a></Link>
 </div>
 
 <div className={a.c1}>
@@ -51,7 +52,7 @@ const Headerauth = () => {
   <Link to="/vopros-otvet-ya" style={linkStyle}><a className={a.c}>Спроси учителя</a></Link>
 
   <Link to="/vopros-otvet-auth" style={linkStyle}><a className={a.c}>Стоимость</a></Link>
-  <a className={a.Сc}>Видеоуроки</a>
+  <Link to="/video" style={linkStyle}><a className={a.Сc}>Видеоуроки</a></Link>
 </div>
 
 <div className={a.c3}>
@@ -75,7 +76,7 @@ const Headerauth = () => {
          <div className={c.b18}>Профиль</div>
          <NavLink to="/lichnyi-kabinet-auth" className={setActive10}><div className={c.b100}><div className={c.b1}><img src={profile} alt='profile' className={c.profile}></img> Личный кабинет</div></div></NavLink>
          <NavLink to="/obratnaja-sviaz-auth" className={setActive11}><div className={c.b100}><div className={c.b1}><img src={message} alt='message' className={c.profile}></img> Обратная связь</div></div></NavLink>
-         <div className={c.b100}><div className={c.b1}><img src={video2} alt='video2' className={c.profile}></img> Видеоуроки</div></div>
+         <NavLink to="/video" className={setActive12}><div className={c.b100}><div className={c.b1}><img src={video2} alt='video2' className={c.profile}></img> Видеоуроки</div></div></NavLink>
          <div className={c.b100}><div className={c.b1}><img src={video} alt='video' className={c.profile}></img> Видеолекции</div></div>
          <div className={c.b100}><div onClick={Userfront.logout} className={c.b17}><img src={exit} alt='exit' className={c.profile}></img>Выйти</div></div>
          </div>

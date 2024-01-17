@@ -38,7 +38,7 @@ function App() {
   <Route path="/obratnaja-sviaz" element={<OSStr1/>} />
   <Route path="/obratnaja-sviaz-auth" element={<OSStr1auth/>} />
   <Route path="/system-requirements" element={<OSStr3/>} />
-  <Route path="/Video" element={<OSStr8/>} />
+  <Route path="/video" element={<OSStr8/>} />
   <Route path="/system-requirements-auth" element={<OSStr3auth/>} />
   <Route path="/dashboard" element={<RequireAuth> <App2auth /> </RequireAuth>} /> 
 </Routes>
