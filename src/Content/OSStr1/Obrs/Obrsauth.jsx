@@ -60,14 +60,19 @@ const Obrsauth = () => {
         <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
 
       </Helmet>
+
+
+
+
+
+      
 <div className={o.A4}>
 
 <div className={o.navi}>
+
        <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
-       
+
         <div className={o.a4}>
-          
-       
         <div className={s.GL}>
         
 

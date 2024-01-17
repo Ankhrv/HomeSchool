@@ -22,6 +22,12 @@ import PDF2 from "../../../PDF/PolzSogl.pdf";
 import PDF3 from "../../../PDF/Privacydata.pdf";
 
 const Obrs = () => {
+  
+  const linkStyle = {
+    textDecoration: "none",
+    color: "#666"
+  };
+
    const navigate = useNavigate()
 
   const [value, setValue] = useState()
@@ -57,7 +63,7 @@ const Obrs = () => {
         <div className={o.A4}>
      
         <div className={o.navi}>
-          <span className={o.navi2}>Главная</span><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
+        <Link to="/" style={linkStyle}> <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
 
         <div className={o.a4}>
 
