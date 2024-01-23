@@ -4,7 +4,7 @@ import Menu from '../../Components/Menu/Menu';
 import Ball from '../../Components/Menu/Balll/Ball';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
-import Vo from '../OSStr7/Og/Vo';
+import Vo from '../OSStr7/Vo/Vo';
 import '../../App.css';
 
 

@@ -304,6 +304,7 @@ width: 100%;
         min-width: 400px;
         margin: 0;
         padding: 0;
+        height: 300px;
     }
 
     .divright{
@@ -314,8 +315,14 @@ width: 100%;
 
     @media screen and (max-width: 572px) {
 
+        /* .A1{
+            padding-bottom: 0;
+            margin-bottom: 0;
+        } */
+
         .divrighttt{
             min-width: 300px;
+            height: 100px;
         }
     
         .divright{
@@ -440,6 +447,13 @@ display: flex;
 .divleft{
     display: none;
 }
+
+.divrighttt{
+    min-height:220px;
+    /* background-color: blueviolet; */
+}
+
+
 }
 
 @media screen and (max-width: 462px) {
@@ -450,6 +464,8 @@ display: flex;
     .div1{
         padding-top: 0;
     }
+
+  
 }
 
           @media screen and (max-width: 370px) {
@@ -466,6 +482,11 @@ display: flex;
       .divright{ 
             width: 300px;
             height: 180px; 
+            }
+
+            .divrighttt{
+                min-height:180px;
+                /* background-color: blueviolet; */
             }
 
   }

@@ -11,7 +11,7 @@ import '../../../Components/BesplZan/BezplZan.css';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 import 'react-phone-number-input/style.css';
-import s from '../../../Components/BesplZan/M.module.css';
+import l from '../../OSStr5/Kabped/Kabped.module.css';
 import ReCAPTCHA from "react-google-recaptcha";
 import PDF1 from "../../../PDF/Privacy.pdf";
 import PDF2 from "../../../PDF/PolzSogl.pdf";
@@ -49,16 +49,16 @@ const Vo = () => {
 
    return (
 
-<div className={o.A14}>
+<div className={l.A14}>
 <Helmet>
        <title>Кабинет педагога</title>
        <meta name="description" content="Актуальные видео-уроки от опытного педагога" />
      </Helmet>
 
-       <div className={o.A4}>
+       <div className={l.A4}>
     
-       <div className={o.navi}>
-       <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
+       <div className={l.navi}>
+       <Link to="/" style={linkStyle}>   <span className={l.navi2}>Главная</span></Link><span className={l.navi3}>&gt;</span><span className={l.navi4}>Обратная связь</span></div> 
        
        <div className={o.text}>
 <div className={o.textT}>
@@ -69,38 +69,37 @@ const Vo = () => {
 <p className={o.Z1}>Это абсолютно бесплатно!</p></div>
 <div className={o.textT2}></div>
 </div>
-       <div className={o.a4}>
+<div className={l.a4}>
 
+<div className={l.GLi}>
 
-       <div className={s.GL}>
-       
 <div className='zagO2'>Задайте нам вопрос</div>
-<div className={s.ui}>Мы ответим Вам в ближайшее время</div>
-      <form ref={form} onSubmit= {sendEmail} >
+<div className={l.uii}>Мы ответим Вам в ближайшее время</div>
+<form ref={form} onSubmit= {sendEmail} >
 
-      <div className={s.obsh}>
+<div className={l.obshi}>
 
-    <input placeholder="Введите ваше имя"className='inpOO2'type="text" title="Разрешено использовать только пробелы и русские буквы"
-    pattern="^[А-Яа-яЁё\s]+$" maxLength={10} name="us_name" required 
-    />
+<input placeholder="Введите ваше имя"className='inpOO2'type="text" title="Разрешено использовать только пробелы и русские буквы"
+pattern="^[А-Яа-яЁё\s]+$" maxLength={10} name="us_name" required 
+/>
 
-<div className={s.i}>
+<div className={l.ii}>
 
-   <input  placeholder="Введите вашу почту"className='inpOO'pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z])+$" type="email" name="email" maxLength={25} required 
-  />
+<input  placeholder="Введите вашу почту"className='inpOO'pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z])+$" type="email" name="email" maxLength={25} required 
+/>
 
 <textarea className='inpOO3' maxLength={500} placeholder="Ваш вопрос или сообщение" name="message"></textarea>
 
-     <div className={s.Tt}>
-     <p className={s.R}>Заполняя эту форму, вы подтверждаете, что ознакомились с <a href={PDF1} target="_blank" rel="noreferrer" className={s.spanN}>политикой конфиденциальности</a> и <a href={PDF2} target="_blank" rel="noreferrer" className={s.spanN}>пользовательским соглашением </a>, а также даёте согласие на <a href={PDF3} target="_blank" rel="noreferrer" className={s.spanN}>обработку своих персональных данных</a></p></div>
+<div className={l.Tti}>
+<div className={l.Ri}>Заполняя эту форму, вы подтверждаете, что ознакомились с <a href={PDF1} target="_blank" rel="noreferrer" className={l.spanNi}>политикой конфиденциальности</a> и <a href={PDF2} target="_blank" rel="noreferrer" className={l.spanNi}>пользовательским соглашением </a>, а также даёте согласие на <a href={PDF3} target="_blank" rel="noreferrer" className={l.spanNi}>обработку своих персональных данных</a></div></div>
+</div>
+<button  className={l.knopi} type="submit" value="Перезвоните мне">{buttonText}</button></div>
 
-     <button  className={s.knop} type="submit" value="Перезвоните мне">{buttonText}</button></div>
-    </div>
-    <div className={s.capcha}>
-     <ReCAPTCHA  sitekey={process.env.REACT_APP_SITE_KEY} />
-     </div>
+<div className={l.capchai}>
+<ReCAPTCHA  sitekey={process.env.REACT_APP_SITE_KEY} />
+</div>
 
-   </form>
+</form>
    
    </div>
        </div>

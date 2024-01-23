@@ -46,7 +46,7 @@ const Obrsauth = () => {
       setButtonText("Отправлено");
       console.log(result.text);
       e.target.reset();
-      // navigate('/');
+       navigate('/dashboard');
   }, (error) => {
       console.log(error.text);
       setButtonText("Ошибка отправки");
@@ -61,16 +61,12 @@ const Obrsauth = () => {
 
       </Helmet>
 
-
-
-
-
       
 <div className={o.A4}>
 
 <div className={o.navi}>
 
-       <Link to="/" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
+       <Link to="/dashboard" style={linkStyle}>   <span className={o.navi2}>Главная</span></Link><span className={o.navi3}>&gt;</span><span className={o.navi4}>Обратная связь</span></div> 
 
         <div className={o.a4}>
         <div className={s.GL}>
