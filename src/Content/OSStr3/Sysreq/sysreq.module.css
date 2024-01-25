@@ -388,6 +388,12 @@ width: 100%;
 
 }
 
+@media screen and (max-width: 570px) {
+.grid3, .grid2{
+    padding-top: 12px;
+}
+}
+
 @media screen and (max-width: 663px) {
     .grid{
         margin-bottom: 10px;

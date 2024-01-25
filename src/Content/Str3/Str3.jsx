@@ -28,17 +28,17 @@ const Str3 = () => {
 </div>
 
 <div className={c.blocks}>
-<div className={c.block1}><div className={c.block111}><div className={c.block102}></div><div className={c.block12}>Технологии на 5+</div><div className={c.block122}>Простая и понятная онлайн-платформа, мы лидеры в образовании, но и резиденты Сколково.</div></div></div>
-<div className={c.block2}><div className={c.block111}><div className={c.block103}></div><div className={c.block12}>Всё по науке</div><div className={c.block122}>Сервис на базе главного образовательного проекта для учителей: только лучшие педагоги.</div></div></div>
-<div className={c.block3}><div className={c.block111}><div className={c.block104}></div><div className={c.block12}>Комфортная оплата</div><div className={c.block122}>Оплачивайте сразу или в рассрочку: распланируйте занятия на месяц вперёд или платите поурочно.</div></div></div>
-<div className={c.block4}><div className={c.block111}><div className={c.block105}></div><div className={c.block12}>Персональный подход</div><div className={c.block122}>Качество и доступность: добивайтесь лучших результатов, занимаясь индивидуально.</div></div></div>
+<div className={c.block1}><div className={c.block111}><div className={c.block102}></div><div className={c.block12}>Технологии на 5+</div><div className={c.block122}>Видео-уроки с простой и понятной подачей материала, удобное распределение по темам.</div></div></div>
+<div className={c.block2}><div className={c.block111}><div className={c.block103}></div><div className={c.block12}>Всё по науке</div><div className={c.block122}>Сервис предоставляет доступ к урокам на базе ведущих учебных программ в соответствии  с ФГОС.</div></div></div>
+<div className={c.block3}><div className={c.block111}><div className={c.block104}></div><div className={c.block12}>Комфортная оплата</div><div className={c.block122}>Оплачивайте занятия удобно! Вы можете оплатить каждый урок отдельно или блок занятий сразу.</div></div></div>
+<div className={c.block4}><div className={c.block111}><div className={c.block105}></div><div className={c.block12}>Персональный подход</div><div className={c.block122}>Качество и доступность: добивайтесь лучших результатов, занимаясь самостоятельно.</div></div></div>
 
 </div>
 <div className={c.blocks1}>
-<div className={c.blockK1}><div className={c.block102}></div><div className={c.block102K}></div><div className={c.block12}>Технологии на 5+</div><div className={c.block122}>Простая и понятная онлайн-платформа, мы лидеры в образовании, но и резиденты Сколково.</div></div>
-<div className={c.blockK2}><div className={c.block103}></div><div className={c.block103K}></div><div className={c.block12}>Всё по науке</div><div className={c.block122}>Сервис на базе главного образовательного проекта для учителей: только лучшие педагоги.</div></div>
-<div className={c.blockK3}><div className={c.block104}></div><div className={c.block104K}></div><div className={c.block12}>Комфортная оплата</div><div className={c.block122}>Оплачивайте сразу или в рассрочку: распланируйте занятия на месяц вперёд или платите поурочно.</div></div>
-<div className={c.blockK4}><div className={c.block105}></div><div className={c.block105K}></div><div className={c.block12}>Персональный подход</div><div className={c.block122}>Качество и доступность: добивайтесь лучших результатов, занимаясь индивидуально.</div></div>
+<div className={c.blockK1}><div className={c.block102}></div><div className={c.block102K}></div><div className={c.block12}>Технологии на 5+</div><div className={c.block122}>Видео-уроки с простой и понятной подачей материала, удобное распределение по темам.</div></div>
+<div className={c.blockK2}><div className={c.block103}></div><div className={c.block103K}></div><div className={c.block12}>Всё по науке</div><div className={c.block122}>Сервис предоставляет доступ к урокам на базе ведущих учебных программ в соответствии  с ФГОС.</div></div>
+<div className={c.blockK3}><div className={c.block104}></div><div className={c.block104K}></div><div className={c.block12}>Комфортная оплата</div><div className={c.block122}>Оплачивайте занятия удобно! Вы можете оплатить каждый урок отдельно или блок занятий сразу.</div></div>
+<div className={c.blockK4}><div className={c.block105}></div><div className={c.block105K}></div><div className={c.block12}>Персональный подход</div><div className={c.block122}>Качество и доступность: добивайтесь лучших результатов, занимаясь самостоятельно.</div></div>
 </div></div>
 </div>
 </div>
