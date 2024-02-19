@@ -1,5 +1,6 @@
 import React from 'react';
-// import logo from './y.png';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Menu from '../../Components/Menu/Menu';
 import Ball from '../../Components/Menu/Balll/Ball';
@@ -11,6 +12,13 @@ import '../../App.css';
 
 
 const OSStr1 = () => {
+
+    const { pathname2 } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [pathname2])
+
     return (
     <div className="App"> 
     <Header/>

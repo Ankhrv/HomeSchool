@@ -41,7 +41,7 @@ const Headerauth = () => {
         <div className={a.a}>
  <div className={a.c4}>
     <a className={a.log}></a>
-    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>School-Home</a></Link>
+    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.c1}>
@@ -89,7 +89,7 @@ const Headerauth = () => {
 <div className={a.aA}>
  <div className={a.c4}>
     <a className={a.log}></a>
-    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>School-Home</a></Link>
+    <Link to="/dashboard" style={linkStyle}><a className={a.log2}>Home-School</a></Link>
 </div>
 
 <div className={a.c1}>

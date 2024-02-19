@@ -1,24 +1,32 @@
 import React from 'react';
-// import logo from './y.png';
-import Menu from '../../Components/Menu/Menu';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import Menuauth from '../../Components/Menu/Menuauth';
 import Ball from '../../Components/Menu/Balll/Ball';
-import Footer from '../../Components/Footer/Footer';
-import Header from '../../Components/Header/Header';
-import Sysreq from './Sysreq/Sysreq';
+import Footerauth from '../../Components/Footer/Footerauth';
+import Headerauth from '../../Components/Header/Headerauth';
+import Sysreqauth from './Sysreq/Sysreqauth';
 import '../../App.css';
 
 
 
 const OSStr3auth = () => {
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [pathname])
+
     return (
     <div className="App"> 
-     <Header/>
+     <Headerauth/>
      <div className='Menu'>
-    <Menu/>
+    <Menuauth/>
     <Ball/>
     </div>
-    <Sysreq/>
-    <Footer/>
+    <Sysreqauth/>
+    <Footerauth/>
      </div>
 
         

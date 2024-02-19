@@ -13,6 +13,7 @@ import PDF3 from "../../PDF/Privacydata.pdf";
 // import PDF4 from "../../PDF/Privacy.pdf";
 import PDF5 from "../../PDF/Privacy.pdf";
 import Diplom from "../../PDF/Diplom.pdf";
+import DiplomE from "../../PDF/DiplomE.pdf";
 
 const Footer = () => {
   const linkStyle = {
@@ -35,7 +36,7 @@ const Footer = () => {
 <div className={a.footer}>
 <div className={a.c4}>
     <a className={a.log}></a>
-    <a className={a.log2}>School-Home</a>
+    <a className={a.log2}>Home-School</a>
 </div>
 
 
@@ -47,7 +48,7 @@ const Footer = () => {
 
 </div>
 <a href={Diplom} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe2}` }> <img src={logo5} alt='logo' className={a.l5}></img>Образовательную деятельность ведёт дипломированный педагог</a>
-<a className={ `${a.f} ${a.fff} ${a.fe2}` }> <img src={logo5} alt='logo' className={a.l5}></img>Эксперт ОГЭ</a>
+<a href={DiplomE} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe2}` }> <img src={logo5} alt='logo' className={a.l5}></img>Эксперт</a>
 {/* <a className={ `${a.fp} ${a.fe2} ${a.fff}` }>Министерство Образования и Науки РФЛицензия</a> */}
 </div>
 <div className={a.footer1}>
@@ -98,7 +99,7 @@ const Footer = () => {
 </div>
 <div className={a.pic}>
 <a href={Diplom} target="_blank" rel="noreferrer" className={a.pic1}><a> <img src={logo5} alt='logo' className={a.l5}></img></a><div className={a.textt}><div className={a.text2 }>Образовательную деятельность ведёт</div><div className={a.text2}> дипломированный педагог</div></div></a>
-<a className={ `${a.f} ${a.fff} ${a.fe4} ${a.fr}` }> <img src={logo5} alt='logo' className={a.l5}></img>Эксперт ОГЭ</a>
+<a href={DiplomE} target="_blank" rel="noreferrer" className={ `${a.f} ${a.fff} ${a.fe4} ${a.fr}` }> <img src={logo5} alt='logo' className={a.l5}></img>Эксперт</a>
 {/* <a className={ `${a.fp} ${a.fe2} ${a.fff}` }>Министерство Образования и Науки РФЛицензия</a> */}
 </div></div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
-// import logo from './y.png';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Menuauth from '../../Components/Menu/Menuauth';
 import Ball from '../../Components/Menu/Balll/Ball';
 import Footerauth from '../../Components/Footer/Footerauth';
@@ -10,6 +11,13 @@ import '../../App.css';
 
 
 const OSStr5auth = () => {
+
+    const { pathname7 } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [pathname7])
+
     return (
     <div className="App"> 
      <Headerauth/>
