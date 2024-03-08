@@ -1,6 +1,14 @@
+@font-face {
+    /*подключаем шрифт, сначала скачиваем его и переносим либо всю папку либо конкретный файл шрифта в папку (у меня шрифты лежат в папке fonts)*/
+    src: url(/src/Fonts/Inter-Regular1.otf);
+    /*с помощью src вытаскиваем файл который нам нужен, пишем относительный путь к файлу шрифта, так как мы находимся в папке css в файле style, нужно выйти на папку выше (../) зайти в папку fonts (fonts/) и выбрать нужный файл, не забываем расширение .ttf*/
+    font-family: Helvetica;
+    /*обязательно указываем название шрифта, его можно придумать самостоятельно, важно, чтобы данное название совпадало с тем, которое вы пишите когда присваиваете этот шрифт чему-либо ( в моем случае на в строке 7 я присваиваю его всему сайту, потмоу что пишу font-family в теге body)*/
+}
 
 .dropbtn110 {
-    display: flex;border: none;
+    display: flex;
+    border: none;
 }
 
 .dropbtn11 {
@@ -28,10 +36,10 @@
     box-shadow: 0 2px 8px rgba(1, 53, 176, 0.1);
 }
 
-.dropdowncontent1 {
+.dropdowncontent1, .dropdowncontent2 {
     display: none;
     max-width: 800px;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.4;
     color: #222;
     border-radius: 10px;
@@ -44,10 +52,16 @@
     border: none;    
 }
 
-.show2 {display: block;
+.show2, .show4, .show6 {display: block;
     border: none;}
 
-.show3 {border: none;}
+.show3, .show5, .show7  {border: none;}
+
+@media screen and (max-width: 970px) {
+    .dropdowncontent1, .dropdowncontent2 {
+        font-size: 16px;
+}}
+
 
 @media screen and (max-width: 572px) {
     .dropbtn11 {

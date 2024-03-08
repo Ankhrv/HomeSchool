@@ -1,7 +1,8 @@
 import React from "react"
 import c from './Str7.module.css';
+
 import { Helmet } from 'react-helmet';
-import str from './50.png';
+// import str from './50.png';
 import { useState } from 'react';
 import './click.css'
 
@@ -50,16 +51,16 @@ const Str7 = () => {
 }
 
 let myFunction2 = (event) => {
-  Mennu4.current.classList.toggle("show2");
-  Mennu3.current.classList.toggle("show3");
+  Mennu4.current.classList.toggle("show4");
+  Mennu3.current.classList.toggle("show5");
   setIsShown2(current => !current);
   setIsActive101(current => !current);
   setIsActive102(current => !current);
 }
 
 let myFunction3 = (event) => {
-  Mennu6.current.classList.toggle("show2");
-  Mennu5.current.classList.toggle("show3");
+  Mennu6.current.classList.toggle("show6");
+  Mennu5.current.classList.toggle("show7");
   setIsShown3(current => !current);
   setIsActive103(current => !current);
   setIsActive104(current => !current);
@@ -109,8 +110,8 @@ let myFunction6 = (event) => {
         <div className={c.fon}>
           <div className={c.a}>
 
-            <div onClick={myFunction} className='dropbtn11'>
-            <div className='dropbtn110'>
+            <div onClick={myFunction} className={c.dropbtn110}>
+            <div className={c.dropbtn1100}>
              <span> <div ref={Mennu2} style={{
               display: isActive99 ? 'none' : 'block'
             }}
@@ -118,11 +119,11 @@ let myFunction6 = (event) => {
             <span>{isShown1 ? (<div className={c.dstr2}></div>) : null}</span><span className={c.span} style={{
               fontWeight: isActive100 ? '900' : ''
             }}>Как и где проходят занятия?</span> </div>
-            <div ref={Mennu} className='dropdowncontent1'> Мы разработали специальную систему подбора уроков по темам для домашних занятий. Заниматься дома удобнее и комфортнее, так же это экономит время для любимых хобби. Созданный чат, позволит проверить свои знания, с помощью практических заданий которые проверит учитель. А разбивка по темам позволит закрыть пробелы или получить дополнительную информацию для закрепления.</div>
+            <div ref={Mennu} className={c.dropdowncontent10}> Мы разработали специальную систему подбора уроков по темам для домашних занятий. Заниматься дома удобнее и комфортнее, так же это экономит время для любимых хобби. Созданный чат, позволит проверить свои знания, с помощью практических заданий которые проверит учитель. А разбивка по темам позволит закрыть пробелы или получить дополнительную информацию для закрепления.</div>
             </div>
 
-            <div onClick={myFunction2} className='dropbtn11'>
-            <div className='dropbtn110'>
+            <div onClick={myFunction2} className={c.dropbtn111}>
+            <div className={c.dropbtn1101}>
              <span> <div ref={Mennu3} style={{
               display: isActive101 ? 'none' : 'block'
             }}
@@ -130,13 +131,13 @@ let myFunction6 = (event) => {
             <span>{isShown2 ? (<div className={c.dstr2}></div>) : null}</span><span className={c.span} style={{
               fontWeight: isActive102 ? '900' : ''
             }}>Какое оборудование нужно для занятий?</span> </div>
-            <div ref={Mennu4} className='dropdowncontent1'> Для занятий понадобится ноутбук или компьютер, так же возможно использовать планшет. Наушники, камеры и микрофоны не нужны! Так же необходимо завести тетрадь ведь будет много полезной информации!</div>
+            <div ref={Mennu4} className={c.dropdowncontent11}> Для занятий понадобится ноутбук или компьютер, так же возможно использовать планшет. Наушники, камеры и микрофоны не нужны! Так же необходимо завести тетрадь ведь будет много полезной информации!</div>
             </div>
 
 
           
-            <div onClick={myFunction3} className='dropbtn11'>
-            <div className='dropbtn110'>
+            <div onClick={myFunction3} className={c.dropbtn112}>
+            <div className={c.dropbtn1102}>
              <span> <div ref={Mennu5} style={{
               display: isActive103 ? 'none' : 'block'
             }}
@@ -144,12 +145,12 @@ let myFunction6 = (event) => {
             <span>{isShown3 ? (<div className={c.dstr2}></div>) : null}</span><span className={c.span} style={{
               fontWeight: isActive104 ? '900' : ''
             }}>Сколько длится урок?</span> </div>
-            <div ref={Mennu6} className='dropdowncontent1'> Каждый урок продолжительностью не более 30 минут, в зависимости от темы. Рекомендуется провести диагностику, что бы определить необходимые темы и количество уроков.</div>
+            <div ref={Mennu6} className={c.dropdowncontent12}> Каждый урок продолжительностью не более 30 минут, в зависимости от темы. Рекомендуется провести диагностику, что бы определить необходимые темы и количество уроков.</div>
             </div>
 
             
-            <div onClick={myFunction4} className='dropbtn11'>
-            <div className='dropbtn110'>
+            <div onClick={myFunction4} className={c.dropbtn113}>
+            <div className={c.dropbtn1103}>
              <span> <div ref={Mennu7} style={{
               display: isActive105 ? 'none' : 'block'
             }}
@@ -157,12 +158,12 @@ let myFunction6 = (event) => {
             <span>{isShown4 ? (<div className={c.dstr2}></div>) : null}</span><span className={c.span} style={{
               fontWeight: isActive106 ? '900' : ''
             }}>Я смогу посмотреть запись урока?</span> </div>
-            <div ref={Mennu8} className='dropdowncontent1'> Запись уроков остаётся у ученика до конца учебного года. Поэтому можно пересматривать уроки в любое время!</div>
+            <div ref={Mennu8} className={c.dropdowncontent13}> Запись уроков остаётся у ученика до конца учебного года. Поэтому можно пересматривать уроки в любое время!</div>
             </div>
 
             
-            <div onClick={myFunction5} className='dropbtn11'>
-            <div className='dropbtn110'>
+            <div onClick={myFunction5} className={c.dropbtn114}>
+            <div className={c.dropbtn1104}>
              <span> <div ref={Mennu9} style={{
               display: isActive107 ? 'none' : 'block'
             }}
@@ -170,12 +171,12 @@ let myFunction6 = (event) => {
             <span>{isShown5 ? (<div className={c.dstr2}></div>) : null}</span><span className={c.span} style={{
               fontWeight: isActive108 ? '900' : ''
             }}>Как приобрести нужные уроки?</span> </div>
-            <div ref={Mennu10} className='dropdowncontent1'> Нужно зарегестрироваться, выбрать уроки самостоятельно или пройти диагностику у опытного педагога. После этого сможете произвести оплату по реквизитам.</div>
+            <div ref={Mennu10} className={c.dropdowncontent14}> Нужно зарегестрироваться, выбрать уроки самостоятельно или пройти диагностику у опытного педагога. После этого сможете произвести оплату по реквизитам.</div>
             </div>
 
             
-            <div onClick={myFunction6} className='dropbtn11'>
-            <div className='dropbtn110'>
+            <div onClick={myFunction6} className={c.dropbtn115}>
+            <div className={c.dropbtn1105}>
              <span> <div ref={Mennu11} style={{
               display: isActive109 ? 'none' : 'block'
             }}
@@ -183,7 +184,7 @@ let myFunction6 = (event) => {
             <span>{isShown6 ? (<div className={c.dstr2}></div>) : null}</span><span className={c.span} style={{
               fontWeight: isActive110 ? '900' : ''
             }}>Как заранее распланировать занятия? </span> </div>
-            <div ref={Mennu12} className='dropdowncontent1'> В кабинете педагога находятся файлы по каждой программе. В них расписаны все темы которые проходятся по данному учебнику. И поэтому даже летом вы можете начать обучение по своей программе и расписать план занятий на год вперёд!</div>
+            <div ref={Mennu12} className={c.dropdowncontent15}> В кабинете педагога находятся файлы по каждой программе. В них расписаны все темы которые проходятся по данному учебнику. Даже летом вы можете начать обучение по своей программе и расписать план занятий на год вперёд!</div>
             </div>
           </div>
         </div>
