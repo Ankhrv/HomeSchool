@@ -35,6 +35,7 @@ scrollbar-width: none;  /* Firefox */
  width: 100%;
  display: flex;
  justify-content: flex-end;
+ margin-right: 10%;
  align-items: flex-start;
  top: 76px; 
  right: 8px;
@@ -115,3 +116,17 @@ scrollbar-width: none;  /* Firefox */
 
   transform: translateY(0px);  */
 }
+
+@media screen and (max-width: 1780px) {
+.modal-wrapper8 {
+  position: fixed; 
+  margin-right: 0px;
+  height: 74%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  top: 76px; 
+  right: 8px;
+  z-index: 988; 
+ }}

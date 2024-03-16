@@ -36,8 +36,6 @@ padding: 20px 30px;
 
 .navi{
     padding-top: 178px;
-   
-    
     font-size: 14px;
     font-family: Helvetica;
     color: #666;
@@ -74,23 +72,24 @@ padding: 20px 30px;
       background-color: rgb(244, 244, 244);
       display: flex;
       flex-direction: column;
-     justify-content: center;
-     align-items: center;
+      justify-content: center;
+      align-items: center;
   }
   
   /* Главный3 */
   .a4{
-       width: 600px;
-       max-width: 600px;
-       display: flex;
-       margin-top: 45px;
-       margin-bottom: 90px;
-       height:100%;
-       background-color: rgb(255, 255, 255);
-       justify-content: center;
-       border-radius: 15px;
-       padding: 0px 40px;
-       box-sizing: border-box;
+    width: 100%;
+    background-color: aqua;
+    padding: 0;
+  }
+
+  .a44{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    color: aqua;
+    border-radius: 0;
   }
   
     .capcha{
