@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import o from './Os.module.css';
 // import logo from './y.png';
 import { Helmet } from 'react-helmet';
-
+import VideoList from './VideoList';
+import SearchInput from './SearchInput';
 
 
 
@@ -41,7 +42,20 @@ const Obrs = () => {
 <div className={o.A4}>
         <div className={o.a4}>
       
-     
+        <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <h1>Поиск по названию</h1>
+      <SearchInput 
+        searchTerm={searchTerm} 
+        setSearchTerm={setSearchTerm} />
+      <VideoList videos={filteredVideos} />
+    </div>
 
 
         </div>  

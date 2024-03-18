@@ -17,18 +17,37 @@ import ReCAPTCHA from "react-google-recaptcha";
 import PDF1 from "../../../PDF/Privacy.pdf";
 import PDF2 from "../../../PDF/PolzSogl.pdf";
 import PDF3 from "../../../PDF/Privacydata.pdf";
+import VideoList from './VideoList';
+import SearchInput from './SearchInput';
+
 
 const Video = () => {
-      
-
+       const [searchTerm, setSearchTerm] = useState("");
        const linkStyle = {
-              textDecoration: "none",
-              color: "#666"
-            };
+        textDecoration: "none",
+        color: "#666"
+      };
 
-
-
-   return (
+       const videos = [
+         { id: 1, title: 'Video 1', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         // Add more videos as needed
+         { id: 2, title: 'Video 2', url: 'https://www.youtube.com/embed/VIDEO_ID2' },
+         { id: 3, title: 'Video 3', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 4, title: 'Video 4', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 5, title: 'Video 5', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 6, title: 'Video 6', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 7, title: 'Video 7', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 8, title: 'Video 8', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 9, title: 'Video 9', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 10, title: 'Video 10', url: 'https://www.youtube.com/embed/phFlgKBmq0I' }, // Add more videos as needed
+       ];
+     
+       const filteredVideos = videos
+     .filter((video) => video.title.toLowerCase()
+     .includes(searchTerm.toLowerCase()));
+     
+     
+         return (
 
 <div className={l.A14}>
 <Helmet>
@@ -43,52 +62,32 @@ const Video = () => {
        
 
        <div className={l.a4o}>
-       <div className={l.a4vid}><span className={l.zif}>Видео 3 Геометрия (новый выпуск)</span>
-              
-       <ReactPlayer
-      className={l.a44vid}
-      url={video}
-      width="640"
-      height="580"
-      background={<img src='https://example.com/thumbnail.png' alt='Thumbnail' />}
-      controls
-     />
+       <h1 style={{
+           display:"flex",
+          justifyContent:"center"}}
+          >Поиск по названию</h1>
+      <SearchInput 
+        searchTerm={searchTerm} 
+        setSearchTerm={setSearchTerm} />
+ </div>
+ <div
+     style={{
+        display:"flex",
+        justifyContent:"center",
+        width:"100%",
+        marginBottom:"40px",
+     
+        // gridTemplateColumns:"50% 50%",
+        }}
+    > 
+      <VideoList videos={filteredVideos} />
 
-
-       
-        
+      
+     
+   
+      </div>   </div>
        </div>
-       <div className={l.a4o}>
-       <div className={l.a4vid}><span className={l.zif}>Видео 2 Геометрия (новый выпуск)</span>
-              
-              <ReactPlayer
-             className={l.a44vid}
-             url={video}
-             width="640"
-             height="580"
-             controls
-            />
        
-       
-              </div>
-               
-       <div className={l.a4o}>
-       <div className={l.a4vid}><span className={l.zif}>Видео 1 Геометрия (новый выпуск)</span>
-              
-         
-              
-              <ReactPlayer
-             className={l.a44vid}
-             url={video}
-             width="940"
-             height="580"
-             controls
-            />
-              </div>
-
-              </div>
-       </div>
-       </div> </div> </div>
        
 
        );
