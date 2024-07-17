@@ -369,6 +369,87 @@ cursor: pointer;
                 @media screen and (max-width: 1350px) {
                     /*  лого элемент слева и элементы ссылок  */
 .c{
+    margin: 0px 15px;
+    }
+
+     /*    элементы ссылок  */
+     .cС{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 15px;
+        margin-left: 0px;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+
+          /*    элементы ссылок  */
+    .Сc{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 15px;
+        margin-right: 0;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+                }
+
+                
+                @media screen and (max-width: 1306px) {
+                    /*  лого элемент слева и элементы ссылок  */
+.c{
+    margin: 0px 13px;
+    }
+
+     /*    элементы ссылок  */
+     .cС{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 13px;
+        margin-left: 0px;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+
+          /*    элементы ссылок  */
+    .Сc{
+        font-family: Inter-Regular;
+        font-family: Helvetica;
+        font-size: 14px;
+        margin: 0px 13px;
+        margin-right: 0;
+        font-weight: 500;
+        /* background-color: blue; */
+        }
+                }
+
+
+@media screen and (max-width: 1280px) {
+
+    /* Главный1 */
+.A1{
+    /* background-color: aquamarine; */
+}
+
+/* Главный2 */
+.A{
+    margin: 0% 1.6%;
+}
+
+/* Главный3 */
+.a{
+    width: 100%;
+    height: 76px;
+    align-items: center;
+    display: flex;
+    /* background-color: aquamarine; */
+
+ z-index: 2000;
+}
+
+.c{
     margin: 0px 17px;
     }
 
@@ -393,30 +474,6 @@ cursor: pointer;
         font-weight: 500;
         /* background-color: blue; */
         }
-                }
-
-@media screen and (max-width: 1280px) {
-
-    /* Главный1 */
-.A1{
-    /* background-color: aquamarine; */
-}
-
-/* Главный2 */
-.A{
-    margin: 0% 1.6%;
-}
-
-/* Главный3 */
-.a{
-    width: 100%;
-    height: 76px;
-    align-items: center;
-    display: flex;
-    /* background-color: aquamarine; */
-
- z-index: 2000;
-}
 }
 
 @media screen and (max-width: 1110px) {

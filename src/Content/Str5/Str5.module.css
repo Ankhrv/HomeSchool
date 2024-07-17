@@ -80,7 +80,7 @@ height: 400px;
     width: 64%;
     width: 780px;
     max-width: 780px;
-    min-width: 600px;
+    min-width: 450px;
     height: 370px;
     min-height: 300px;
     border-radius: 5px;
@@ -217,6 +217,8 @@ width: 100%;
 
 /* background-color: aquamarine; */
 }
+
+
 }
 
 @media screen and (max-width: 1170px) {

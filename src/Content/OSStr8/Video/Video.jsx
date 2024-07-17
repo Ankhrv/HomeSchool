@@ -29,7 +29,7 @@ const Video = () => {
       };
 
        const videos = [
-         { id: 1, title: 'Video 1', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
+         { id: 1, title: 'Video 1', url: {video} },
          // Add more videos as needed
          { id: 2, title: 'Video 2', url: 'https://www.youtube.com/embed/VIDEO_ID2' },
          { id: 3, title: 'Video 3', url: 'https://www.youtube.com/embed/phFlgKBmq0I' },
